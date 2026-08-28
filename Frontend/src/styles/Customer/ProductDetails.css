@@ -1,0 +1,475 @@
+/*==========================================
+            BREADCRUMB
+==========================================*/
+
+.breadcrumb{
+
+    width:100%;
+
+    padding:20px 7%;
+
+    background:#ffffff;
+
+    display:flex;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    font-size:15px;
+
+    border-bottom:1px solid #edf2f7;
+
+}
+
+.breadcrumb a{
+
+    text-decoration:none;
+
+    color:#4faeff;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.breadcrumb a:hover{
+
+    color:#253858;
+
+}
+
+.breadcrumb span{
+
+    color:#777;
+
+}
+
+.breadcrumb strong{
+
+    color:#253858;
+
+    font-weight:700;
+
+}
+
+/*==========================================
+        PRODUCT DETAILS SECTION
+==========================================*/
+
+.product-details-container{
+
+    display:grid;
+
+    grid-template-columns:1.1fr 1fr;
+
+    gap:50px;
+
+    padding:60px 7%;
+
+    background:#f8fbff;
+
+    align-items:start;
+
+}
+
+/*==========================================
+        DESCRIPTION SECTION
+==========================================*/
+
+.product-description{
+
+    margin:60px 7% 30px;
+
+    background:#ffffff;
+
+    border-radius:24px;
+
+    padding:35px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.product-description h2{
+
+    font-size:30px;
+
+    color:#253858;
+
+    margin-bottom:20px;
+
+    font-weight:700;
+
+}
+
+.product-description p{
+
+    color:#666;
+
+    font-size:16px;
+
+    line-height:2;
+
+}
+/*==========================================
+            SPECIFICATIONS
+==========================================*/
+
+.product-specifications{
+
+    margin:30px 7% 70px;
+
+    background:#ffffff;
+
+    border-radius:24px;
+
+    padding:35px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.product-specifications h2{
+
+    font-size:30px;
+
+    color:#253858;
+
+    font-weight:700;
+
+    margin-bottom:30px;
+
+}
+
+/*==========================================
+        SPECIFICATIONS GRID
+==========================================*/
+
+.specifications-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:20px;
+
+}
+
+/*==========================================
+        SPECIFICATION CARD
+==========================================*/
+
+.spec-item{
+
+    background:#f8fbff;
+
+    border:2px solid #eef4fb;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+    transition:.35s;
+
+}
+
+.spec-item:hover{
+
+    transform:translateY(-5px);
+
+    border-color:#4faeff;
+
+    box-shadow:0 15px 30px rgba(79,174,255,.15);
+
+}
+
+.spec-item span{
+
+    color:#888;
+
+    font-size:14px;
+
+    font-weight:500;
+
+}
+
+.spec-item strong{
+
+    color:#253858;
+
+    font-size:18px;
+
+    font-weight:700;
+
+}
+
+/*==========================================
+            LOADING STATE
+==========================================*/
+
+.loading-product{
+
+    min-height:80vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    font-weight:700;
+
+    color:#4faeff;
+
+    background:#f8fbff;
+
+}
+/*==========================================
+            RESPONSIVE DESIGN
+==========================================*/
+
+@media(max-width:1200px){
+
+    .product-details-container{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+        padding:50px 5%;
+
+    }
+
+    .product-description,
+
+    .product-specifications{
+
+        margin-left:5%;
+
+        margin-right:5%;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .breadcrumb{
+
+        padding:18px 5%;
+
+        font-size:14px;
+
+    }
+
+    .product-details-container{
+
+        padding:40px 5%;
+
+    }
+
+    .product-description,
+
+    .product-specifications{
+
+        padding:30px;
+
+    }
+
+    .product-description h2,
+
+    .product-specifications h2{
+
+        font-size:28px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .breadcrumb{
+
+        padding:15px 20px;
+
+        gap:8px;
+
+        font-size:13px;
+
+    }
+
+    .product-details-container{
+
+        padding:35px 20px;
+
+        gap:30px;
+
+    }
+
+    .product-description,
+
+    .product-specifications{
+
+        margin:25px 20px;
+
+        padding:25px;
+
+        border-radius:20px;
+
+    }
+
+    .product-description h2,
+
+    .product-specifications h2{
+
+        font-size:24px;
+
+    }
+
+    .product-description p{
+
+        font-size:15px;
+
+        line-height:1.8;
+
+    }
+
+    .specifications-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .breadcrumb{
+
+        padding:15px;
+
+        font-size:12px;
+
+    }
+
+    .product-details-container{
+
+        padding:25px 15px;
+
+    }
+
+    .product-description,
+
+    .product-specifications{
+
+        margin:20px 15px;
+
+        padding:20px;
+
+    }
+
+    .product-description h2,
+
+    .product-specifications h2{
+
+        font-size:22px;
+
+    }
+
+    .product-description p{
+
+        font-size:14px;
+
+    }
+
+    .spec-item{
+
+        padding:18px;
+
+    }
+
+    .spec-item strong{
+
+        font-size:16px;
+
+    }
+
+}
+
+/*==========================================
+            ANIMATIONS
+==========================================*/
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.product-details-container{
+
+    animation:fadeUp .5s ease;
+
+}
+
+.product-description{
+
+    animation:fadeUp .7s ease;
+
+}
+
+.product-specifications{
+
+    animation:fadeUp .9s ease;
+
+}
+
+/*==========================================
+            SMOOTH TRANSITIONS
+==========================================*/
+
+.product-details-container *,
+
+.product-description *,
+
+.product-specifications *{
+
+    transition:all .3s ease;
+
+}
+
+/*==========================================
+            SCROLL OFFSET
+==========================================*/
+
+.product-details-container{
+
+    scroll-margin-top:120px;
+
+}

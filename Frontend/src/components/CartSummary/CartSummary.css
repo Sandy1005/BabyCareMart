@@ -1,0 +1,397 @@
+/*==========================================
+            CART SUMMARY
+==========================================*/
+
+.cart-summary{
+
+    background:#ffffff;
+
+    border-radius:24px;
+
+    padding:30px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    position:sticky;
+
+    top:120px;
+
+    animation:summaryFade .5s ease;
+
+}
+
+/*==========================================
+            TITLE
+==========================================*/
+
+.cart-summary h2{
+
+    font-size:28px;
+
+    color:#253858;
+
+    font-weight:700;
+
+    margin-bottom:30px;
+
+    padding-bottom:18px;
+
+    border-bottom:2px solid #eef3ff;
+
+}
+
+/*==========================================
+            SUMMARY ROW
+==========================================*/
+
+.summary-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:18px;
+
+    font-size:17px;
+
+    color:#555;
+
+}
+
+.summary-row span:last-child{
+
+    font-weight:600;
+
+    color:#253858;
+
+}
+
+/*==========================================
+            DISCOUNT
+==========================================*/
+
+.discount-text{
+
+    color:#00b894 !important;
+
+    font-weight:700;
+
+}
+
+/*==========================================
+            DIVIDER
+==========================================*/
+
+.cart-summary hr{
+
+    border:none;
+
+    border-top:2px dashed #e5e7eb;
+
+    margin:25px 0;
+
+}
+/*==========================================
+            GRAND TOTAL
+==========================================*/
+
+.summary-total{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin:30px 0;
+
+    padding:20px 0;
+
+    border-top:2px solid #eef3ff;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:#253858;
+
+}
+
+.summary-total span:last-child{
+
+    color:#ff5d8f;
+
+    font-size:30px;
+
+}
+
+/*==========================================
+        PROCEED TO CHECKOUT BUTTON
+==========================================*/
+
+.checkout-btn{
+
+    width:100%;
+
+    height:58px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:16px;
+
+    background:linear-gradient(
+
+        135deg,
+
+        #4faeff,
+
+        #3d73ff
+
+    );
+
+    color:#ffffff;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    box-shadow:0 15px 30px rgba(79,174,255,.30);
+
+}
+
+.checkout-btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 22px 40px rgba(79,174,255,.40);
+
+}
+
+.checkout-btn:active{
+
+    transform:scale(.98);
+
+}
+
+.checkout-btn:disabled{
+
+    background:#cbd5e1;
+
+    cursor:not-allowed;
+
+    box-shadow:none;
+
+    transform:none;
+
+}
+
+/*==========================================
+        FREE SHIPPING LABEL
+==========================================*/
+
+.summary-row:nth-child(3) span:last-child{
+
+    color:#00b894;
+
+    font-weight:700;
+
+}
+
+/*==========================================
+            PRICE HIGHLIGHT
+==========================================*/
+
+.summary-row span:last-child{
+
+    letter-spacing:.3px;
+
+}
+/*==========================================
+            RESPONSIVE DESIGN
+==========================================*/
+
+@media(max-width:992px){
+
+    .cart-summary{
+
+        position:static;
+
+        margin-top:30px;
+
+        padding:28px;
+
+    }
+
+    .cart-summary h2{
+
+        font-size:26px;
+
+    }
+
+    .summary-total{
+
+        font-size:22px;
+
+    }
+
+    .summary-total span:last-child{
+
+        font-size:28px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .cart-summary{
+
+        padding:24px;
+
+        border-radius:20px;
+
+    }
+
+    .cart-summary h2{
+
+        font-size:24px;
+
+        margin-bottom:24px;
+
+    }
+
+    .summary-row{
+
+        font-size:16px;
+
+        margin-bottom:16px;
+
+    }
+
+    .summary-total{
+
+        font-size:20px;
+
+        padding:18px 0;
+
+    }
+
+    .summary-total span:last-child{
+
+        font-size:26px;
+
+    }
+
+    .checkout-btn{
+
+        height:54px;
+
+        font-size:17px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .cart-summary{
+
+        padding:20px;
+
+        border-radius:18px;
+
+    }
+
+    .cart-summary h2{
+
+        font-size:22px;
+
+    }
+
+    .summary-row{
+
+        font-size:15px;
+
+    }
+
+    .summary-total{
+
+        font-size:18px;
+
+    }
+
+    .summary-total span:last-child{
+
+        font-size:22px;
+
+    }
+
+    .checkout-btn{
+
+        height:50px;
+
+        font-size:16px;
+
+        border-radius:14px;
+
+    }
+
+}
+
+/*==========================================
+            ANIMATION
+==========================================*/
+
+@keyframes summaryFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.cart-summary{
+
+    animation:summaryFade .5s ease;
+
+}
+
+/*==========================================
+            SMOOTH TRANSITIONS
+==========================================*/
+
+.cart-summary *{
+
+    transition:
+
+        background-color .3s ease,
+
+        color .3s ease,
+
+        border-color .3s ease,
+
+        transform .3s ease,
+
+        box-shadow .3s ease;
+
+}

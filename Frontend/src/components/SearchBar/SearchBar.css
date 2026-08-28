@@ -1,0 +1,135 @@
+/* ==========================================
+   SEARCH BAR
+========================================== */
+
+.searchbar-container {
+    position: relative;
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border: 2px solid #e5e7eb;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.searchbar-container:hover {
+    border-color: #2563eb;
+}
+
+.searchbar-container:focus-within {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37,99,235,0.15);
+}
+
+/* ==========================================
+   SEARCH ICON
+========================================== */
+
+.search-icon {
+    margin-left: 18px;
+    font-size: 18px;
+    color: #6b7280;
+}
+
+/* ==========================================
+   INPUT
+========================================== */
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 14px 16px;
+    font-size: 15px;
+    color: #111827;
+}
+
+.search-input::placeholder {
+    color: #9ca3af;
+}
+
+/* ==========================================
+   CLEAR BUTTON
+========================================== */
+
+.clear-search-btn {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    color: #6b7280;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+}
+
+.clear-search-btn:hover {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+/* ==========================================
+   DISABLED
+========================================== */
+
+.search-input:disabled {
+    cursor: not-allowed;
+    opacity: .6;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width:992px) {
+
+    .searchbar-container {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .searchbar-container {
+        height: 48px;
+    }
+
+    .search-input {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .search-icon {
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .searchbar-container {
+        border-radius: 12px;
+    }
+
+    .search-input {
+        font-size: 13px;
+    }
+
+    .clear-search-btn {
+        width: 34px;
+        height: 34px;
+        margin-right: 6px;
+    }
+
+}

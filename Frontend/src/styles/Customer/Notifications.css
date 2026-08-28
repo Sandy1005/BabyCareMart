@@ -1,0 +1,295 @@
+/* ==========================================
+   NOTIFICATIONS PAGE
+========================================== */
+
+.notifications-page {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 25px;
+    min-height: 80vh;
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.notifications-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.notifications-header h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.notifications-header p {
+    color: #6b7280;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+/* ==========================================
+   ACTION BUTTONS
+========================================== */
+
+.notification-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.mark-all-btn,
+.clear-all-btn {
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.mark-all-btn {
+    background: #2563eb;
+    color: white;
+}
+
+.mark-all-btn:hover {
+    background: #1d4ed8;
+}
+
+.clear-all-btn {
+    background: #ef4444;
+    color: white;
+}
+
+.clear-all-btn:hover {
+    background: #dc2626;
+}
+
+/* ==========================================
+   LIST
+========================================== */
+
+.notification-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.notification-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 22px;
+    border-left: 5px solid #2563eb;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.notification-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 18px 35px rgba(0,0,0,.12);
+}
+
+/* ==========================================
+   READ / UNREAD
+========================================== */
+
+.notification-card.unread {
+    background: #eff6ff;
+}
+
+.notification-card.read {
+    opacity: .85;
+}
+
+/* ==========================================
+   LEFT
+========================================== */
+
+.notification-left {
+    display: flex;
+    gap: 18px;
+    flex: 1;
+}
+
+.notification-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.notification-content h4 {
+    font-size: 18px;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.notification-content p {
+    color: #4b5563;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.notification-time {
+    margin-top: 10px;
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+/* ==========================================
+   RIGHT BUTTONS
+========================================== */
+
+.notification-right {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.notification-right button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.read-btn {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.read-btn:hover {
+    background: #16a34a;
+    color: white;
+}
+
+.delete-btn {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.delete-btn:hover {
+    background: #dc2626;
+    color: white;
+}
+
+/* ==========================================
+   EMPTY STATE
+========================================== */
+
+.empty-notifications {
+    background: white;
+    border-radius: 18px;
+    padding: 80px 30px;
+    text-align: center;
+    box-shadow: 0 12px 35px rgba(0,0,0,.08);
+}
+
+.empty-notifications i,
+.empty-notifications svg {
+    font-size: 70px;
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+.empty-notifications h3 {
+    font-size: 28px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.empty-notifications p {
+    color: #6b7280;
+}
+
+/* ==========================================
+   BADGE
+========================================== */
+
+.unread-badge {
+    background: #ef4444;
+    color: white;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width:992px){
+
+    .notifications-header{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .notification-card{
+        flex-direction:column;
+    }
+
+    .notification-right{
+        width:100%;
+        flex-direction:row;
+    }
+
+    .notification-right button{
+        flex:1;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .notifications-page{
+        padding:15px;
+    }
+
+    .notification-left{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .notification-icon{
+        width:50px;
+        height:50px;
+    }
+
+    .notification-content h4{
+        font-size:17px;
+    }
+
+    .notification-right{
+        flex-direction:column;
+    }
+
+}

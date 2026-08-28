@@ -1,0 +1,529 @@
+/*==========================================
+            FOOTER
+==========================================*/
+
+.footer{
+
+    background:linear-gradient(135deg,#eef8ff,#ffffff,#fff5f8);
+
+    margin-top:80px;
+
+    padding:70px 8% 30px;
+
+    border-top:1px solid #e8eef7;
+
+}
+
+/*==========================================
+        FOOTER CONTAINER
+==========================================*/
+
+.footer-container{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr 1fr;
+
+    gap:50px;
+
+    margin-bottom:50px;
+
+}
+
+/*==========================================
+        COMPANY SECTION
+==========================================*/
+
+.company h2{
+
+    font-size:34px;
+
+    color:#3d73ff;
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+}
+
+.company p{
+
+    color:#666;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+    max-width:320px;
+
+}
+
+/*==========================================
+        SOCIAL ICONS
+==========================================*/
+
+.social-icons{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.social-icons a{
+
+    width:45px;
+
+    height:45px;
+
+    border-radius:50%;
+
+    background:#ffffff;
+
+    color:#4faeff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.social-icons a:hover{
+
+    background:#4faeff;
+
+    color:#ffffff;
+
+    transform:translateY(-5px);
+
+}
+
+/*==========================================
+        FOOTER COLUMNS
+==========================================*/
+
+.footer-column h3{
+
+    font-size:20px;
+
+    color:#253858;
+
+    margin-bottom:22px;
+
+    font-weight:600;
+
+}
+
+.footer-column ul{
+
+    list-style:none;
+
+}
+
+.footer-column ul li{
+
+    margin-bottom:14px;
+
+}
+
+.footer-column ul li a{
+
+    text-decoration:none;
+
+    color:#666;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+.footer-column ul li a:hover{
+
+    color:#4faeff;
+
+    padding-left:8px;
+
+}
+/*==========================================
+            CONTACT SECTION
+==========================================*/
+
+.contact-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:14px;
+
+    margin-bottom:18px;
+
+    color:#666;
+
+    font-size:15px;
+
+    line-height:1.7;
+
+}
+
+.contact-item svg{
+
+    color:#4faeff;
+
+    font-size:18px;
+
+    margin-top:4px;
+
+    min-width:20px;
+
+}
+
+/*==========================================
+            FOOTER BOTTOM
+==========================================*/
+
+.footer-bottom{
+
+    text-align:center;
+
+    padding-top:35px;
+
+}
+
+/*==========================================
+            DIVIDER LINE
+==========================================*/
+
+.footer-line{
+
+    width:100%;
+
+    height:1px;
+
+    background:#dfe9f3;
+
+    margin-bottom:25px;
+
+}
+
+/*==========================================
+            COPYRIGHT
+==========================================*/
+
+.footer-bottom p{
+
+    color:#666;
+
+    font-size:15px;
+
+    margin-bottom:10px;
+
+    line-height:1.8;
+
+}
+
+/*==========================================
+            MADE WITH
+==========================================*/
+
+.made-with{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-weight:500;
+
+}
+
+.heart-icon{
+
+    color:#ff5d8f;
+
+    animation:heartbeat 1.5s infinite;
+
+}
+
+/*==========================================
+            HEART ANIMATION
+==========================================*/
+
+@keyframes heartbeat{
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+    25%{
+
+        transform:scale(1.2);
+
+    }
+
+    50%{
+
+        transform:scale(1);
+
+    }
+
+    75%{
+
+        transform:scale(1.2);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+/*==========================================
+            HOVER EFFECTS
+==========================================*/
+
+.footer-column ul li{
+
+    transition:.3s;
+
+}
+
+.footer-column ul li:hover{
+
+    transform:translateX(5px);
+
+}
+
+.company h2{
+
+    transition:.35s;
+
+}
+
+.company h2:hover{
+
+    color:#2f63e8;
+
+}
+/*==========================================
+            RESPONSIVE DESIGN
+==========================================*/
+
+@media (max-width:1200px){
+
+    .footer{
+
+        padding:60px 6% 25px;
+
+    }
+
+    .footer-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:40px;
+
+    }
+
+}
+
+@media (max-width:992px){
+
+    .footer{
+
+        padding:60px 5% 25px;
+
+    }
+
+    .company h2{
+
+        font-size:30px;
+
+    }
+
+    .company p{
+
+        max-width:100%;
+
+    }
+
+    .footer-column h3{
+
+        font-size:18px;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .footer{
+
+        padding:50px 20px 25px;
+
+        margin-top:60px;
+
+    }
+
+    .footer-container{
+
+        grid-template-columns:1fr;
+
+        gap:35px;
+
+        text-align:center;
+
+    }
+
+    .company{
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .social-icons{
+
+        justify-content:center;
+
+    }
+
+    .contact-item{
+
+        justify-content:center;
+
+        text-align:left;
+
+    }
+
+    .footer-column ul{
+
+        padding:0;
+
+    }
+
+}
+
+@media (max-width:576px){
+
+    .company h2{
+
+        font-size:26px;
+
+    }
+
+    .company p{
+
+        font-size:14px;
+
+    }
+
+    .footer-column h3{
+
+        font-size:17px;
+
+    }
+
+    .footer-column ul li a{
+
+        font-size:14px;
+
+    }
+
+    .contact-item{
+
+        font-size:14px;
+
+    }
+
+    .social-icons a{
+
+        width:42px;
+
+        height:42px;
+
+        font-size:16px;
+
+    }
+
+    .footer-bottom p{
+
+        font-size:13px;
+
+    }
+
+}
+
+/*==========================================
+        FADE-IN ANIMATION
+==========================================*/
+
+@keyframes footerFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.footer{
+
+    animation:footerFade .8s ease-in-out;
+
+}
+
+/*==========================================
+        SMOOTH TRANSITIONS
+==========================================*/
+
+.footer *{
+
+    transition:all .3s ease;
+
+}
+
+/*==========================================
+        OPTIONAL SCROLL OFFSET
+==========================================*/
+
+.footer{
+
+    scroll-margin-top:120px;
+
+}

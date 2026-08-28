@@ -1,0 +1,257 @@
+/* ==========================================
+   PAYMENT FAILED PAGE
+========================================== */
+
+.payment-failed-page{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+    background:#f8fafc;
+}
+
+/* ==========================================
+   FAILED CARD
+========================================== */
+
+.payment-failed-card{
+    width:100%;
+    max-width:650px;
+    background:#ffffff;
+    border-radius:20px;
+    padding:45px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    animation:slideUp .6s ease;
+}
+
+/* ==========================================
+   FAILED ICON
+========================================== */
+
+.failed-icon{
+    font-size:90px;
+    color:#dc2626;
+    margin-bottom:20px;
+    animation:failedPop .8s ease;
+}
+
+/* ==========================================
+   TITLE
+========================================== */
+
+.payment-failed-card h1{
+    font-size:34px;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.payment-failed-card p{
+    color:#6b7280;
+    line-height:1.7;
+    font-size:16px;
+    margin-bottom:10px;
+}
+
+/* ==========================================
+   DETAILS
+========================================== */
+
+.payment-failed-details{
+    margin:35px 0;
+    border:1px solid #e5e7eb;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.detail-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:16px 22px;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.detail-row:last-child{
+    border-bottom:none;
+}
+
+.detail-row span{
+    color:#6b7280;
+    font-size:15px;
+}
+
+.detail-row strong{
+    color:#111827;
+    font-size:15px;
+}
+
+.status-failed{
+    color:#dc2626 !important;
+}
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.payment-failed-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.payment-failed-buttons button{
+    width:100%;
+    border:none;
+    padding:15px;
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
+    transition:.3s;
+}
+
+/* Retry */
+
+.retry-btn{
+    background:#2563eb;
+    color:#ffffff;
+}
+
+.retry-btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+/* Back */
+
+.checkout-btn{
+    background:#6b7280;
+    color:#ffffff;
+}
+
+.checkout-btn:hover{
+    background:#4b5563;
+    transform:translateY(-2px);
+}
+
+/* ==========================================
+   ANIMATIONS
+========================================== */
+
+@keyframes slideUp{
+
+    from{
+
+        opacity:0;
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes failedPop{
+
+    0%{
+
+        opacity:0;
+        transform:scale(.3);
+
+    }
+
+    70%{
+
+        transform:scale(1.15);
+
+    }
+
+    100%{
+
+        opacity:1;
+        transform:scale(1);
+
+    }
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .payment-failed-card{
+
+        padding:30px 22px;
+
+    }
+
+    .payment-failed-card h1{
+
+        font-size:28px;
+
+    }
+
+    .failed-icon{
+
+        font-size:70px;
+
+    }
+
+    .detail-row{
+
+        flex-direction:column;
+        align-items:flex-start;
+        gap:6px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .payment-failed-page{
+
+        padding:20px 15px;
+
+    }
+
+    .payment-failed-card{
+
+        padding:25px 18px;
+
+    }
+
+    .payment-failed-card h1{
+
+        font-size:24px;
+
+    }
+
+    .payment-failed-card p{
+
+        font-size:14px;
+
+    }
+
+    .payment-failed-buttons button{
+
+        font-size:15px;
+        padding:14px;
+
+    }
+
+}

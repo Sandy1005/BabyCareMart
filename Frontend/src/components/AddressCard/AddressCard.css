@@ -1,0 +1,224 @@
+/* ==========================================
+   ADDRESS CARD
+========================================== */
+
+.address-card{
+    background:#ffffff;
+    border-radius:18px;
+    padding:24px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    border:2px solid transparent;
+    transition:all .3s ease;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.address-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+.address-card.default{
+    border-color:#2563eb;
+}
+
+/* ==========================================
+   TOP SECTION
+========================================== */
+
+.address-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.address-type{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:18px;
+    font-weight:600;
+    color:#1f2937;
+}
+
+.address-type svg{
+    color:#2563eb;
+    font-size:20px;
+}
+
+/* ==========================================
+   DEFAULT BADGE
+========================================== */
+
+.default-badge{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    background:#dbeafe;
+    color:#1d4ed8;
+    padding:8px 14px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.default-badge svg{
+    color:#1d4ed8;
+}
+
+/* ==========================================
+   ADDRESS BODY
+========================================== */
+
+.address-body{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.address-body h3{
+    font-size:22px;
+    color:#111827;
+    margin:0;
+}
+
+.address-body p{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    color:#4b5563;
+    margin:0;
+    line-height:1.6;
+    font-size:15px;
+}
+
+.address-body svg{
+    color:#2563eb;
+}
+
+/* ==========================================
+   ACTIONS
+========================================== */
+
+.address-actions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:10px;
+}
+
+.address-actions button{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:10px 18px;
+    border-radius:10px;
+    font-size:14px;
+    font-weight:600;
+    transition:.3s;
+}
+
+/* ==========================================
+   DEFAULT BUTTON
+========================================== */
+
+.default-btn{
+    background:#2563eb;
+    color:#ffffff;
+}
+
+.default-btn:hover{
+    background:#1d4ed8;
+}
+
+/* ==========================================
+   EDIT BUTTON
+========================================== */
+
+.edit-btn{
+    background:#10b981;
+    color:#ffffff;
+}
+
+.edit-btn:hover{
+    background:#059669;
+}
+
+/* ==========================================
+   DELETE BUTTON
+========================================== */
+
+.delete-btn{
+    background:#ef4444;
+    color:#ffffff;
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+}
+
+/* ==========================================
+   BUTTON ICONS
+========================================== */
+
+.address-actions button svg{
+    font-size:15px;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .address-card{
+        padding:20px;
+    }
+
+    .address-top{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .address-actions{
+        flex-direction:column;
+    }
+
+    .address-actions button{
+        width:100%;
+        justify-content:center;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .address-card{
+        padding:18px;
+        border-radius:14px;
+    }
+
+    .address-body h3{
+        font-size:18px;
+    }
+
+    .address-body p{
+        font-size:14px;
+    }
+
+    .address-type{
+        font-size:16px;
+    }
+
+    .default-badge{
+        font-size:12px;
+        padding:6px 12px;
+    }
+
+}

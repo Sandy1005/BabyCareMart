@@ -1,0 +1,395 @@
+/*==========================================
+            ORDERS PAGE
+==========================================*/
+
+.orders-page{
+
+    width:100%;
+
+    min-height:100vh;
+
+    padding:50px 7%;
+
+    background:#f8fbff;
+
+}
+
+/*==========================================
+            PAGE HEADER
+==========================================*/
+
+.orders-header{
+
+    text-align:center;
+
+    margin-bottom:45px;
+
+}
+
+.orders-header h1{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#253858;
+
+    margin-bottom:12px;
+
+}
+
+.orders-header p{
+
+    font-size:17px;
+
+    color:#777;
+
+}
+
+/*==========================================
+            ORDERS CONTAINER
+==========================================*/
+
+.orders-container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+/*==========================================
+            EMPTY ORDERS
+==========================================*/
+
+.empty-orders{
+
+    background:#ffffff;
+
+    border-radius:24px;
+
+    padding:60px 40px;
+
+    text-align:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.empty-orders img{
+
+    width:260px;
+
+    max-width:100%;
+
+    margin-bottom:30px;
+
+}
+
+.empty-orders h2{
+
+    font-size:34px;
+
+    color:#253858;
+
+    margin-bottom:15px;
+
+}
+
+.empty-orders p{
+
+    font-size:17px;
+
+    color:#777;
+
+    line-height:1.8;
+
+    max-width:550px;
+
+    margin:auto;
+
+}
+/*==========================================
+            LOADING
+==========================================*/
+
+.loading-text{
+
+    min-height:75vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    font-weight:700;
+
+    color:#253858;
+
+}
+
+/*==========================================
+            PAGE ANIMATION
+==========================================*/
+
+.orders-container{
+
+    animation:ordersFade .5s ease;
+
+}
+
+.empty-orders{
+
+    animation:ordersFade .5s ease;
+
+}
+
+@keyframes ordersFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*==========================================
+            HOVER EFFECT
+==========================================*/
+
+.empty-orders{
+
+    transition:.35s;
+
+}
+
+.empty-orders:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+/*==========================================
+            IMAGE ANIMATION
+==========================================*/
+
+.empty-orders img{
+
+    transition:.35s;
+
+}
+
+.empty-orders:hover img{
+
+    transform:scale(1.05);
+
+}
+
+/*==========================================
+            HEADER EFFECT
+==========================================*/
+
+.orders-header h1{
+
+    letter-spacing:.5px;
+
+}
+
+.orders-header p{
+
+    max-width:600px;
+
+    margin:0 auto;
+
+    line-height:1.7;
+
+}
+
+/*==========================================
+            SMOOTH TRANSITIONS
+==========================================*/
+
+.orders-page *{
+
+    transition:all .3s ease;
+
+}
+/*==========================================
+            RESPONSIVE DESIGN
+==========================================*/
+
+@media(max-width:992px){
+
+    .orders-page{
+
+        padding:45px 5%;
+
+    }
+
+    .orders-header h1{
+
+        font-size:36px;
+
+    }
+
+    .orders-container{
+
+        gap:20px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .orders-page{
+
+        padding:35px 20px;
+
+    }
+
+    .orders-header{
+
+        margin-bottom:35px;
+
+    }
+
+    .orders-header h1{
+
+        font-size:30px;
+
+    }
+
+    .orders-header p{
+
+        font-size:15px;
+
+    }
+
+    .empty-orders{
+
+        padding:40px 25px;
+
+    }
+
+    .empty-orders img{
+
+        width:180px;
+
+    }
+
+    .empty-orders h2{
+
+        font-size:28px;
+
+    }
+
+    .empty-orders p{
+
+        font-size:15px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .orders-page{
+
+        padding:25px 15px;
+
+    }
+
+    .orders-header h1{
+
+        font-size:26px;
+
+    }
+
+    .orders-header p{
+
+        font-size:14px;
+
+    }
+
+    .empty-orders{
+
+        padding:30px 20px;
+
+        border-radius:18px;
+
+    }
+
+    .empty-orders img{
+
+        width:150px;
+
+    }
+
+    .empty-orders h2{
+
+        font-size:24px;
+
+    }
+
+    .empty-orders p{
+
+        font-size:14px;
+
+        line-height:1.6;
+
+    }
+
+}
+
+/*==========================================
+            CUSTOM SCROLLBAR
+==========================================*/
+
+.orders-page::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.orders-page::-webkit-scrollbar-thumb{
+
+    background:#4faeff;
+
+    border-radius:10px;
+
+}
+
+.orders-page::-webkit-scrollbar-track{
+
+    background:#eef7ff;
+
+}
+
+/*==========================================
+            SCROLL OFFSET
+==========================================*/
+
+.orders-page{
+
+    scroll-margin-top:120px;
+
+}

@@ -1,0 +1,193 @@
+/*==========================================
+            PAGINATION
+==========================================*/
+
+.pagination{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin:60px 0 20px;
+
+    flex-wrap:wrap;
+
+}
+
+/*==========================================
+            BUTTONS
+==========================================*/
+
+.pagination button{
+
+    min-width:48px;
+
+    height:48px;
+
+    padding:0 18px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:14px;
+
+    background:#ffffff;
+
+    color:#555;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+/*==========================================
+            HOVER
+==========================================*/
+
+.pagination button:hover:not(:disabled){
+
+    background:#4faeff;
+
+    color:#ffffff;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 16px 32px rgba(79,174,255,.30);
+
+}
+
+/*==========================================
+            ACTIVE PAGE
+==========================================*/
+
+.pagination .active-page{
+
+    background:linear-gradient(135deg,#66c7ff,#4faeff);
+
+    color:#ffffff;
+
+    box-shadow:0 15px 30px rgba(79,174,255,.35);
+
+}
+
+/*==========================================
+            DISABLED BUTTON
+==========================================*/
+
+.pagination button:disabled{
+
+    background:#f1f4f8;
+
+    color:#b0b0b0;
+
+    cursor:not-allowed;
+
+    box-shadow:none;
+
+}
+
+/*==========================================
+            RESPONSIVE
+==========================================*/
+
+@media(max-width:768px){
+
+    .pagination{
+
+        gap:10px;
+
+        margin:45px 0;
+
+    }
+
+    .pagination button{
+
+        min-width:44px;
+
+        height:44px;
+
+        font-size:14px;
+
+        padding:0 14px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .pagination{
+
+        gap:8px;
+
+    }
+
+    .pagination button{
+
+        min-width:40px;
+
+        height:40px;
+
+        font-size:13px;
+
+        padding:0 12px;
+
+        border-radius:12px;
+
+    }
+
+}
+
+/*==========================================
+            FADE ANIMATION
+==========================================*/
+
+@keyframes paginationFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.pagination{
+
+    animation:paginationFade .5s ease;
+
+}
+
+/*==========================================
+            SMOOTH TRANSITIONS
+==========================================*/
+
+.pagination *{
+
+    transition:all .3s ease;
+
+}

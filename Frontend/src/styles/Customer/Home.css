@@ -1,0 +1,155 @@
+/* ==========================================
+   HOME PAGE
+========================================== */
+
+.home-page {
+    width: 100%;
+    min-height: 100vh;
+    background: #f8fafc;
+    overflow-x: hidden;
+}
+
+/* ==========================================
+   SECTION SPACING
+========================================== */
+
+.home-section {
+    width: 100%;
+    padding: 60px 0;
+}
+
+.home-container {
+    width: 92%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* ==========================================
+   COMMON SECTION TITLE
+========================================== */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #6b7280;
+}
+
+/* ==========================================
+   COMMON BUTTON
+========================================== */
+
+.primary-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.primary-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* ==========================================
+   PAGE ANIMATION
+========================================== */
+
+.home-page {
+    animation: fadeIn .6s ease-in-out;
+}
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity: 0;
+        transform: translateY(20px);
+
+    }
+
+    to {
+
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width:1200px){
+
+    .home-container{
+
+        width:95%;
+
+    }
+
+}
+
+@media (max-width:992px){
+
+    .home-section{
+
+        padding:50px 0;
+
+    }
+
+    .section-title h2{
+
+        font-size:30px;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .home-section{
+
+        padding:40px 0;
+
+    }
+
+    .section-title h2{
+
+        font-size:26px;
+
+    }
+
+    .section-title p{
+
+        font-size:15px;
+
+    }
+
+}
+
+@media (max-width:576px){
+
+    .section-title h2{
+
+        font-size:22px;
+
+    }
+
+}

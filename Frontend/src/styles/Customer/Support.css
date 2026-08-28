@@ -1,0 +1,723 @@
+/* =========================================================
+   BABYCARE MART - SUPPORT PAGE
+   ========================================================= */
+
+.support-page {
+  min-height: 100vh;
+  background: #f7f9fc;
+  color: #17233c;
+  font-family: inherit;
+}
+
+/* =========================================================
+   COMMON
+   ========================================================= */
+
+.support-container {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.support-section {
+  padding: 70px 0;
+}
+
+.support-section-heading {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 42px;
+}
+
+.support-section-heading > span {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #2864e8;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.support-section-heading h2 {
+  margin: 0 0 12px;
+  color: #17233c;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.support-section-heading p {
+  margin: 0;
+  color: #6d7890;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.support-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 78px 0;
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(255, 105, 160, 0.12),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 85% 30%,
+      rgba(58, 119, 240, 0.12),
+      transparent 32%
+    ),
+    linear-gradient(135deg, #fff7fb, #f4f8ff);
+  border-bottom: 1px solid #edf0f5;
+}
+
+.support-hero-content {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.support-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  margin-bottom: 18px;
+  border: 1px solid #dce7ff;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #2864e8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.support-hero h1 {
+  margin: 0;
+  color: #17233c;
+  font-size: clamp(38px, 5vw, 58px);
+  line-height: 1.08;
+  font-weight: 850;
+}
+
+.support-hero p {
+  max-width: 620px;
+  margin: 20px auto 0;
+  color: #69758c;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.support-hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.support-primary-btn,
+.support-secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 160px;
+  padding: 13px 22px;
+  border-radius: 9px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 750;
+  transition: 0.2s ease;
+}
+
+.support-primary-btn {
+  background: #2864e8;
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(40, 100, 232, 0.2);
+}
+
+.support-primary-btn:hover {
+  background: #1f56d0;
+  transform: translateY(-2px);
+}
+
+.support-secondary-btn {
+  border: 1px solid #d8deea;
+  background: #ffffff;
+  color: #293650;
+}
+
+.support-secondary-btn:hover {
+  border-color: #2864e8;
+  color: #2864e8;
+  transform: translateY(-2px);
+}
+
+/* =========================================================
+   QUICK HELP
+   ========================================================= */
+
+.support-help-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.support-help-card {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  min-height: 145px;
+  padding: 22px;
+  border: 1px solid #e6eaf1;
+  border-radius: 14px;
+  background: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 7px 25px rgba(22, 36, 65, 0.04);
+  transition: 0.25s ease;
+}
+
+.support-help-card:hover {
+  transform: translateY(-5px);
+  border-color: #cddcff;
+  box-shadow: 0 14px 32px rgba(22, 36, 65, 0.08);
+}
+
+.support-help-icon {
+  display: flex;
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 21px;
+}
+
+.order-icon {
+  background: #eef4ff;
+}
+
+.tracking-icon {
+  background: #edfaf5;
+}
+
+.return-icon {
+  background: #fff3e7;
+}
+
+.payment-icon {
+  background: #f3efff;
+}
+
+.support-help-card h3 {
+  margin: 2px 0 7px;
+  color: #1d2941;
+  font-size: 16px;
+}
+
+.support-help-card p {
+  margin: 0;
+  color: #758096;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.support-card-arrow {
+  position: absolute;
+  right: 18px;
+  bottom: 16px;
+  color: #2864e8;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* =========================================================
+   CONTACT STRIP
+   ========================================================= */
+
+.support-contact-strip {
+  padding: 28px 0;
+  background: #ffffff;
+  border-top: 1px solid #e8ecf2;
+  border-bottom: 1px solid #e8ecf2;
+}
+
+.support-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.support-contact-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 18px 20px;
+  border: 1px solid #e8ecf2;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.support-contact-icon {
+  display: flex;
+  flex: 0 0 45px;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #edf4ff;
+  font-size: 19px;
+}
+
+.support-contact-card span {
+  display: block;
+  margin-bottom: 3px;
+  color: #788399;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.support-contact-card h3 {
+  margin: 0 0 3px;
+  color: #1c2942;
+  font-size: 15px;
+}
+
+.support-contact-card p {
+  margin: 0;
+  color: #8791a4;
+  font-size: 11px;
+}
+
+/* =========================================================
+   CONTACT FORM
+   ========================================================= */
+
+.support-contact-section {
+  background: #f7f9fc;
+}
+
+.support-contact-layout {
+  display: grid;
+  grid-template-columns: 0.82fr 1.18fr;
+  gap: 45px;
+  align-items: start;
+}
+
+.support-contact-info {
+  padding-top: 20px;
+}
+
+.support-mini-label {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #2864e8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.4px;
+}
+
+.support-contact-info h2 {
+  margin: 0 0 15px;
+  color: #17233c;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.support-contact-info > p {
+  margin: 0;
+  color: #6e7990;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.support-info-list {
+  margin-top: 30px;
+}
+
+.support-info-item {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 21px;
+}
+
+.support-info-item > span {
+  display: flex;
+  flex: 0 0 26px;
+  width: 26px;
+  height: 26px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #e8f7ee;
+  color: #19a957;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.support-info-item strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #26334c;
+  font-size: 14px;
+}
+
+.support-info-item p {
+  margin: 0;
+  color: #7a8498;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.support-form-card {
+  padding: 30px;
+  border: 1px solid #e3e8f0;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 12px 35px rgba(25, 42, 72, 0.06);
+}
+
+.support-form-header {
+  margin-bottom: 22px;
+}
+
+.support-form-header h3 {
+  margin: 0 0 6px;
+  color: #1b2840;
+  font-size: 22px;
+}
+
+.support-form-header p {
+  margin: 0;
+  color: #7a8497;
+  font-size: 13px;
+}
+
+.support-success-message {
+  display: flex;
+  gap: 12px;
+  padding: 14px;
+  margin-bottom: 20px;
+  border: 1px solid #bce9cc;
+  border-radius: 9px;
+  background: #effaf3;
+}
+
+.support-success-message > span {
+  color: #16a34a;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.support-success-message strong {
+  display: block;
+  margin-bottom: 3px;
+  color: #15743a;
+  font-size: 13px;
+}
+
+.support-success-message p {
+  margin: 0;
+  color: #4f7d60;
+  font-size: 12px;
+}
+
+.support-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.support-form-group {
+  margin-bottom: 18px;
+}
+
+.support-form-group label {
+  display: block;
+  margin-bottom: 7px;
+  color: #354159;
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.support-form-group label span {
+  color: #ef4444;
+}
+
+.support-form-group input,
+.support-form-group select,
+.support-form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #dce2eb;
+  border-radius: 8px;
+  outline: none;
+  background: #ffffff;
+  color: #29364e;
+  font-family: inherit;
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+
+.support-form-group input,
+.support-form-group select {
+  height: 44px;
+  padding: 0 13px;
+}
+
+.support-form-group textarea {
+  resize: vertical;
+  min-height: 135px;
+  padding: 12px 13px;
+  line-height: 1.55;
+}
+
+.support-form-group input::placeholder,
+.support-form-group textarea::placeholder {
+  color: #a4adbb;
+}
+
+.support-form-group input:focus,
+.support-form-group select:focus,
+.support-form-group textarea:focus {
+  border-color: #2864e8;
+  box-shadow: 0 0 0 3px rgba(40, 100, 232, 0.08);
+}
+
+.support-submit-btn {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 46px;
+  border: 0;
+  border-radius: 8px;
+  background: #2864e8;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 750;
+  transition: 0.2s ease;
+}
+
+.support-submit-btn:hover {
+  background: #1f56d0;
+  transform: translateY(-1px);
+}
+
+/* =========================================================
+   FAQ
+   ========================================================= */
+
+.support-faq-section {
+  background: #ffffff;
+}
+
+.support-faq-container {
+  max-width: 900px;
+}
+
+.support-faq-list {
+  border-top: 1px solid #e5e9f0;
+}
+
+.support-faq-item {
+  border-bottom: 1px solid #e5e9f0;
+}
+
+.support-faq-question {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 21px 5px;
+  border: 0;
+  background: transparent;
+  color: #26334b;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.support-faq-plus {
+  display: flex;
+  flex: 0 0 28px;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f0f4fa;
+  color: #2864e8;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.support-faq-item.active .support-faq-plus {
+  background: #2864e8;
+  color: #ffffff;
+}
+
+.support-faq-answer {
+  padding: 0 55px 20px 5px;
+}
+
+.support-faq-answer p {
+  margin: 0;
+  color: #748096;
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+/* =========================================================
+   FINAL CTA
+   ========================================================= */
+
+.support-final-cta {
+  padding: 45px 0;
+  background: linear-gradient(135deg, #2864e8, #3977ed);
+}
+
+.support-final-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.support-final-content > div > span {
+  display: block;
+  margin-bottom: 6px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.support-final-content h2 {
+  margin: 0 0 7px;
+  color: #ffffff;
+  font-size: 27px;
+}
+
+.support-final-content p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 13px;
+}
+
+.support-final-btn {
+  display: inline-flex;
+  min-width: 150px;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 20px;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #2864e8;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  transition: 0.2s ease;
+}
+
+.support-final-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1000px) {
+  .support-help-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .support-contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .support-contact-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .support-contact-info {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .support-container {
+    width: min(100% - 28px, 1180px);
+  }
+
+  .support-section {
+    padding: 50px 0;
+  }
+
+  .support-hero {
+    padding: 55px 0;
+  }
+
+  .support-hero h1 {
+    font-size: 38px;
+  }
+
+  .support-hero p {
+    font-size: 14px;
+  }
+
+  .support-hero-actions {
+    flex-direction: column;
+  }
+
+  .support-primary-btn,
+  .support-secondary-btn {
+    width: 100%;
+  }
+
+  .support-help-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .support-form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .support-form-card {
+    padding: 22px;
+  }
+
+  .support-contact-info h2 {
+    font-size: 30px;
+  }
+
+  .support-final-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .support-final-btn {
+    width: 100%;
+  }
+}

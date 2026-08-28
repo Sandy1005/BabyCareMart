@@ -1,0 +1,49 @@
+.admin-layout{
+
+    display:flex;
+
+    min-height:100vh;
+
+    background:#f5f7fb;
+
+}
+
+.admin-main{
+
+    flex:1;
+
+    margin-left:260px;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.admin-content{
+
+    padding:30px;
+
+    flex:1;
+
+}
+
+@media(max-width:992px){
+
+    .admin-main{
+
+        margin-left:80px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .admin-content{
+
+        padding:20px;
+
+    }
+
+}

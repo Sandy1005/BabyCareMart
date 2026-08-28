@@ -1,0 +1,455 @@
+/*==========================================
+            ORDER CARD
+==========================================*/
+
+.order-card{
+
+    background:#ffffff;
+
+    border-radius:22px;
+
+    padding:28px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.order-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+/*==========================================
+            ORDER HEADER
+==========================================*/
+
+.order-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+    padding-bottom:20px;
+
+    border-bottom:1px solid #edf2f7;
+
+}
+
+.order-header h3{
+
+    font-size:24px;
+
+    color:#253858;
+
+    margin-bottom:8px;
+
+}
+
+.order-header p{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:#777;
+
+    font-size:15px;
+
+}
+
+/*==========================================
+            ORDER STATUS
+==========================================*/
+
+.order-status{
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    background:#dcfce7;
+
+    color:#16a34a;
+
+    font-size:14px;
+
+    font-weight:700;
+
+}
+/*==========================================
+            PRODUCT PREVIEW
+==========================================*/
+
+.order-preview{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    background:#f8fbff;
+
+    padding:18px;
+
+    border-radius:18px;
+
+}
+
+.order-preview img{
+
+    width:90px;
+
+    height:90px;
+
+    border-radius:14px;
+
+    object-fit:contain;
+
+    background:#ffffff;
+
+    padding:8px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.order-card:hover .order-preview img{
+
+    transform:scale(1.08);
+
+}
+
+.order-preview h4{
+
+    font-size:18px;
+
+    color:#253858;
+
+    margin-bottom:8px;
+
+    line-height:1.5;
+
+}
+
+.order-preview p{
+
+    font-size:15px;
+
+    color:#777;
+
+}
+
+/*==========================================
+            ORDER FOOTER
+==========================================*/
+
+.order-footer{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+    padding-top:20px;
+
+    border-top:1px solid #edf2f7;
+
+}
+
+/*==========================================
+            VIEW DETAILS BUTTON
+==========================================*/
+
+.view-order-btn{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    min-width:180px;
+
+    height:50px;
+
+    border-radius:14px;
+
+    text-decoration:none;
+
+    background:linear-gradient(
+
+        135deg,
+
+        #4faeff,
+
+        #2563eb
+
+    );
+
+    color:#ffffff;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    box-shadow:0 12px 25px rgba(79,174,255,.28);
+
+    transition:.35s;
+
+}
+
+.view-order-btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 18px 35px rgba(79,174,255,.40);
+
+}
+
+.view-order-btn svg{
+
+    font-size:16px;
+
+}
+
+/*==========================================
+            ANIMATION
+==========================================*/
+
+.order-card{
+
+    animation:orderCardFade .45s ease;
+
+}
+
+@keyframes orderCardFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+/*==========================================
+            RESPONSIVE DESIGN
+==========================================*/
+
+@media(max-width:992px){
+
+    .order-body{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .order-preview{
+
+        width:100%;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .order-card{
+
+        padding:22px;
+
+        border-radius:18px;
+
+    }
+
+    .order-header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:15px;
+
+    }
+
+    .order-header h3{
+
+        font-size:22px;
+
+    }
+
+    .order-status{
+
+        align-self:flex-start;
+
+    }
+
+    .order-preview{
+
+        padding:15px;
+
+    }
+
+    .order-preview img{
+
+        width:75px;
+
+        height:75px;
+
+    }
+
+    .order-preview h4{
+
+        font-size:16px;
+
+    }
+
+    .order-preview p{
+
+        font-size:14px;
+
+    }
+
+    .order-footer{
+
+        justify-content:center;
+
+    }
+
+    .view-order-btn{
+
+        width:100%;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .order-card{
+
+        padding:18px;
+
+        border-radius:16px;
+
+    }
+
+    .order-header h3{
+
+        font-size:20px;
+
+    }
+
+    .order-header p{
+
+        font-size:13px;
+
+    }
+
+    .order-body{
+
+        gap:20px;
+
+    }
+
+    .order-info{
+
+        gap:12px;
+
+    }
+
+    .order-info p{
+
+        font-size:14px;
+
+    }
+
+    .order-preview{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        gap:15px;
+
+    }
+
+    .order-preview img{
+
+        width:65px;
+
+        height:65px;
+
+    }
+
+    .order-preview h4{
+
+        font-size:15px;
+
+    }
+
+    .order-preview p{
+
+        font-size:13px;
+
+    }
+
+    .view-order-btn{
+
+        height:48px;
+
+        font-size:14px;
+
+        border-radius:12px;
+
+    }
+
+}
+
+/*==========================================
+            SMOOTH TRANSITIONS
+==========================================*/
+
+.order-card *{
+
+    transition:all .3s ease;
+
+}
+
+/*==========================================
+            ACCESSIBILITY
+==========================================*/
+
+.view-order-btn:focus{
+
+    outline:3px solid rgba(79,174,255,.25);
+
+    outline-offset:3px;
+
+}

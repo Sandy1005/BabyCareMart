@@ -1,0 +1,689 @@
+/* =========================================================
+   CANCEL ORDER PAGE
+========================================================= */
+
+.cancel-order-page {
+    min-height: 100vh;
+    background: #f5f7fb;
+    padding: 45px 20px 70px;
+}
+
+
+/* =========================================================
+   MAIN CONTAINER
+========================================================= */
+
+.cancel-order-container {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.cancel-header {
+    margin-bottom: 25px;
+}
+
+.back-orders-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    border: none;
+    background: transparent;
+
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    padding: 0;
+    margin-bottom: 20px;
+
+    transition: 0.25s ease;
+}
+
+.back-orders-btn:hover {
+    color: #1d4ed8;
+    transform: translateX(-3px);
+}
+
+
+.cancel-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.cancel-title-icon {
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 16px;
+
+    background: #fee2e2;
+    color: #dc2626;
+
+    font-size: 24px;
+}
+
+
+.cancel-title h1 {
+    margin: 0 0 5px;
+
+    color: #111827;
+
+    font-size: 32px;
+    font-weight: 750;
+}
+
+
+.cancel-title p {
+    margin: 0;
+
+    color: #6b7280;
+    font-size: 14px;
+}
+
+
+.cancel-title p strong {
+    color: #111827;
+}
+
+
+/* =========================================================
+   WARNING BOX
+========================================================= */
+
+.cancel-warning {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+
+    margin-bottom: 22px;
+
+    padding: 18px 20px;
+
+    background: #fff7ed;
+
+    border: 1px solid #fed7aa;
+    border-radius: 14px;
+
+    color: #c2410c;
+}
+
+
+.cancel-warning > svg {
+    flex-shrink: 0;
+    margin-top: 2px;
+
+    font-size: 20px;
+}
+
+
+.cancel-warning strong {
+    display: block;
+
+    margin-bottom: 4px;
+
+    color: #9a3412;
+
+    font-size: 15px;
+}
+
+
+.cancel-warning p {
+    margin: 0;
+
+    color: #7c2d12;
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   COMMON CARD
+========================================================= */
+
+.cancel-order-card,
+.cancel-card {
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+
+    padding: 28px;
+
+    margin-bottom: 22px;
+
+    box-shadow:
+        0 8px 25px rgba(15, 23, 42, 0.06);
+}
+
+
+/* =========================================================
+   SECTION TITLE
+========================================================= */
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-bottom: 22px;
+}
+
+
+.section-title h2 {
+    margin: 0;
+
+    color: #111827;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.section-title p {
+    margin: 5px 0 0;
+
+    color: #6b7280;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   ORDER STATUS
+========================================================= */
+
+.order-status {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 8px 14px;
+
+    border-radius: 30px;
+
+    background: #dcfce7;
+    color: #15803d;
+
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   PRODUCT LIST
+========================================================= */
+
+.cancel-product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.cancel-product {
+    display: flex;
+    align-items: center;
+
+    gap: 16px;
+
+    padding: 15px;
+
+    background: #f8fafc;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+}
+
+
+.cancel-product img {
+    width: 72px;
+    height: 72px;
+
+    object-fit: contain;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+
+    padding: 6px;
+}
+
+
+.cancel-product-info {
+    flex: 1;
+}
+
+
+.cancel-product-info h3 {
+    margin: 0 0 7px;
+
+    color: #111827;
+
+    font-size: 15px;
+    font-weight: 650;
+}
+
+
+.cancel-product-info p {
+    margin: 0;
+
+    color: #6b7280;
+
+    font-size: 13px;
+}
+
+
+.cancel-product > strong {
+    color: #111827;
+
+    font-size: 15px;
+}
+
+
+/* =========================================================
+   ORDER TOTAL
+========================================================= */
+
+.cancel-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 18px;
+    padding-top: 18px;
+
+    border-top: 1px solid #e5e7eb;
+}
+
+
+.cancel-total span {
+    color: #6b7280;
+
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.cancel-total strong {
+    color: #2563eb;
+
+    font-size: 20px;
+    font-weight: 750;
+}
+
+
+/* =========================================================
+   REASON LIST
+========================================================= */
+
+.reason-list {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 13px;
+}
+
+
+.reason-option {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    min-height: 58px;
+
+    padding: 15px 17px;
+
+    background: #ffffff;
+
+    border: 1.5px solid #e5e7eb;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    transition:
+        border-color 0.25s ease,
+        background 0.25s ease,
+        box-shadow 0.25s ease,
+        transform 0.2s ease;
+}
+
+
+.reason-option:hover {
+    border-color: #93c5fd;
+
+    background: #f8fbff;
+
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 5px 15px rgba(37, 99, 235, 0.08);
+}
+
+
+.reason-option.selected {
+    border-color: #2563eb;
+
+    background: #eff6ff;
+
+    box-shadow:
+        0 5px 18px rgba(37, 99, 235, 0.1);
+}
+
+
+.reason-option input {
+    width: 18px;
+    height: 18px;
+
+    margin: 0;
+
+    accent-color: #2563eb;
+
+    cursor: pointer;
+
+    flex-shrink: 0;
+}
+
+
+.reason-option span {
+    color: #374151;
+
+    font-size: 14px;
+    font-weight: 550;
+
+    line-height: 1.4;
+}
+
+
+.reason-option.selected span {
+    color: #1d4ed8;
+    font-weight: 650;
+}
+
+
+/* =========================================================
+   ACTION BUTTONS
+========================================================= */
+
+.cancel-actions {
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 14px;
+
+    margin-top: 10px;
+}
+
+
+.keep-order-btn,
+.confirm-cancel-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 9px;
+
+    min-width: 175px;
+
+    padding: 14px 22px;
+
+    border: none;
+    border-radius: 11px;
+
+    font-size: 14px;
+    font-weight: 650;
+
+    cursor: pointer;
+
+    transition:
+        background 0.25s ease,
+        transform 0.2s ease,
+        box-shadow 0.25s ease,
+        opacity 0.25s ease;
+}
+
+
+.keep-order-btn {
+    background: #eef2f7;
+
+    color: #374151;
+}
+
+
+.keep-order-btn:hover {
+    background: #e2e8f0;
+
+    transform: translateY(-2px);
+}
+
+
+.confirm-cancel-btn {
+    background: #dc2626;
+
+    color: #ffffff;
+
+    box-shadow:
+        0 6px 18px rgba(220, 38, 38, 0.2);
+}
+
+
+.confirm-cancel-btn:hover {
+    background: #b91c1c;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 9px 22px rgba(220, 38, 38, 0.25);
+}
+
+
+.keep-order-btn:disabled,
+.confirm-cancel-btn:disabled {
+    opacity: 0.55;
+
+    cursor: not-allowed;
+
+    transform: none;
+
+    box-shadow: none;
+}
+
+
+/* =========================================================
+   LOADING
+========================================================= */
+
+.loading-text {
+    min-height: 60vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #2563eb;
+
+    font-size: 22px;
+    font-weight: 700;
+
+    background: #f5f7fb;
+}
+
+
+/* =========================================================
+   RESPONSIVE - TABLET
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .cancel-order-page {
+        padding: 30px 15px 50px;
+    }
+
+
+    .cancel-order-card,
+    .cancel-card {
+        padding: 22px;
+    }
+
+
+    .cancel-title h1 {
+        font-size: 27px;
+    }
+
+
+    .reason-list {
+        grid-template-columns: 1fr;
+    }
+
+
+    .cancel-actions {
+        justify-content: stretch;
+    }
+
+
+    .keep-order-btn,
+    .confirm-cancel-btn {
+        flex: 1;
+    }
+
+}
+
+
+/* =========================================================
+   RESPONSIVE - MOBILE
+========================================================= */
+
+@media (max-width: 520px) {
+
+    .cancel-order-page {
+        padding: 22px 12px 40px;
+    }
+
+
+    .cancel-title {
+        align-items: flex-start;
+    }
+
+
+    .cancel-title-icon {
+        width: 48px;
+        height: 48px;
+
+        border-radius: 13px;
+
+        font-size: 19px;
+    }
+
+
+    .cancel-title h1 {
+        font-size: 23px;
+    }
+
+
+    .cancel-title p {
+        font-size: 12px;
+    }
+
+
+    .cancel-order-card,
+    .cancel-card {
+        padding: 18px;
+
+        border-radius: 14px;
+    }
+
+
+    .section-title {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+
+    .order-status {
+        font-size: 12px;
+    }
+
+
+    .cancel-product {
+        align-items: flex-start;
+    }
+
+
+    .cancel-product img {
+        width: 58px;
+        height: 58px;
+    }
+
+
+    .cancel-product > strong {
+        font-size: 14px;
+    }
+
+
+    .cancel-total strong {
+        font-size: 18px;
+    }
+
+
+    .cancel-actions {
+        flex-direction: column;
+    }
+
+
+    .keep-order-btn,
+    .confirm-cancel-btn {
+        width: 100%;
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL SCREENS
+========================================================= */
+
+@media (max-width: 360px) {
+
+    .cancel-title {
+        gap: 10px;
+    }
+
+
+    .cancel-title h1 {
+        font-size: 21px;
+    }
+
+
+    .reason-option {
+        padding: 13px;
+    }
+
+
+    .reason-option span {
+        font-size: 13px;
+    }
+
+}

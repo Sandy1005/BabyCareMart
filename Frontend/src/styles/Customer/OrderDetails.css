@@ -1,0 +1,920 @@
+/* =========================================================
+   ORDER DETAILS PAGE
+   BabyCareMart
+   ========================================================= */
+
+
+/* =========================================================
+   PAGE
+   ========================================================= */
+
+.od-page {
+    min-height: calc(100vh - 160px);
+    background: #f5f7fb;
+    padding: 36px 20px 60px;
+    color: #1f2937;
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   MAIN CONTAINER
+   ========================================================= */
+
+.od-container {
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   TOP HEADER
+   ========================================================= */
+
+.od-top-header {
+    margin-bottom: 22px;
+}
+
+
+.od-back-btn {
+    border: none;
+    background: #2563eb;
+    color: #ffffff;
+    padding: 9px 16px;
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 16px;
+}
+
+
+.od-back-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+
+.od-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.od-title-row h1 {
+    margin: 0 0 5px;
+    font-size: 27px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #111827;
+}
+
+
+.od-title-row p {
+    margin: 0;
+    color: #6b7280;
+    font-size: 13px;
+}
+
+
+.od-title-row p strong {
+    color: #374151;
+}
+
+
+/* =========================================================
+   STATUS
+   ========================================================= */
+
+.od-status {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+
+.od-status.pending {
+    color: #92400e;
+    background: #fef3c7;
+}
+
+
+.od-status.processing {
+    color: #1d4ed8;
+    background: #dbeafe;
+}
+
+
+.od-status.shipped {
+    color: #6d28d9;
+    background: #ede9fe;
+}
+
+
+.od-status.delivered {
+    color: #15803d;
+    background: #dcfce7;
+}
+
+
+.od-status.cancelled {
+    color: #b91c1c;
+    background: #fee2e2;
+}
+
+
+/* =========================================================
+   COMMON CARD
+   ========================================================= */
+
+.od-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+
+/* =========================================================
+   CARD HEADING
+   ========================================================= */
+
+.od-card-heading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 17px;
+}
+
+
+.od-card-heading h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111827;
+}
+
+
+.od-heading-icon {
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background: #eff6ff;
+    color: #2563eb;
+    font-size: 12px;
+    flex-shrink: 0;
+}
+
+
+.od-heading-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.od-products-heading {
+    justify-content: space-between;
+}
+
+
+.od-item-count {
+    color: #6b7280;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   ORDER INFORMATION
+   ========================================================= */
+
+.od-info-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.od-info-item {
+    min-height: 68px;
+    padding: 13px 14px;
+    background: #fafbfc;
+    border-right: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+
+.od-info-item:last-child {
+    border-right: none;
+}
+
+
+.od-info-item span {
+    font-size: 11px;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+
+.od-info-item strong {
+    color: #111827;
+    font-size: 12px;
+    font-weight: 700;
+    word-break: break-word;
+}
+
+
+.od-info-item .od-total-blue,
+.od-total-blue {
+    color: #2563eb;
+    font-size: 15px;
+}
+
+
+/* =========================================================
+   CUSTOMER DETAILS
+   ========================================================= */
+
+.od-customer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+
+.od-field {
+    min-height: 58px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 7px;
+    padding: 11px 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.od-field span {
+    color: #6b7280;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+.od-field strong {
+    color: #1f2937;
+    font-size: 12px;
+    font-weight: 600;
+    word-break: break-word;
+}
+
+
+/* =========================================================
+   DELIVERY ADDRESS
+   ========================================================= */
+
+.od-address-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 17px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+
+.od-location-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #eff6ff;
+    color: #2563eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+
+.od-address-content {
+    flex: 1;
+    min-width: 0;
+}
+
+
+.od-address-content h3 {
+    margin: 0 0 7px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #111827;
+}
+
+
+.od-address-content p {
+    margin: 3px 0;
+    color: #4b5563;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   PRODUCTS
+   ========================================================= */
+
+.od-products {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+
+.od-product-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    min-height: 92px;
+    padding: 11px 13px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    transition: border-color 0.2s ease,
+                background 0.2s ease;
+}
+
+
+.od-product-row:hover {
+    border-color: #d1d5db;
+    background: #f8fafc;
+}
+
+
+.od-product-left {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    min-width: 0;
+}
+
+
+.od-product-image {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.od-product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+.od-product-image span {
+    font-size: 22px;
+}
+
+
+.od-image-fallback {
+    background: #f3f4f6;
+}
+
+
+.od-image-fallback::after {
+    content: "Product";
+    color: #9ca3af;
+    font-size: 10px;
+}
+
+
+.od-product-info {
+    min-width: 0;
+}
+
+
+.od-product-info h3 {
+    margin: 0 0 5px;
+    color: #111827;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 400px;
+}
+
+
+.od-product-info p {
+    margin: 2px 0;
+    color: #6b7280;
+    font-size: 11px;
+}
+
+
+.od-product-info span {
+    display: block;
+    color: #6b7280;
+    font-size: 11px;
+}
+
+
+.od-product-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+
+.od-product-total {
+    color: #111827;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   REVIEW BUTTON
+   ========================================================= */
+
+.od-review-btn {
+    border: 1px solid #f59e0b;
+    background: #fff7ed;
+    color: #c2410c;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+
+.od-review-btn:hover {
+    background: #f59e0b;
+    color: #ffffff;
+}
+
+
+/* =========================================================
+   EMPTY PRODUCTS
+   ========================================================= */
+
+.od-empty {
+    text-align: center;
+    padding: 30px 15px;
+    border: 1px dashed #d1d5db;
+    border-radius: 8px;
+    color: #6b7280;
+    font-size: 13px;
+    background: #fafafa;
+}
+
+
+/* =========================================================
+   BILL SUMMARY
+   ========================================================= */
+
+.od-bill {
+    width: 100%;
+    max-width: 430px;
+    margin-left: auto;
+}
+
+
+.od-bill-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 8px 0;
+    color: #6b7280;
+    font-size: 12px;
+}
+
+
+.od-bill-row strong {
+    color: #374151;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.od-discount {
+    color: #16a34a !important;
+}
+
+
+.od-bill-divider {
+    height: 1px;
+    background: #e5e7eb;
+    margin: 8px 0;
+}
+
+
+.od-grand-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 5px;
+}
+
+
+.od-grand-total span {
+    color: #111827;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.od-grand-total strong {
+    color: #2563eb;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+/* =========================================================
+   ACTION BUTTONS
+   ========================================================= */
+
+.od-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-top: 20px;
+}
+
+
+.od-action-btn {
+    border: none;
+    border-radius: 7px;
+    padding: 10px 15px;
+    min-height: 38px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+
+.od-action-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.12);
+}
+
+
+/* Track */
+
+.od-track-btn {
+    background: #2563eb;
+    color: #ffffff;
+}
+
+
+.od-track-btn:hover {
+    background: #1d4ed8;
+}
+
+
+/* Return */
+
+.od-return-btn {
+    background: #16a34a;
+    color: #ffffff;
+}
+
+
+.od-return-btn:hover {
+    background: #15803d;
+}
+
+
+/* Cancel */
+
+.od-cancel-btn {
+    background: #dc2626;
+    color: #ffffff;
+}
+
+
+.od-cancel-btn:hover {
+    background: #b91c1c;
+}
+
+
+/* Invoice */
+
+.od-invoice-btn {
+    background: #f59e0b;
+    color: #ffffff;
+}
+
+
+.od-invoice-btn:hover {
+    background: #d97706;
+}
+
+
+/* Continue Shopping */
+
+.od-shopping-btn {
+    background: #374151;
+    color: #ffffff;
+}
+
+
+.od-shopping-btn:hover {
+    background: #1f2937;
+}
+
+
+/* =========================================================
+   LOADING
+   ========================================================= */
+
+.od-loading {
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+}
+
+
+.od-spinner {
+    width: 38px;
+    height: 38px;
+    border: 3px solid #dbeafe;
+    border-top-color: #2563eb;
+    border-radius: 50%;
+    animation: od-spin 0.8s linear infinite;
+    margin-bottom: 14px;
+}
+
+
+.od-loading p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+@keyframes od-spin {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+/* =========================================================
+   RESPONSIVE - TABLET
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+    .od-page {
+        padding: 28px 15px 50px;
+    }
+
+
+    .od-container {
+        max-width: 100%;
+    }
+
+
+    .od-info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .od-info-item:nth-child(2) {
+        border-right: none;
+    }
+
+
+    .od-info-item:nth-child(-n + 2) {
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+
+    .od-customer-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* =========================================================
+   RESPONSIVE - MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    .od-page {
+        padding: 20px 10px 40px;
+    }
+
+
+    .od-top-header {
+        margin-bottom: 17px;
+    }
+
+
+    .od-back-btn {
+        padding: 8px 12px;
+        font-size: 11px;
+    }
+
+
+    .od-title-row {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .od-title-row h1 {
+        font-size: 23px;
+    }
+
+
+    .od-title-row p {
+        font-size: 11px;
+    }
+
+
+    .od-card {
+        padding: 14px;
+        margin-bottom: 11px;
+        border-radius: 8px;
+    }
+
+
+    .od-card-heading {
+        margin-bottom: 13px;
+    }
+
+
+    .od-card-heading h2 {
+        font-size: 14px;
+    }
+
+
+    .od-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .od-info-item {
+        border-right: none;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+
+    .od-info-item:last-child {
+        border-bottom: none;
+    }
+
+
+    .od-product-row {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+
+    .od-product-left {
+        width: 100%;
+    }
+
+
+    .od-product-info h3 {
+        max-width: 220px;
+    }
+
+
+    .od-product-right {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .od-address-box {
+        padding: 13px;
+        gap: 10px;
+    }
+
+
+    .od-location-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+
+    .od-bill {
+        max-width: none;
+    }
+
+
+    .od-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .od-action-btn {
+        width: 100%;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+    .od-page {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+
+    .od-card {
+        padding: 12px;
+    }
+
+
+    .od-product-image {
+        width: 55px;
+        height: 55px;
+    }
+
+
+    .od-product-info h3 {
+        font-size: 12px;
+        max-width: 180px;
+    }
+
+
+    .od-product-info p,
+    .od-product-info span {
+        font-size: 10px;
+    }
+
+
+    .od-grand-total strong {
+        font-size: 16px;
+    }
+
+}

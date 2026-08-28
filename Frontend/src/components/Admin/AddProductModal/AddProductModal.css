@@ -1,0 +1,312 @@
+/* ==========================================
+   MODAL OVERLAY
+========================================== */
+
+.modal-overlay{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,.55);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:9999;
+
+    padding:20px;
+
+}
+
+/* ==========================================
+   MODAL
+========================================== */
+
+.add-product-modal{
+
+    width:100%;
+    max-width:700px;
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    animation:popup .25s ease;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.2);
+
+}
+
+@keyframes popup{
+
+    from{
+
+        transform:scale(.9);
+
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:scale(1);
+
+        opacity:1;
+
+    }
+
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.modal-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 25px;
+
+    background:#2563eb;
+
+    color:#ffffff;
+
+}
+
+.modal-header h2{
+
+    margin:0;
+
+    font-size:24px;
+
+}
+
+.modal-header button{
+
+    width:40px;
+
+    height:40px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.2);
+
+    color:#ffffff;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.modal-header button:hover{
+
+    background:#ffffff;
+
+    color:#2563eb;
+
+}
+
+/* ==========================================
+   FORM
+========================================== */
+
+.add-product-modal form{
+
+    padding:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.add-product-modal input,
+.add-product-modal textarea,
+.add-product-modal select{
+
+    width:100%;
+
+    padding:14px 16px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:.3s;
+
+    background:#ffffff;
+
+}
+
+.add-product-modal input:focus,
+.add-product-modal textarea:focus,
+.add-product-modal select:focus{
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+
+}
+
+.add-product-modal textarea{
+
+    resize:vertical;
+
+    min-height:110px;
+
+}
+
+/* ==========================================
+   IMAGE PREVIEW
+========================================== */
+
+.image-preview{
+
+    width:180px;
+
+    height:180px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    border:1px solid #e5e7eb;
+
+    margin:auto;
+
+}
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.modal-actions{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:15px;
+
+    margin-top:10px;
+
+}
+
+.cancel-btn,
+.save-btn{
+
+    border:none;
+
+    padding:14px 24px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.cancel-btn{
+
+    background:#e5e7eb;
+
+    color:#374151;
+
+}
+
+.cancel-btn:hover{
+
+    background:#d1d5db;
+
+}
+
+.save-btn{
+
+    background:#2563eb;
+
+    color:#ffffff;
+
+}
+
+.save-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .add-product-modal{
+
+        max-width:100%;
+
+    }
+
+    .modal-header{
+
+        padding:18px;
+
+    }
+
+    .add-product-modal form{
+
+        padding:18px;
+
+    }
+
+    .modal-actions{
+
+        flex-direction:column;
+
+    }
+
+    .cancel-btn,
+    .save-btn{
+
+        width:100%;
+
+    }
+
+    .image-preview{
+
+        width:140px;
+
+        height:140px;
+
+    }
+
+}

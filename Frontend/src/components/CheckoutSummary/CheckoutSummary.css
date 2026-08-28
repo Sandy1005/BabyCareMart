@@ -1,0 +1,645 @@
+/*==================================================
+                CHECKOUT SUMMARY
+==================================================*/
+
+.checkout-summary{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:28px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    position:sticky;
+
+    top:20px;
+
+}
+
+.checkout-summary h2{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#1e293b;
+
+    margin-bottom:25px;
+
+}
+
+/*==================================================
+                PRODUCT LIST
+==================================================*/
+
+.summary-products{
+
+    max-height:350px;
+
+    overflow-y:auto;
+
+    margin-bottom:25px;
+
+    padding-right:6px;
+
+}
+
+.summary-products::-webkit-scrollbar{
+
+    width:6px;
+
+}
+
+.summary-products::-webkit-scrollbar-thumb{
+
+    background:#cbd5e1;
+
+    border-radius:20px;
+
+}
+
+.summary-products::-webkit-scrollbar-thumb:hover{
+
+    background:#94a3b8;
+
+}
+
+/*==================================================
+                PRODUCT ITEM
+==================================================*/
+
+.summary-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:15px 0;
+
+    border-bottom:1px solid #edf2f7;
+
+}
+
+.summary-item:last-child{
+
+    border-bottom:none;
+
+}
+
+.summary-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    flex:1;
+
+}
+
+.summary-left img{
+
+    width:75px;
+
+    height:75px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    background:#f8fafc;
+
+    border:1px solid #e5e7eb;
+
+}
+
+.summary-left h4{
+
+    font-size:16px;
+
+    color:#1e293b;
+
+    margin-bottom:6px;
+
+    font-weight:600;
+
+}
+
+.summary-left p{
+
+    color:#64748b;
+
+    font-size:14px;
+
+}
+
+.summary-item span{
+
+    font-size:16px;
+
+    font-weight:700;
+
+    color:#2563eb;
+
+}
+/*==================================================
+                BILL DETAILS
+==================================================*/
+
+.bill-details{
+
+    border-top:1px solid #e5e7eb;
+
+    padding-top:20px;
+
+    margin-top:10px;
+
+}
+
+.bill-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:12px 0;
+
+    font-size:15px;
+
+    color:#374151;
+
+}
+
+.bill-row span:first-child{
+
+    color:#64748b;
+
+    font-weight:500;
+
+}
+
+.bill-row span:last-child{
+
+    font-weight:600;
+
+    color:#111827;
+
+}
+
+/*==================================================
+                DISCOUNT
+==================================================*/
+
+.discount{
+
+    color:#16a34a !important;
+
+    font-weight:700 !important;
+
+}
+
+/*==================================================
+                COUPON
+==================================================*/
+
+.coupon-code{
+
+    background:#eff6ff;
+
+    color:#2563eb !important;
+
+    padding:5px 12px;
+
+    border-radius:8px;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    letter-spacing:.3px;
+
+}
+
+/*==================================================
+                GRAND TOTAL
+==================================================*/
+
+.total-row{
+
+    margin-top:12px;
+
+    padding-top:18px;
+
+    border-top:2px dashed #dbeafe;
+
+    font-size:18px;
+
+    font-weight:700;
+
+}
+
+.total-row span{
+
+    color:#111827 !important;
+
+}
+
+.total-row span:last-child{
+
+    color:#2563eb !important;
+
+    font-size:22px;
+
+}
+
+/*==================================================
+                PAYMENT INFO
+==================================================*/
+
+.payment-info{
+
+    margin-top:25px;
+
+    padding:20px;
+
+    background:#f8fafc;
+
+    border-radius:14px;
+
+    border:1px solid #e2e8f0;
+
+}
+
+.payment-info h4{
+
+    font-size:17px;
+
+    color:#1e293b;
+
+    margin-bottom:10px;
+
+    font-weight:700;
+
+}
+
+.payment-info p{
+
+    font-size:15px;
+
+    color:#475569;
+
+    font-weight:500;
+
+}
+
+/*==================================================
+            PROCEED TO PAYMENT BUTTON
+==================================================*/
+
+.place-order-btn{
+
+    width:100%;
+
+    margin-top:30px;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#2563eb;
+
+    color:#ffffff;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.place-order-btn:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 12px 25px rgba(37,99,235,.25);
+
+}
+
+.place-order-btn:active{
+
+    transform:scale(.98);
+
+}
+
+.place-order-btn:disabled{
+
+    background:#94a3b8;
+
+    cursor:not-allowed;
+
+    transform:none;
+
+    box-shadow:none;
+
+}
+
+/*==================================================
+                ANIMATION
+==================================================*/
+
+.checkout-summary{
+
+    animation:summaryFade .35s ease;
+
+}
+
+@keyframes summaryFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+/*==================================================
+                TABLET RESPONSIVE
+==================================================*/
+
+@media (max-width:992px){
+
+    .checkout-summary{
+
+        position:static;
+
+        margin-top:25px;
+
+    }
+
+    .summary-products{
+
+        max-height:300px;
+
+    }
+
+}
+
+/*==================================================
+                MOBILE RESPONSIVE
+==================================================*/
+
+@media (max-width:768px){
+
+    .checkout-summary{
+
+        padding:20px;
+
+        border-radius:16px;
+
+    }
+
+    .checkout-summary h2{
+
+        font-size:24px;
+
+    }
+
+    .summary-item{
+
+        gap:12px;
+
+        padding:12px 0;
+
+    }
+
+    .summary-left{
+
+        gap:12px;
+
+    }
+
+    .summary-left img{
+
+        width:65px;
+
+        height:65px;
+
+    }
+
+    .summary-left h4{
+
+        font-size:15px;
+
+    }
+
+    .summary-left p{
+
+        font-size:13px;
+
+    }
+
+    .summary-item span{
+
+        font-size:15px;
+
+    }
+
+    .bill-row{
+
+        font-size:14px;
+
+    }
+
+    .payment-info{
+
+        padding:16px;
+
+    }
+
+    .payment-info h4{
+
+        font-size:16px;
+
+    }
+
+    .payment-info p{
+
+        font-size:14px;
+
+    }
+
+    .place-order-btn{
+
+        padding:15px;
+
+        font-size:15px;
+
+    }
+
+}
+
+/*==================================================
+                SMALL MOBILE
+==================================================*/
+
+@media (max-width:480px){
+
+    .checkout-summary{
+
+        padding:16px;
+
+    }
+
+    .checkout-summary h2{
+
+        font-size:21px;
+
+    }
+
+    .summary-products{
+
+        max-height:260px;
+
+    }
+
+    .summary-item{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+    .summary-left{
+
+        width:100%;
+
+    }
+
+    .summary-left img{
+
+        width:60px;
+
+        height:60px;
+
+    }
+
+    .summary-item span{
+
+        align-self:flex-end;
+
+        font-size:16px;
+
+    }
+
+    .bill-row{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:6px;
+
+    }
+
+    .bill-row span:last-child{
+
+        align-self:flex-end;
+
+    }
+
+    .total-row{
+
+        gap:10px;
+
+    }
+
+    .total-row span:last-child{
+
+        font-size:20px;
+
+    }
+
+    .coupon-code{
+
+        font-size:12px;
+
+        padding:4px 8px;
+
+    }
+
+    .payment-info{
+
+        padding:15px;
+
+    }
+
+    .place-order-btn{
+
+        font-size:14px;
+
+        padding:14px;
+
+    }
+
+}
+
+/*==================================================
+                LARGE DESKTOP
+==================================================*/
+
+@media (min-width:1400px){
+
+    .checkout-summary{
+
+        padding:35px;
+
+    }
+
+    .checkout-summary h2{
+
+        font-size:30px;
+
+    }
+
+    .summary-left img{
+
+        width:80px;
+
+        height:80px;
+
+    }
+
+    .summary-products{
+
+        max-height:420px;
+
+    }
+
+}

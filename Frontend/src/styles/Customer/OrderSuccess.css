@@ -1,0 +1,859 @@
+/*==================================================
+                ORDER SUCCESS PAGE
+==================================================*/
+
+.order-success-page{
+
+    min-height:100vh;
+
+    background:#f8fafc;
+
+    padding:40px 20px;
+
+}
+
+.success-card{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    background:#ffffff;
+
+    border-radius:22px;
+
+    padding:40px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    animation:fadeIn .4s ease;
+
+}
+
+/*==================================================
+                SUCCESS HEADER
+==================================================*/
+
+.success-icon{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.success-icon svg{
+
+    font-size:80px;
+
+    color:#16a34a;
+
+    animation:pop .5s ease;
+
+}
+
+.success-card h1{
+
+    text-align:center;
+
+    font-size:36px;
+
+    color:#166534;
+
+    margin-bottom:12px;
+
+    font-weight:700;
+
+}
+
+.success-card>p{
+
+    text-align:center;
+
+    color:#64748b;
+
+    font-size:16px;
+
+    margin-bottom:35px;
+
+    line-height:1.8;
+
+}
+
+/*==================================================
+                DETAILS GRID
+==================================================*/
+
+.details-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+    margin-bottom:30px;
+
+}
+
+/*==================================================
+                INFO CARD
+==================================================*/
+
+.info-card{
+
+    background:#ffffff;
+
+    border:1px solid #e5e7eb;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    transition:.3s;
+
+}
+
+.info-card:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.08);
+
+}
+
+.info-card h3{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-size:20px;
+
+    color:#1e293b;
+
+    margin-bottom:20px;
+
+    font-weight:700;
+
+}
+
+.info-card h3 svg{
+
+    color:#2563eb;
+
+}
+
+.info-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:10px 0;
+
+    border-bottom:1px solid #f1f5f9;
+
+}
+
+.info-row:last-child{
+
+    border-bottom:none;
+
+}
+
+.info-row span{
+
+    color:#64748b;
+
+}
+
+.info-row strong{
+
+    color:#111827;
+
+    font-weight:600;
+
+}
+
+.status{
+
+    color:#2563eb !important;
+
+}
+
+.success{
+
+    color:#16a34a !important;
+
+}
+/*==================================================
+                COUPON CARD
+==================================================*/
+
+.coupon-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    background:#eff6ff;
+
+    border:2px dashed #2563eb;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    margin-bottom:30px;
+
+}
+
+.coupon-icon{
+
+    font-size:42px;
+
+    color:#2563eb;
+
+}
+
+.coupon-card h3{
+
+    font-size:20px;
+
+    color:#1e293b;
+
+    margin-bottom:6px;
+
+    font-weight:700;
+
+}
+
+.coupon-card p{
+
+    margin-bottom:5px;
+
+    color:#111827;
+
+    font-size:16px;
+
+}
+
+.coupon-card span{
+
+    color:#16a34a;
+
+    font-weight:600;
+
+}
+
+/*==================================================
+                PRODUCTS CARD
+==================================================*/
+
+.products-card{
+
+    background:#ffffff;
+
+    border:1px solid #e5e7eb;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    margin-bottom:30px;
+
+}
+
+.products-card h3{
+
+    font-size:22px;
+
+    color:#1e293b;
+
+    margin-bottom:20px;
+
+    font-weight:700;
+
+}
+
+.product-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+    padding:18px 0;
+
+    border-bottom:1px solid #eef2f7;
+
+}
+
+.product-item:last-child{
+
+    border-bottom:none;
+
+}
+
+.product-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    flex:1;
+
+}
+
+.product-left img{
+
+    width:80px;
+
+    height:80px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    border:1px solid #e5e7eb;
+
+    background:#ffffff;
+
+}
+
+.product-left h4{
+
+    font-size:17px;
+
+    color:#1e293b;
+
+    margin-bottom:6px;
+
+    font-weight:600;
+
+}
+
+.product-left p{
+
+    color:#64748b;
+
+    font-size:14px;
+
+}
+
+.product-right{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    color:#2563eb;
+
+}
+
+/*==================================================
+                TOTAL CARD
+==================================================*/
+
+.total-card{
+
+    background:#ffffff;
+
+    border:1px solid #e5e7eb;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    margin-bottom:30px;
+
+}
+
+.total-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:12px 0;
+
+    color:#374151;
+
+}
+
+.total-row span:first-child{
+
+    color:#64748b;
+
+}
+
+.total-row span:last-child{
+
+    font-weight:600;
+
+    color:#111827;
+
+}
+
+.total-row.discount span:last-child{
+
+    color:#16a34a;
+
+}
+
+.total-card hr{
+
+    border:none;
+
+    border-top:1px solid #e5e7eb;
+
+    margin:18px 0;
+
+}
+
+.grand-total{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    font-size:22px;
+
+    font-weight:700;
+
+}
+
+.grand-total span:last-child{
+
+    color:#2563eb;
+
+}
+/*==================================================
+                ACTION BUTTONS
+==================================================*/
+
+.success-actions{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:18px;
+
+    margin-top:30px;
+
+}
+
+.success-actions button{
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:15px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:all .3s ease;
+
+}
+
+.track-btn{
+
+    background:#2563eb;
+
+    color:#ffffff;
+
+}
+
+.track-btn:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+
+}
+
+.orders-btn{
+
+    background:#0f766e;
+
+    color:#ffffff;
+
+}
+
+.orders-btn:hover{
+
+    background:#115e59;
+
+    transform:translateY(-2px);
+
+}
+
+.shop-btn{
+
+    background:#16a34a;
+
+    color:#ffffff;
+
+}
+
+.shop-btn:hover{
+
+    background:#15803d;
+
+    transform:translateY(-2px);
+
+}
+
+.invoice-btn{
+
+    background:#f59e0b;
+
+    color:#ffffff;
+
+}
+
+.invoice-btn:hover{
+
+    background:#d97706;
+
+    transform:translateY(-2px);
+
+}
+
+/*==================================================
+                LOADING
+==================================================*/
+
+.order-success-loading{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:#2563eb;
+
+}
+
+/*==================================================
+                ERROR
+==================================================*/
+
+.order-success-error{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.order-success-error h2{
+
+    font-size:32px;
+
+    color:#dc2626;
+
+    margin-bottom:15px;
+
+}
+
+/*==================================================
+                ANIMATIONS
+==================================================*/
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes pop{
+
+    0%{
+
+        transform:scale(.5);
+
+        opacity:0;
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+        opacity:1;
+
+    }
+
+}
+
+/*==================================================
+                TABLET
+==================================================*/
+
+@media (max-width:992px){
+
+    .details-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .success-actions{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .success-card{
+
+        padding:30px;
+
+    }
+
+}
+
+/*==================================================
+                MOBILE
+==================================================*/
+
+@media (max-width:768px){
+
+    .order-success-page{
+
+        padding:20px 15px;
+
+    }
+
+    .success-card{
+
+        padding:22px;
+
+        border-radius:18px;
+
+    }
+
+    .success-card h1{
+
+        font-size:28px;
+
+    }
+
+    .success-card>p{
+
+        font-size:15px;
+
+    }
+
+    .coupon-card{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .coupon-icon{
+
+        font-size:34px;
+
+    }
+
+    .product-item{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+    .product-left{
+
+        width:100%;
+
+    }
+
+    .product-right{
+
+        align-self:flex-end;
+
+    }
+
+    .success-actions{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/*==================================================
+                SMALL MOBILE
+==================================================*/
+
+@media (max-width:480px){
+
+    .success-card{
+
+        padding:18px;
+
+    }
+
+    .success-card h1{
+
+        font-size:24px;
+
+    }
+
+    .success-icon svg{
+
+        font-size:60px;
+
+    }
+
+    .info-card{
+
+        padding:18px;
+
+    }
+
+    .info-card h3{
+
+        font-size:18px;
+
+    }
+
+    .info-row{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:5px;
+
+    }
+
+    .info-row strong{
+
+        align-self:flex-end;
+
+    }
+
+    .product-left img{
+
+        width:65px;
+
+        height:65px;
+
+    }
+
+    .product-left h4{
+
+        font-size:15px;
+
+    }
+
+    .product-right{
+
+        font-size:16px;
+
+    }
+
+    .grand-total{
+
+        font-size:18px;
+
+    }
+
+    .grand-total span:last-child{
+
+        font-size:22px;
+
+    }
+
+    .success-actions button{
+
+        font-size:14px;
+
+        padding:14px;
+
+    }
+
+}
+
+/*==================================================
+                LARGE DESKTOP
+==================================================*/
+
+@media (min-width:1400px){
+
+    .success-card{
+
+        max-width:1300px;
+
+        padding:50px;
+
+    }
+
+    .details-grid{
+
+        gap:30px;
+
+    }
+
+}

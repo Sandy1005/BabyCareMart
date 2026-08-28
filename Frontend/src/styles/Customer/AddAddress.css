@@ -1,0 +1,275 @@
+/* ==========================================
+   ADD ADDRESS PAGE
+========================================== */
+
+.add-address-page,
+.edit-address-page {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.add-address-header,
+.edit-address-header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 18px;
+}
+
+.add-address-header h2,
+.edit-address-header h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 8px;
+}
+
+.add-address-header p,
+.edit-address-header p {
+    color: #6b7280;
+    font-size: 15px;
+}
+
+/* ==========================================
+   FORM
+========================================== */
+
+.add-address-form,
+.edit-address-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* ==========================================
+   FORM ROW
+========================================== */
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+/* ==========================================
+   FORM GROUP
+========================================== */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    background: #ffffff;
+    transition: .3s;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,.15);
+}
+
+/* ==========================================
+   FULL WIDTH
+========================================== */
+
+.full-width {
+    grid-column: span 2;
+}
+
+/* ==========================================
+   ADDRESS TYPE
+========================================== */
+
+.address-type {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.address-type label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.address-type input {
+    accent-color: #2563eb;
+}
+
+/* ==========================================
+   DEFAULT CHECKBOX
+========================================== */
+
+.default-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.default-checkbox input {
+    width: 18px;
+    height: 18px;
+    accent-color: #2563eb;
+}
+
+.default-checkbox label {
+    font-weight: 500;
+    color: #374151;
+}
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.cancel-btn,
+.save-btn {
+    border: none;
+    padding: 13px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.cancel-btn {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+.cancel-btn:hover {
+    background: #d1d5db;
+}
+
+.save-btn {
+    background: #2563eb;
+    color: #ffffff;
+}
+
+.save-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* ==========================================
+   ALERTS
+========================================== */
+
+.success-message {
+    background: #dcfce7;
+    color: #15803d;
+    padding: 14px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.error-message {
+    background: #fee2e2;
+    color: #dc2626;
+    padding: 14px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+/* ==========================================
+   REQUIRED MARK
+========================================== */
+
+.required {
+    color: #dc2626;
+    margin-left: 4px;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width:992px){
+
+    .add-address-page,
+    .edit-address-page{
+        margin:20px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .form-row{
+        grid-template-columns:1fr;
+    }
+
+    .full-width{
+        grid-column:span 1;
+    }
+
+    .form-buttons{
+        flex-direction:column;
+    }
+
+    .cancel-btn,
+    .save-btn{
+        width:100%;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .add-address-page,
+    .edit-address-page{
+        padding:20px;
+    }
+
+    .add-address-header h2,
+    .edit-address-header h2{
+        font-size:24px;
+    }
+
+    .address-type{
+        flex-direction:column;
+        gap:12px;
+    }
+
+}

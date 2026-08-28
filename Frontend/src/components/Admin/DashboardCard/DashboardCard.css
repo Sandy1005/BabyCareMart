@@ -1,0 +1,117 @@
+/* ==========================================
+   DASHBOARD CARD
+========================================== */
+
+.dashboard-card{
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+/* ==========================================
+   ICON
+========================================== */
+
+.card-icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#ffffff;
+
+    font-size:30px;
+
+}
+
+/* ==========================================
+   CONTENT
+========================================== */
+
+.card-content{
+
+    flex:1;
+
+}
+
+.card-content p{
+
+    margin:0;
+
+    color:#6b7280;
+
+    font-size:15px;
+
+}
+
+.card-content h2{
+
+    margin-top:8px;
+
+    color:#111827;
+
+    font-size:32px;
+
+    font-weight:700;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .dashboard-card{
+
+        padding:20px;
+
+    }
+
+    .card-icon{
+
+        width:60px;
+
+        height:60px;
+
+        font-size:24px;
+
+    }
+
+    .card-content h2{
+
+        font-size:26px;
+
+    }
+
+}

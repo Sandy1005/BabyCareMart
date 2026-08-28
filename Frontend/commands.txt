@@ -1,0 +1,27 @@
+Terminal 1 — npm run server
+Terminal 2 — React- npm run dev
+Terminal 3 - http-server "C:\Users\polav\OneDrive\one\OneDrive\Desktop\BabyCareMart-Images" -p 4000
+
+
+
+
+src/pages/Admin/Notifications.jsx
+src/pages/Admin/Reviews.jsx 
+src/pages/Admin/Coupons.jsx 
+src/pages/Admin/Inventory.jsx 
+src/pages/Admin/Reports.jsx 
+src/pages/Admin/AdminProfile.jsx
+
+
+
+
+import { useSelector, useDispatch } from "react-redux";
+
+
+
+import { Link, NavLink, useNavigate, useParams } from "react-router-dom";
+
+
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
+import ProductCard from "../../components/ProductCard/ProductCard";

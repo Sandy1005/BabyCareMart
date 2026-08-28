@@ -1,0 +1,419 @@
+/*==========================================
+            PRODUCT FILTER
+==========================================*/
+
+.product-filter{
+
+    background:#ffffff;
+
+    border-radius:22px;
+
+    padding:28px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    position:sticky;
+
+    top:120px;
+
+}
+
+/*==========================================
+            FILTER TITLE
+==========================================*/
+
+.product-filter h2{
+
+    font-size:28px;
+
+    color:#253858;
+
+    font-weight:700;
+
+    margin-bottom:30px;
+
+    padding-bottom:15px;
+
+    border-bottom:2px solid #eef3f9;
+
+}
+
+/*==========================================
+            FILTER SECTION
+==========================================*/
+
+.filter-section{
+
+    margin-bottom:35px;
+
+}
+
+.filter-section:last-child{
+
+    margin-bottom:0;
+
+}
+
+/*==========================================
+            SECTION TITLE
+==========================================*/
+
+.filter-section h3{
+
+    font-size:18px;
+
+    color:#253858;
+
+    font-weight:600;
+
+    margin-bottom:18px;
+
+}
+
+/*==========================================
+            FILTER OPTION
+==========================================*/
+
+.filter-option{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:14px;
+
+    cursor:pointer;
+
+    color:#666;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+.filter-option:hover{
+
+    color:#4faeff;
+
+    transform:translateX(5px);
+
+}
+/*==========================================
+            RADIO & CHECKBOX
+==========================================*/
+
+.filter-option input[type="radio"],
+.filter-option input[type="checkbox"]{
+
+    width:18px;
+
+    height:18px;
+
+    accent-color:#4faeff;
+
+    cursor:pointer;
+
+    flex-shrink:0;
+
+}
+
+.filter-option span{
+
+    flex:1;
+
+    font-weight:500;
+
+}
+
+/*==========================================
+            CLEAR BUTTON
+==========================================*/
+
+.clear-btn{
+
+    width:100%;
+
+    height:42px;
+
+    margin-top:12px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#eef8ff;
+
+    color:#4faeff;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.clear-btn:hover{
+
+    background:#4faeff;
+
+    color:#ffffff;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 20px rgba(79,174,255,.25);
+
+}
+
+/*==========================================
+            FILTER DIVIDER
+==========================================*/
+
+.filter-section{
+
+    padding-bottom:25px;
+
+    border-bottom:1px solid #eef3f9;
+
+}
+
+.filter-section:last-child{
+
+    border-bottom:none;
+
+    padding-bottom:0;
+
+}
+
+/*==========================================
+            ACTIVE OPTION
+==========================================*/
+
+.filter-option input:checked + span{
+
+    color:#4faeff;
+
+    font-weight:600;
+
+}
+
+/*==========================================
+            HOVER EFFECT
+==========================================*/
+
+.filter-option{
+
+    padding:6px 0;
+
+    border-radius:8px;
+
+}
+
+.filter-option:hover{
+
+    background:#f8fbff;
+
+    padding-left:8px;
+
+}
+
+/*==========================================
+            SCROLLBAR
+==========================================*/
+
+.product-filter::-webkit-scrollbar{
+
+    width:6px;
+
+}
+
+.product-filter::-webkit-scrollbar-thumb{
+
+    background:#4faeff;
+
+    border-radius:20px;
+
+}
+
+.product-filter::-webkit-scrollbar-track{
+
+    background:#eef3f9;
+
+}
+/*==========================================
+            RESPONSIVE DESIGN
+==========================================*/
+
+@media (max-width:1200px){
+
+    .product-filter{
+
+        padding:24px;
+
+    }
+
+}
+
+@media (max-width:992px){
+
+    .product-filter{
+
+        position:static;
+
+        width:100%;
+
+        margin-bottom:30px;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .product-filter{
+
+        padding:20px;
+
+        border-radius:18px;
+
+    }
+
+    .product-filter h2{
+
+        font-size:24px;
+
+        margin-bottom:24px;
+
+    }
+
+    .filter-section h3{
+
+        font-size:17px;
+
+    }
+
+    .filter-option{
+
+        font-size:14px;
+
+    }
+
+    .clear-btn{
+
+        height:40px;
+
+        font-size:14px;
+
+    }
+
+}
+
+@media (max-width:576px){
+
+    .product-filter{
+
+        padding:18px;
+
+        border-radius:16px;
+
+    }
+
+    .product-filter h2{
+
+        font-size:22px;
+
+    }
+
+    .filter-section{
+
+        margin-bottom:28px;
+
+    }
+
+    .filter-section h3{
+
+        font-size:16px;
+
+    }
+
+    .filter-option{
+
+        font-size:13px;
+
+        gap:10px;
+
+    }
+
+    .filter-option input[type="radio"],
+    .filter-option input[type="checkbox"]{
+
+        width:16px;
+
+        height:16px;
+
+    }
+
+    .clear-btn{
+
+        height:38px;
+
+        font-size:13px;
+
+    }
+
+}
+
+/*==========================================
+            FADE IN ANIMATION
+==========================================*/
+
+@keyframes filterFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(-25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+.product-filter{
+
+    animation:filterFade .6s ease;
+
+}
+
+/*==========================================
+            SMOOTH TRANSITIONS
+==========================================*/
+
+.product-filter *{
+
+    transition:all .3s ease;
+
+}
+
+/*==========================================
+            SCROLL OFFSET
+==========================================*/
+
+.product-filter{
+
+    scroll-margin-top:120px;
+
+}

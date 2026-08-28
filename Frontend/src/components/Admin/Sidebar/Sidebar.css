@@ -1,0 +1,207 @@
+/* ==========================================
+   ADMIN SIDEBAR
+========================================== */
+
+.admin-sidebar{
+
+    width:260px;
+    min-height:100vh;
+    background:#111827;
+    color:#ffffff;
+
+    display:flex;
+    flex-direction:column;
+
+    position:fixed;
+
+    left:0;
+    top:0;
+
+}
+
+/* ==========================================
+   LOGO
+========================================== */
+
+.sidebar-logo{
+
+    padding:30px 20px;
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.sidebar-logo h2{
+
+    margin:0;
+    color:#3b82f6;
+    font-size:28px;
+
+}
+
+.sidebar-logo span{
+
+    color:#9ca3af;
+    font-size:14px;
+
+}
+
+/* ==========================================
+   MENU
+========================================== */
+
+.sidebar-menu{
+
+    flex:1;
+
+    display:flex;
+    flex-direction:column;
+
+    padding:20px 0;
+
+}
+
+.sidebar-link{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    padding:15px 25px;
+
+    color:#d1d5db;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+    font-size:15px;
+
+    font-weight:500;
+
+}
+
+.sidebar-link:hover{
+
+    background:#1f2937;
+
+    color:#ffffff;
+
+}
+
+.sidebar-link.active{
+
+    background:#2563eb;
+
+    color:#ffffff;
+
+}
+
+.sidebar-icon{
+
+    font-size:18px;
+
+    width:22px;
+
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.sidebar-footer{
+
+    padding:20px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.logout-btn{
+
+    width:100%;
+
+    border:none;
+
+    background:#dc2626;
+
+    color:#ffffff;
+
+    padding:14px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.logout-btn:hover{
+
+    background:#b91c1c;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+    .admin-sidebar{
+
+        width:80px;
+
+    }
+
+    .sidebar-logo span{
+
+        display:none;
+
+    }
+
+    .sidebar-logo h2{
+
+        font-size:20px;
+
+    }
+
+    .sidebar-link{
+
+        justify-content:center;
+
+        padding:18px 10px;
+
+    }
+
+    .sidebar-link span:last-child{
+
+        display:none;
+
+    }
+
+    .logout-btn{
+
+        font-size:0;
+
+    }
+
+    .logout-btn svg{
+
+        font-size:20px;
+
+    }
+
+}

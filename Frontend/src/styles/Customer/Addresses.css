@@ -1,0 +1,329 @@
+/* ==========================================
+   ADDRESSES PAGE
+========================================== */
+
+.addresses-page {
+    max-width: 1200px;
+    margin: 35px auto;
+    padding: 20px;
+    min-height: 80vh;
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.addresses-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.addresses-header h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 6px;
+}
+
+.addresses-header p {
+    color: #6b7280;
+    font-size: 15px;
+}
+
+.add-address-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 22px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.add-address-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* ==========================================
+   EMPTY STATE
+========================================== */
+
+.empty-address {
+    background: #fff;
+    padding: 70px 30px;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(0,0,0,.08);
+}
+
+.empty-icon {
+    font-size: 70px;
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+.empty-address h3 {
+    font-size: 28px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.empty-address p {
+    color: #6b7280;
+    margin-bottom: 28px;
+}
+
+.add-first-address-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 22px;
+    background: #2563eb;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.add-first-address-btn:hover {
+    background: #1d4ed8;
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.address-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
+    gap: 25px;
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.address-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    border: 2px solid transparent;
+    transition: .3s;
+}
+
+.address-card:hover {
+    transform: translateY(-5px);
+    border-color: #2563eb;
+    box-shadow: 0 20px 45px rgba(0,0,0,.12);
+}
+
+.address-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.address-type {
+    background: #eff6ff;
+    color: #2563eb;
+    padding: 6px 14px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.default-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #dcfce7;
+    color: #15803d;
+    padding: 6px 12px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.address-card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #111827;
+}
+
+.address-card p {
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 4px 0;
+    font-size: 15px;
+}
+
+.address-card h5 {
+    margin-top: 18px;
+    color: #111827;
+    font-size: 15px;
+}
+
+/* ==========================================
+   ACTIONS
+========================================== */
+
+.address-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.address-actions button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.edit-btn {
+    background: #eff6ff;
+    color: #2563eb;
+}
+
+.edit-btn:hover {
+    background: #2563eb;
+    color: #fff;
+}
+
+.delete-btn {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.delete-btn:hover {
+    background: #dc2626;
+    color: #fff;
+}
+
+.default-btn {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.default-btn:hover {
+    background: #16a34a;
+    color: #fff;
+}
+
+/* ==========================================
+   CHECKOUT SECTION
+========================================== */
+
+.checkout-address-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.continue-checkout-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 12px;
+    background: #2563eb;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.continue-checkout-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width:992px) {
+
+    .addresses-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .address-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .addresses-page {
+        padding: 15px;
+    }
+
+    .address-card {
+        padding: 20px;
+    }
+
+    .address-actions {
+        flex-direction: column;
+    }
+
+    .address-actions button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .checkout-address-section {
+        justify-content: center;
+    }
+
+    .continue-checkout-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .addresses-header h2 {
+        font-size: 24px;
+    }
+
+    .empty-address {
+        padding: 50px 20px;
+    }
+
+    .empty-icon {
+        font-size: 55px;
+    }
+
+    .empty-address h3 {
+        font-size: 22px;
+    }
+
+}

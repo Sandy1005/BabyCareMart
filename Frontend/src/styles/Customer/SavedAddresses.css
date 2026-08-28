@@ -1,0 +1,286 @@
+.saved-addresses-page {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    min-height: 80vh;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.address-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.address-header h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 5px;
+}
+
+.address-header p {
+    color: #6b7280;
+    font-size: 15px;
+}
+
+.add-address-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 22px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.add-address-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* ===========================
+   EMPTY STATE
+=========================== */
+
+.empty-address {
+    background: #fff;
+    border-radius: 18px;
+    text-align: center;
+    padding: 70px 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,.08);
+}
+
+.empty-icon {
+    font-size: 70px;
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+.empty-address h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #111827;
+}
+
+.empty-address p {
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+.add-first-address-btn {
+    border: none;
+    background: #2563eb;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.add-first-address-btn:hover {
+    background: #1d4ed8;
+}
+
+/* ===========================
+   GRID
+=========================== */
+
+.address-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
+    gap: 25px;
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.address-card {
+    background: white;
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    transition: .3s;
+    border: 2px solid transparent;
+}
+
+.address-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 45px rgba(0,0,0,.12);
+    border-color: #2563eb;
+}
+
+.address-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.address-type {
+    background: #eff6ff;
+    color: #2563eb;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.default-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #dcfce7;
+    color: #15803d;
+    padding: 6px 12px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.address-card h4 {
+    font-size: 20px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.address-card p {
+    color: #4b5563;
+    line-height: 1.8;
+    margin: 3px 0;
+    font-size: 15px;
+}
+
+.address-card h5 {
+    margin-top: 18px;
+    color: #111827;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ===========================
+   ACTIONS
+=========================== */
+
+.address-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.address-actions button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.edit-btn {
+    background: #eff6ff;
+    color: #2563eb;
+}
+
+.edit-btn:hover {
+    background: #2563eb;
+    color: white;
+}
+
+.delete-btn {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.delete-btn:hover {
+    background: #dc2626;
+    color: white;
+}
+
+.default-btn {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.default-btn:hover {
+    background: #16a34a;
+    color: white;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width:991px){
+
+    .address-header{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .address-grid{
+        grid-template-columns:1fr;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .saved-addresses-page{
+        padding:15px;
+    }
+
+    .address-card{
+        padding:20px;
+    }
+
+    .address-actions{
+        flex-direction:column;
+    }
+
+    .address-actions button{
+        width:100%;
+        justify-content:center;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .address-header h2{
+        font-size:24px;
+    }
+
+    .empty-address{
+        padding:50px 20px;
+    }
+
+    .empty-icon{
+        font-size:55px;
+    }
+
+    .empty-address h3{
+        font-size:22px;
+    }
+
+}

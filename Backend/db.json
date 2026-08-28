@@ -1,0 +1,4105 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Administrator",
+      "phone": "9999999999",
+      "email": "admin@babycare.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "name": "Demo",
+      "phone": "0123456789",
+      "email": "Demo@gmail.com",
+      "password": "Demo@1234",
+      "role": "user",
+      "isActive": true,
+      "id": "zOAHGBnJ0PY"
+    },
+    {
+      "name": "Sandeep",
+      "email": "sandeep@gmail.com",
+      "phone": "9871234560",
+      "gender": "Male",
+      "dateOfBirth": "2003-09-13",
+      "id": "fnQRm7ZnSHI"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Baby Toys",
+      "image": "http://localhost:4000/categories/baby-toys.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Baby Clothing",
+      "image": "http://localhost:4000/categories/baby-clothing.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Feeding",
+      "image": "http://localhost:4000/categories/feeding.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Diapers",
+      "image": "http://localhost:4000/categories/diapers.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Baby Care",
+      "image": "http://localhost:4000/categories/baby-care.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Bath Essentials",
+      "image": "http://localhost:4000/categories/bath-essentials.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Baby Rattle Toy",
+      "categoryId": 1,
+      "brandId": 5,
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 45,
+      "rating": 4.7,
+      "reviewCount": 214,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-01-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-01-3.jpg"
+      ],
+      "description": "Colorful baby rattle designed to improve sensory development and hand-eye coordination.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "2",
+      "name": "Soft Teddy Bear",
+      "categoryId": 1,
+      "brandId": 10,
+      "price": 699,
+      "discountPrice": 599,
+      "stock": 32,
+      "rating": 4.8,
+      "reviewCount": 156,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-02-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-02-3.jpg"
+      ],
+      "description": "Soft and cuddly teddy bear made with baby-safe plush fabric.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "3",
+      "name": "Musical Piano Toy",
+      "categoryId": 1,
+      "brandId": 4,
+      "price": 999,
+      "discountPrice": 849,
+      "stock": 28,
+      "rating": 4.6,
+      "reviewCount": 188,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-03-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-03-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-03-3.jpg"
+      ],
+      "description": "Interactive musical keyboard toy with lights and cheerful melodies.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "4",
+      "name": "Building Blocks Set",
+      "categoryId": 1,
+      "brandId": 10,
+      "price": 799,
+      "discountPrice": 699,
+      "stock": 40,
+      "rating": 4.5,
+      "reviewCount": 143,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-04-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-04-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-04-3.jpg"
+      ],
+      "description": "Colorful building blocks that encourage creativity and problem-solving.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "5",
+      "name": "Activity Cube",
+      "categoryId": 1,
+      "brandId": 5,
+      "price": 1299,
+      "discountPrice": 1099,
+      "stock": 24,
+      "rating": 4.8,
+      "reviewCount": 201,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-05-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-05-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-05-3.jpg"
+      ],
+      "description": "Multi-activity cube featuring gears, shapes, and learning games.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "6",
+      "name": "Pull Along Beads Toy",
+      "categoryId": 1,
+      "brandId": 15,
+      "price": 499,
+      "discountPrice": 449,
+      "stock": 38,
+      "rating": 4.4,
+      "reviewCount": 96,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-06-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-06-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-06-3.jpg"
+      ],
+      "description": "Wooden pull-along bead toy that develops motor skills.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "7",
+      "name": "Stacking Rings",
+      "categoryId": 1,
+      "brandId": 6,
+      "price": 599,
+      "discountPrice": 499,
+      "stock": 52,
+      "rating": 4.6,
+      "reviewCount": 173,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-07-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-07-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-07-3.jpg"
+      ],
+      "description": "Classic stacking rings for learning colors and sizes.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "8",
+      "name": "Baby Activity Walker",
+      "categoryId": 1,
+      "brandId": 9,
+      "price": 2899,
+      "discountPrice": 2499,
+      "stock": 18,
+      "rating": 4.7,
+      "reviewCount": 132,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-08-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-08-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-08-3.jpg"
+      ],
+      "description": "Interactive activity walker with educational play panel.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "9",
+      "name": "Plush Elephant Toy",
+      "categoryId": 1,
+      "brandId": 10,
+      "price": 799,
+      "discountPrice": 699,
+      "stock": 27,
+      "rating": 4.8,
+      "reviewCount": 119,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-09-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-09-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-09-3.jpg"
+      ],
+      "description": "Soft elephant plush toy made from premium baby-safe materials.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "10",
+      "name": "Baby Pacifier Toy",
+      "categoryId": 1,
+      "brandId": 6,
+      "price": 299,
+      "discountPrice": 249,
+      "stock": 60,
+      "rating": 4.5,
+      "reviewCount": 144,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-10-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-10-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-10-3.jpg"
+      ],
+      "description": "Baby-safe pacifier toy designed for sensory play and comfort.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "11",
+      "name": "Soft Ball Set",
+      "categoryId": 1,
+      "brandId": 5,
+      "price": 499,
+      "discountPrice": 429,
+      "stock": 50,
+      "rating": 4.6,
+      "reviewCount": 112,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-11-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-11-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-11-3.jpg"
+      ],
+      "description": "Soft colorful ball set for safe indoor play and sensory development.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "12",
+      "name": "Educational Flash Cards",
+      "categoryId": 1,
+      "brandId": 4,
+      "price": 599,
+      "discountPrice": 549,
+      "stock": 44,
+      "rating": 4.5,
+      "reviewCount": 126,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-12-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-12-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-12-3.jpg"
+      ],
+      "description": "Bright educational flash cards that help babies recognize shapes and objects.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "13",
+      "name": "Baby Drum Toy",
+      "categoryId": 1,
+      "brandId": 15,
+      "price": 699,
+      "discountPrice": 599,
+      "stock": 31,
+      "rating": 4.7,
+      "reviewCount": 138,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-13-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-13-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-13-3.jpg"
+      ],
+      "description": "Interactive musical drum toy with colorful lights and sounds.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "14",
+      "name": "Animal Puzzle Board",
+      "categoryId": 1,
+      "brandId": 10,
+      "price": 599,
+      "discountPrice": 529,
+      "stock": 36,
+      "rating": 4.5,
+      "reviewCount": 105,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-14-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-14-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-14-3.jpg"
+      ],
+      "description": "Wooden animal puzzle board that develops problem-solving skills.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "15",
+      "name": "Toy Mobile Phone",
+      "categoryId": 1,
+      "brandId": 5,
+      "price": 799,
+      "discountPrice": 699,
+      "stock": 29,
+      "rating": 4.6,
+      "reviewCount": 117,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-15-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-15-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-15-3.jpg"
+      ],
+      "description": "Pretend mobile phone toy with lights, sounds and educational buttons.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "16",
+      "name": "Baby Walker Toy",
+      "categoryId": 1,
+      "brandId": 9,
+      "price": 1499,
+      "discountPrice": 1299,
+      "stock": 18,
+      "rating": 4.8,
+      "reviewCount": 194,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-16-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-16-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-16-3.jpg"
+      ],
+      "description": "Baby walker toy designed to encourage first steps with interactive activities.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "17",
+      "name": "Mini Toy Car Set",
+      "categoryId": 1,
+      "brandId": 10,
+      "price": 699,
+      "discountPrice": 599,
+      "stock": 39,
+      "rating": 4.6,
+      "reviewCount": 142,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-17-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-17-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-17-3.jpg"
+      ],
+      "description": "Colorful mini toy car set made from durable child-safe plastic.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "18",
+      "name": "Baby Drawing Board",
+      "categoryId": 1,
+      "brandId": 5,
+      "price": 899,
+      "discountPrice": 799,
+      "stock": 26,
+      "rating": 4.7,
+      "reviewCount": 165,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-18-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-18-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-18-3.jpg"
+      ],
+      "description": "Reusable magnetic drawing board for creative learning and fun.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "19",
+      "name": "Soft Giraffe Plush Toy",
+      "categoryId": 1,
+      "brandId": 10,
+      "price": 999,
+      "discountPrice": 849,
+      "stock": 22,
+      "rating": 4.8,
+      "reviewCount": 187,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-19-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-19-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-19-3.jpg"
+      ],
+      "description": "Premium soft giraffe plush toy that is gentle and safe for babies.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "20",
+      "name": "Wooden Alphabet Blocks",
+      "categoryId": 1,
+      "brandId": 4,
+      "price": 899,
+      "discountPrice": 799,
+      "stock": 41,
+      "rating": 4.7,
+      "reviewCount": 174,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-20-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-20-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-20-3.jpg"
+      ],
+      "description": "Wooden alphabet blocks that introduce letters, colors and basic learning.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "21",
+      "name": "Baby Bath Floating Ducks",
+      "categoryId": 1,
+      "brandId": 6,
+      "price": 499,
+      "discountPrice": 449,
+      "stock": 52,
+      "rating": 4.6,
+      "reviewCount": 131,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-21-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-21-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-21-3.jpg"
+      ],
+      "description": "Cute floating duck bath toys that make bath time enjoyable for babies.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "22",
+      "name": "Animal Learning Cube",
+      "categoryId": 1,
+      "brandId": 10,
+      "price": 999,
+      "discountPrice": 849,
+      "stock": 28,
+      "rating": 4.7,
+      "reviewCount": 168,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-22-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-22-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-22-3.jpg"
+      ],
+      "description": "Educational activity cube featuring animals, colors and interactive games.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "23",
+      "name": "Rainbow Stacking Tower",
+      "categoryId": 1,
+      "brandId": 5,
+      "price": 799,
+      "discountPrice": 699,
+      "stock": 34,
+      "rating": 4.8,
+      "reviewCount": 202,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-23-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-23-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-23-3.jpg"
+      ],
+      "description": "Rainbow stacking tower toy that improves fine motor skills and color recognition.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "24",
+      "name": "Kids Learning Laptop",
+      "categoryId": 1,
+      "brandId": 9,
+      "price": 1599,
+      "discountPrice": 1399,
+      "stock": 19,
+      "rating": 4.7,
+      "reviewCount": 149,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-24-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-24-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-24-3.jpg"
+      ],
+      "description": "Interactive learning laptop with alphabet, numbers and fun educational games.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "25",
+      "name": "Musical Penguin Toy",
+      "categoryId": 1,
+      "brandId": 10,
+      "price": 1299,
+      "discountPrice": 1099,
+      "stock": 26,
+      "rating": 4.9,
+      "reviewCount": 243,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-25-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-25-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-25-3.jpg"
+      ],
+      "description": "Interactive musical penguin toy with dancing movement, lights and cheerful melodies.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "26",
+      "name": "Cotton Baby Romper",
+      "categoryId": 2,
+      "brandId": 6,
+      "price": 699,
+      "discountPrice": 599,
+      "stock": 42,
+      "rating": 4.8,
+      "reviewCount": 186,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/romper-01.jpg"
+      ],
+      "description": "Soft cotton romper designed for all-day comfort and easy wear.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "27",
+      "name": "Full Sleeve Onesie",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 799,
+      "discountPrice": 699,
+      "stock": 38,
+      "rating": 4.7,
+      "reviewCount": 142,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/onesie-01.jpg"
+      ],
+      "description": "Premium full sleeve onesie made with breathable cotton fabric.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "28",
+      "name": "Baby Printed T-Shirt",
+      "categoryId": 2,
+      "brandId": 6,
+      "price": 499,
+      "discountPrice": 449,
+      "stock": 55,
+      "rating": 4.6,
+      "reviewCount": 127,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/tshirt-01.jpg"
+      ],
+      "description": "Cute printed t-shirt made from soft cotton for daily wear.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "29",
+      "name": "Baby Hooded Sweatshirt",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 1099,
+      "discountPrice": 949,
+      "stock": 24,
+      "rating": 4.8,
+      "reviewCount": 204,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/hoodie-01.jpg"
+      ],
+      "description": "Warm hooded sweatshirt suitable for winter outings.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "30",
+      "name": "Baby Girl Frock",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 999,
+      "discountPrice": 849,
+      "stock": 29,
+      "rating": 4.9,
+      "reviewCount": 251,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/frock-01.jpg"
+      ],
+      "description": "Beautiful party wear frock with soft lining and elegant design.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "31",
+      "name": "Cartoon Baby Sleepsuit",
+      "categoryId": 2,
+      "brandId": 6,
+      "price": 899,
+      "discountPrice": 799,
+      "stock": 33,
+      "rating": 4.7,
+      "reviewCount": 178,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/sleepsuit-01.jpg"
+      ],
+      "description": "Comfortable cartoon print sleepsuit for peaceful sleep.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "32",
+      "name": "Baby Winter Jacket",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 1599,
+      "discountPrice": 1399,
+      "stock": 18,
+      "rating": 4.8,
+      "reviewCount": 165,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/jacket-01.jpg"
+      ],
+      "description": "Insulated winter jacket offering warmth and comfort.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "33",
+      "name": "Cotton Baby Shorts",
+      "categoryId": 2,
+      "brandId": 6,
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 62,
+      "rating": 4.5,
+      "reviewCount": 114,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/shorts-01.jpg"
+      ],
+      "description": "Lightweight cotton shorts perfect for summer wear.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "34",
+      "name": "Baby Denim Dungaree",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 1299,
+      "discountPrice": 1149,
+      "stock": 26,
+      "rating": 4.8,
+      "reviewCount": 191,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/dungaree-01.jpg"
+      ],
+      "description": "Stylish denim dungaree crafted for comfort and durability.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "35",
+      "name": "Baby Cotton Cap",
+      "categoryId": 2,
+      "brandId": 6,
+      "price": 299,
+      "discountPrice": 249,
+      "stock": 71,
+      "rating": 4.6,
+      "reviewCount": 108,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/cap-01.jpg"
+      ],
+      "description": "Soft cotton cap to keep babies comfortable in every season.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "36",
+      "name": "Baby Cotton Mittens",
+      "categoryId": 2,
+      "brandId": 6,
+      "price": 249,
+      "discountPrice": 199,
+      "stock": 64,
+      "rating": 4.5,
+      "reviewCount": 96,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/mittens-01.jpg"
+      ],
+      "description": "Soft cotton mittens to protect baby's delicate hands.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "37",
+      "name": "Baby Cotton Socks Pack",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 349,
+      "discountPrice": 299,
+      "stock": 58,
+      "rating": 4.6,
+      "reviewCount": 134,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/socks-01.jpg"
+      ],
+      "description": "Comfortable cotton socks pack suitable for everyday wear.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "38",
+      "name": "Waterproof Baby Bib",
+      "categoryId": 2,
+      "brandId": 4,
+      "price": 399,
+      "discountPrice": 329,
+      "stock": 47,
+      "rating": 4.7,
+      "reviewCount": 145,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/bib-01.jpg"
+      ],
+      "description": "Waterproof feeding bib that keeps clothes clean during meals.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "39",
+      "name": "Cotton Baby Pajama Set",
+      "categoryId": 2,
+      "brandId": 6,
+      "price": 799,
+      "discountPrice": 699,
+      "stock": 34,
+      "rating": 4.8,
+      "reviewCount": 179,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/pajama-01.jpg"
+      ],
+      "description": "Comfortable cotton pajama set designed for peaceful sleep.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "40",
+      "name": "Baby Cotton Jumpsuit",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 999,
+      "discountPrice": 849,
+      "stock": 28,
+      "rating": 4.8,
+      "reviewCount": 193,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/jumpsuit-01.jpg"
+      ],
+      "description": "Soft cotton jumpsuit providing maximum comfort and flexibility.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "41",
+      "name": "Baby Party Wear Dress",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 1499,
+      "discountPrice": 1299,
+      "stock": 21,
+      "rating": 4.9,
+      "reviewCount": 216,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/partydress-01.jpg"
+      ],
+      "description": "Elegant party wear dress perfect for birthdays and special occasions.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "42",
+      "name": "Baby Wool Sweater",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 1199,
+      "discountPrice": 1049,
+      "stock": 27,
+      "rating": 4.8,
+      "reviewCount": 166,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/sweater-01.jpg"
+      ],
+      "description": "Warm wool sweater suitable for cold weather.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "43",
+      "name": "Baby Stretch Leggings",
+      "categoryId": 2,
+      "brandId": 6,
+      "price": 599,
+      "discountPrice": 499,
+      "stock": 44,
+      "rating": 4.7,
+      "reviewCount": 138,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/leggings-01.jpg"
+      ],
+      "description": "Soft stretch leggings that provide all-day comfort.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "44",
+      "name": "Baby Hooded Raincoat",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 1399,
+      "discountPrice": 1199,
+      "stock": 19,
+      "rating": 4.7,
+      "reviewCount": 124,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/raincoat-01.jpg"
+      ],
+      "description": "Waterproof hooded raincoat to keep babies dry during rainy days.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "45",
+      "name": "Baby Casual Shoes",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 899,
+      "discountPrice": 799,
+      "stock": 33,
+      "rating": 4.8,
+      "reviewCount": 201,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/shoes-01.jpg"
+      ],
+      "description": "Comfortable lightweight shoes designed for little feet.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "46",
+      "name": "Baby Summer Sandals",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 799,
+      "discountPrice": 699,
+      "stock": 36,
+      "rating": 4.7,
+      "reviewCount": 158,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/sandals-01.jpg"
+      ],
+      "description": "Lightweight and comfortable summer sandals designed for growing feet.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "47",
+      "name": "Premium Baby Blanket",
+      "categoryId": 2,
+      "brandId": 6,
+      "price": 999,
+      "discountPrice": 849,
+      "stock": 29,
+      "rating": 4.9,
+      "reviewCount": 247,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/blanket-01.jpg"
+      ],
+      "description": "Ultra-soft premium baby blanket made with breathable fleece fabric.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "48",
+      "name": "Cotton Baby Swaddle Wrap",
+      "categoryId": 2,
+      "brandId": 4,
+      "price": 699,
+      "discountPrice": 599,
+      "stock": 41,
+      "rating": 4.8,
+      "reviewCount": 183,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/swaddle-01.jpg"
+      ],
+      "description": "Soft cotton swaddle wrap that keeps babies cozy and comfortable.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "49",
+      "name": "Hooded Baby Bath Towel",
+      "categoryId": 2,
+      "brandId": 6,
+      "price": 599,
+      "discountPrice": 499,
+      "stock": 54,
+      "rating": 4.7,
+      "reviewCount": 176,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/towel-01.jpg"
+      ],
+      "description": "Highly absorbent hooded bath towel made from premium cotton.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "50",
+      "name": "Baby Gift Clothing Set",
+      "categoryId": 2,
+      "brandId": 14,
+      "price": 1899,
+      "discountPrice": 1699,
+      "stock": 22,
+      "rating": 4.9,
+      "reviewCount": 268,
+      "images": [
+        "http://localhost:4000/products/baby-clothing/giftset-01.jpg"
+      ],
+      "description": "Complete newborn gift clothing set including romper, cap, mittens and booties.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "51",
+      "name": "Anti-Colic Feeding Bottle 150ml",
+      "categoryId": 3,
+      "brandId": 8,
+      "price": 499,
+      "discountPrice": 429,
+      "stock": 42,
+      "rating": 4.8,
+      "reviewCount": 214,
+      "images": [
+        "http://localhost:4000/products/feeding/feeding-bottle-01.jpg"
+      ],
+      "description": "BPA-free anti-colic feeding bottle with soft silicone nipple.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "52",
+      "name": "Wide Neck Feeding Bottle 250ml",
+      "categoryId": 3,
+      "brandId": 6,
+      "price": 599,
+      "discountPrice": 529,
+      "stock": 36,
+      "rating": 4.7,
+      "reviewCount": 185,
+      "images": [
+        "http://localhost:4000/products/feeding/feeding-bottle-02.jpg"
+      ],
+      "description": "Wide neck feeding bottle designed for easy cleaning and feeding.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "53",
+      "name": "Glass Baby Feeding Bottle",
+      "categoryId": 3,
+      "brandId": 5,
+      "price": 799,
+      "discountPrice": 699,
+      "stock": 28,
+      "rating": 4.9,
+      "reviewCount": 173,
+      "images": [
+        "http://localhost:4000/products/feeding/feeding-bottle-03.jpg"
+      ],
+      "description": "Premium heat-resistant glass feeding bottle for newborns.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "54",
+      "name": "Silicone Feeding Bowl",
+      "categoryId": 3,
+      "brandId": 4,
+      "price": 449,
+      "discountPrice": 399,
+      "stock": 55,
+      "rating": 4.6,
+      "reviewCount": 122,
+      "images": [
+        "http://localhost:4000/products/feeding/feeding-bowl-01.jpg"
+      ],
+      "description": "Food-grade silicone bowl with suction base.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "55",
+      "name": "Section Feeding Bowl",
+      "categoryId": 3,
+      "brandId": 6,
+      "price": 499,
+      "discountPrice": 449,
+      "stock": 39,
+      "rating": 4.7,
+      "reviewCount": 109,
+      "images": [
+        "http://localhost:4000/products/feeding/feeding-bowl-02.jpg"
+      ],
+      "description": "Sectioned bowl for serving multiple foods.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "56",
+      "name": "Soft Silicone Feeding Spoon",
+      "categoryId": 3,
+      "brandId": 6,
+      "price": 249,
+      "discountPrice": 199,
+      "stock": 68,
+      "rating": 4.8,
+      "reviewCount": 145,
+      "images": [
+        "http://localhost:4000/products/feeding/feeding-spoon-01.jpg"
+      ],
+      "description": "Soft silicone spoon gentle on baby's gums.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "57",
+      "name": "Heat Sensitive Spoon",
+      "categoryId": 3,
+      "brandId": 5,
+      "price": 299,
+      "discountPrice": 249,
+      "stock": 61,
+      "rating": 4.6,
+      "reviewCount": 118,
+      "images": [
+        "http://localhost:4000/products/feeding/feeding-spoon-02.jpg"
+      ],
+      "description": "Changes color when food is too hot.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "58",
+      "name": "Baby Training Fork",
+      "categoryId": 3,
+      "brandId": 4,
+      "price": 229,
+      "discountPrice": 189,
+      "stock": 57,
+      "rating": 4.5,
+      "reviewCount": 94,
+      "images": [
+        "http://localhost:4000/products/feeding/feeding-fork-01.jpg"
+      ],
+      "description": "Rounded-edge fork designed for toddlers.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "59",
+      "name": "Baby Feeding Plate",
+      "categoryId": 3,
+      "brandId": 6,
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 45,
+      "rating": 4.7,
+      "reviewCount": 131,
+      "images": [
+        "http://localhost:4000/products/feeding/feeding-plate-01.jpg"
+      ],
+      "description": "Lightweight BPA-free feeding plate.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "60",
+      "name": "Suction Feeding Plate",
+      "categoryId": 3,
+      "brandId": 5,
+      "price": 549,
+      "discountPrice": 479,
+      "stock": 32,
+      "rating": 4.8,
+      "reviewCount": 164,
+      "images": [
+        "http://localhost:4000/products/feeding/feeding-plate-02.jpg"
+      ],
+      "description": "Strong suction base prevents spills during feeding.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "61",
+      "name": "Baby Sipper Cup 180ml",
+      "categoryId": 3,
+      "brandId": 9,
+      "price": 499,
+      "discountPrice": 429,
+      "stock": 48,
+      "rating": 4.7,
+      "reviewCount": 152,
+      "images": [
+        "http://localhost:4000/products/feeding/sipper-cup-01.jpg"
+      ],
+      "description": "Leak-proof sipper cup with easy-grip handles for toddlers.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "62",
+      "name": "Insulated Sipper Cup",
+      "categoryId": 3,
+      "brandId": 5,
+      "price": 649,
+      "discountPrice": 569,
+      "stock": 35,
+      "rating": 4.8,
+      "reviewCount": 181,
+      "images": [
+        "http://localhost:4000/products/feeding/sipper-cup-02.jpg"
+      ],
+      "description": "Double-wall insulated sipper cup that keeps drinks cool longer.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "63",
+      "name": "360° Training Cup",
+      "categoryId": 3,
+      "brandId": 6,
+      "price": 699,
+      "discountPrice": 599,
+      "stock": 29,
+      "rating": 4.8,
+      "reviewCount": 165,
+      "images": [
+        "http://localhost:4000/products/feeding/training-cup-01.jpg"
+      ],
+      "description": "360-degree drinking cup designed to help babies transition from bottles.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "64",
+      "name": "Silicone Feeding Bib",
+      "categoryId": 3,
+      "brandId": 4,
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 56,
+      "rating": 4.7,
+      "reviewCount": 126,
+      "images": [
+        "http://localhost:4000/products/feeding/silicone-bib-01.jpg"
+      ],
+      "description": "Food-grade silicone bib with food-catching pocket.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "65",
+      "name": "Silicone Fruit Feeder",
+      "categoryId": 3,
+      "brandId": 6,
+      "price": 349,
+      "discountPrice": 299,
+      "stock": 61,
+      "rating": 4.8,
+      "reviewCount": 208,
+      "images": [
+        "http://localhost:4000/products/feeding/fruit-feeder-01.jpg"
+      ],
+      "description": "Safe silicone fruit feeder for introducing fresh fruits to babies.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "66",
+      "name": "Milk Powder Dispenser",
+      "categoryId": 3,
+      "brandId": 6,
+      "price": 449,
+      "discountPrice": 389,
+      "stock": 46,
+      "rating": 4.6,
+      "reviewCount": 113,
+      "images": [
+        "http://localhost:4000/products/feeding/milk-dispenser-01.jpg"
+      ],
+      "description": "Portable milk powder dispenser with multiple storage compartments.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "67",
+      "name": "Formula Storage Container",
+      "categoryId": 3,
+      "brandId": 9,
+      "price": 499,
+      "discountPrice": 429,
+      "stock": 42,
+      "rating": 4.7,
+      "reviewCount": 141,
+      "images": [
+        "http://localhost:4000/products/feeding/formula-container-01.jpg"
+      ],
+      "description": "Compact formula storage container ideal for travel.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "68",
+      "name": "Baby Straw Cup",
+      "categoryId": 3,
+      "brandId": 8,
+      "price": 599,
+      "discountPrice": 529,
+      "stock": 37,
+      "rating": 4.8,
+      "reviewCount": 193,
+      "images": [
+        "http://localhost:4000/products/feeding/baby-straw-cup-01.jpg"
+      ],
+      "description": "Soft silicone straw cup designed for independent drinking.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "69",
+      "name": "Baby Lunch Box",
+      "categoryId": 3,
+      "brandId": 4,
+      "price": 699,
+      "discountPrice": 619,
+      "stock": 34,
+      "rating": 4.7,
+      "reviewCount": 154,
+      "images": [
+        "http://localhost:4000/products/feeding/baby-lunch-box-01.jpg"
+      ],
+      "description": "Leak-proof lunch box with divided compartments for balanced meals.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "70",
+      "name": "Baby Snack Container",
+      "categoryId": 3,
+      "brandId": 6,
+      "price": 399,
+      "discountPrice": 339,
+      "stock": 58,
+      "rating": 4.6,
+      "reviewCount": 117,
+      "images": [
+        "http://localhost:4000/products/feeding/baby-snack-container-01.jpg"
+      ],
+      "description": "Portable snack container with easy-open lid for toddlers.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "71",
+      "name": "Baby Food Masher",
+      "categoryId": 3,
+      "brandId": 4,
+      "price": 349,
+      "discountPrice": 299,
+      "stock": 52,
+      "rating": 4.6,
+      "reviewCount": 108,
+      "images": [
+        "http://localhost:4000/products/feeding/baby-food-masher-01.jpg"
+      ],
+      "description": "Food-grade baby food masher for preparing fresh fruits and vegetables.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "72",
+      "name": "Complete Baby Feeding Set",
+      "categoryId": 3,
+      "brandId": 5,
+      "price": 1499,
+      "discountPrice": 1299,
+      "stock": 24,
+      "rating": 4.9,
+      "reviewCount": 236,
+      "images": [
+        "http://localhost:4000/products/feeding/baby-feeding-set-01.jpg"
+      ],
+      "description": "Complete feeding set including plate, bowl, spoon, fork, cup and bib.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "73",
+      "name": "Baby Bottle Cleaner Liquid",
+      "categoryId": 3,
+      "brandId": 1,
+      "price": 299,
+      "discountPrice": 249,
+      "stock": 63,
+      "rating": 4.7,
+      "reviewCount": 184,
+      "images": [
+        "http://localhost:4000/products/feeding/baby-bottle-cleaner-01.jpg"
+      ],
+      "description": "Plant-based bottle cleaning liquid that removes milk residue safely.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "74",
+      "name": "Baby Bottle Cleaning Brush",
+      "categoryId": 3,
+      "brandId": 6,
+      "price": 249,
+      "discountPrice": 199,
+      "stock": 57,
+      "rating": 4.6,
+      "reviewCount": 142,
+      "images": [
+        "http://localhost:4000/products/feeding/baby-bottle-brush-01.jpg"
+      ],
+      "description": "360-degree bottle cleaning brush with soft nylon bristles.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "75",
+      "name": "Electric Baby Bottle Sterilizer",
+      "categoryId": 3,
+      "brandId": 8,
+      "price": 3499,
+      "discountPrice": 3099,
+      "stock": 16,
+      "rating": 4.9,
+      "reviewCount": 291,
+      "images": [
+        "http://localhost:4000/products/feeding/baby-sterilizer-01.jpg"
+      ],
+      "description": "Electric steam sterilizer that sterilizes baby bottles, nipples and accessories in minutes.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "76",
+      "name": "Newborn Baby Diapers Pack",
+      "categoryId": 4,
+      "brandId": 3,
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 48,
+      "rating": 4.8,
+      "reviewCount": 286,
+      "images": [
+        "http://localhost:4000/products/diapers/newborn-diapers-01.jpg"
+      ],
+      "description": "Ultra-soft newborn diapers with leak-lock protection for delicate skin.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "77",
+      "name": "Small Size Baby Diapers",
+      "categoryId": 4,
+      "brandId": 3,
+      "price": 449,
+      "discountPrice": 389,
+      "stock": 52,
+      "rating": 4.7,
+      "reviewCount": 241,
+      "images": [
+        "http://localhost:4000/products/diapers/small-diapers-01.jpg"
+      ],
+      "description": "Comfortable small-size diapers with breathable material.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "78",
+      "name": "Medium Size Baby Diapers",
+      "categoryId": 4,
+      "brandId": 3,
+      "price": 599,
+      "discountPrice": 529,
+      "stock": 45,
+      "rating": 4.8,
+      "reviewCount": 312,
+      "images": [
+        "http://localhost:4000/products/diapers/medium-diapers-01.jpg"
+      ],
+      "description": "Highly absorbent medium-size diapers for day and night protection.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "79",
+      "name": "Large Size Baby Diapers",
+      "categoryId": 4,
+      "brandId": 14,
+      "price": 649,
+      "discountPrice": 579,
+      "stock": 38,
+      "rating": 4.8,
+      "reviewCount": 267,
+      "images": [
+        "http://localhost:4000/products/diapers/large-diapers-01.jpg"
+      ],
+      "description": "Large-size diapers with soft elastic waistband for extra comfort.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "80",
+      "name": "XL Baby Diapers",
+      "categoryId": 4,
+      "brandId": 14,
+      "price": 699,
+      "discountPrice": 629,
+      "stock": 34,
+      "rating": 4.9,
+      "reviewCount": 229,
+      "images": [
+        "http://localhost:4000/products/diapers/xl-diapers-01.jpg"
+      ],
+      "description": "Extra-large diapers with advanced leak protection technology.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "81",
+      "name": "Pant Style Baby Diapers",
+      "categoryId": 4,
+      "brandId": 3,
+      "price": 799,
+      "discountPrice": 699,
+      "stock": 29,
+      "rating": 4.8,
+      "reviewCount": 183,
+      "images": [
+        "http://localhost:4000/products/diapers/pant-style-diapers-01.jpg"
+      ],
+      "description": "Easy pull-up diaper pants designed for active babies.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "82",
+      "name": "Overnight Protection Diapers",
+      "categoryId": 4,
+      "brandId": 14,
+      "price": 899,
+      "discountPrice": 799,
+      "stock": 27,
+      "rating": 4.9,
+      "reviewCount": 304,
+      "images": [
+        "http://localhost:4000/products/diapers/overnight-diapers-01.jpg"
+      ],
+      "description": "Overnight diapers with 12-hour leak protection.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "83",
+      "name": "Premium Soft Baby Diapers",
+      "categoryId": 4,
+      "brandId": 3,
+      "price": 999,
+      "discountPrice": 899,
+      "stock": 24,
+      "rating": 4.9,
+      "reviewCount": 198,
+      "images": [
+        "http://localhost:4000/products/diapers/premium-diapers-01.jpg"
+      ],
+      "description": "Premium ultra-soft diapers with cotton-like comfort.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "84",
+      "name": "Organic Cotton Baby Diapers",
+      "categoryId": 4,
+      "brandId": 12,
+      "price": 1099,
+      "discountPrice": 999,
+      "stock": 22,
+      "rating": 4.8,
+      "reviewCount": 156,
+      "images": [
+        "http://localhost:4000/products/diapers/organic-diapers-01.jpg"
+      ],
+      "description": "Organic cotton diapers free from harmful chemicals and fragrances.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "85",
+      "name": "Baby Swim Diapers",
+      "categoryId": 4,
+      "brandId": 14,
+      "price": 549,
+      "discountPrice": 479,
+      "stock": 31,
+      "rating": 4.7,
+      "reviewCount": 117,
+      "images": [
+        "http://localhost:4000/products/diapers/swim-diapers-01.jpg"
+      ],
+      "description": "Specially designed swim diapers for pool and beach use.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "86",
+      "name": "Premium Diaper Pants",
+      "categoryId": 4,
+      "brandId": 3,
+      "price": 749,
+      "discountPrice": 669,
+      "stock": 42,
+      "rating": 4.8,
+      "reviewCount": 216,
+      "images": [
+        "http://localhost:4000/products/diapers/diaper-pants-01.jpg"
+      ],
+      "description": "Premium diaper pants with 360° stretchable waistband for maximum comfort.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "87",
+      "name": "Comfort Fit Diaper Pants",
+      "categoryId": 4,
+      "brandId": 14,
+      "price": 799,
+      "discountPrice": 719,
+      "stock": 37,
+      "rating": 4.7,
+      "reviewCount": 188,
+      "images": [
+        "http://localhost:4000/products/diapers/diaper-pants-02.jpg"
+      ],
+      "description": "Comfort-fit diaper pants with superior absorbency for active babies.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "88",
+      "name": "Baby Diaper Combo Pack",
+      "categoryId": 4,
+      "brandId": 3,
+      "price": 1499,
+      "discountPrice": 1349,
+      "stock": 28,
+      "rating": 4.9,
+      "reviewCount": 276,
+      "images": [
+        "http://localhost:4000/products/diapers/diaper-combo-pack-01.jpg"
+      ],
+      "description": "Value combo pack containing multiple diaper sizes for growing babies.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "89",
+      "name": "Family Value Diaper Pack",
+      "categoryId": 4,
+      "brandId": 14,
+      "price": 1899,
+      "discountPrice": 1699,
+      "stock": 21,
+      "rating": 4.8,
+      "reviewCount": 254,
+      "images": [
+        "http://localhost:4000/products/diapers/diaper-value-pack-01.jpg"
+      ],
+      "description": "Large value pack designed for long-lasting daily use.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "90",
+      "name": "Baby Diaper Wipes",
+      "categoryId": 4,
+      "brandId": 1,
+      "price": 249,
+      "discountPrice": 199,
+      "stock": 73,
+      "rating": 4.7,
+      "reviewCount": 319,
+      "images": [
+        "http://localhost:4000/products/diapers/diaper-wipes-01.jpg"
+      ],
+      "description": "Soft baby wipes enriched with aloe vera and vitamin E.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "91",
+      "name": "Sensitive Skin Baby Wipes",
+      "categoryId": 4,
+      "brandId": 11,
+      "price": 299,
+      "discountPrice": 249,
+      "stock": 69,
+      "rating": 4.8,
+      "reviewCount": 284,
+      "images": [
+        "http://localhost:4000/products/diapers/diaper-wipes-02.jpg"
+      ],
+      "description": "Alcohol-free wipes specially designed for sensitive baby skin.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "92",
+      "name": "Moist Baby Wet Wipes",
+      "categoryId": 4,
+      "brandId": 1,
+      "price": 199,
+      "discountPrice": 169,
+      "stock": 85,
+      "rating": 4.6,
+      "reviewCount": 212,
+      "images": [
+        "http://localhost:4000/products/diapers/wet-wipes-01.jpg"
+      ],
+      "description": "Moisturizing wet wipes for gentle daily cleaning.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "93",
+      "name": "Fragrance Free Wet Wipes",
+      "categoryId": 4,
+      "brandId": 11,
+      "price": 229,
+      "discountPrice": 189,
+      "stock": 76,
+      "rating": 4.7,
+      "reviewCount": 198,
+      "images": [
+        "http://localhost:4000/products/diapers/wet-wipes-02.jpg"
+      ],
+      "description": "Fragrance-free baby wipes suitable for newborn babies.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "94",
+      "name": "Portable Baby Changing Mat",
+      "categoryId": 4,
+      "brandId": 6,
+      "price": 699,
+      "discountPrice": 599,
+      "stock": 31,
+      "rating": 4.8,
+      "reviewCount": 143,
+      "images": [
+        "http://localhost:4000/products/diapers/changing-mat-01.jpg"
+      ],
+      "description": "Foldable waterproof changing mat for travel and home use.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "95",
+      "name": "Soft Baby Changing Pad",
+      "categoryId": 4,
+      "brandId": 6,
+      "price": 999,
+      "discountPrice": 879,
+      "stock": 24,
+      "rating": 4.8,
+      "reviewCount": 161,
+      "images": [
+        "http://localhost:4000/products/diapers/changing-pad-01.jpg"
+      ],
+      "description": "Soft cushioned changing pad with waterproof surface.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "96",
+      "name": "Multi-Pocket Baby Diaper Bag",
+      "categoryId": 4,
+      "brandId": 6,
+      "price": 1499,
+      "discountPrice": 1299,
+      "stock": 22,
+      "rating": 4.8,
+      "reviewCount": 214,
+      "images": [
+        "http://localhost:4000/products/diapers/diaper-bag-01.jpg"
+      ],
+      "description": "Spacious diaper bag with insulated bottle pockets, waterproof compartments and comfortable shoulder straps.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "97",
+      "name": "Baby Diaper Disposal Bags",
+      "categoryId": 4,
+      "brandId": 6,
+      "price": 299,
+      "discountPrice": 249,
+      "stock": 67,
+      "rating": 4.6,
+      "reviewCount": 127,
+      "images": [
+        "http://localhost:4000/products/diapers/diaper-disposal-bag-01.jpg"
+      ],
+      "description": "Scented disposable bags for hygienic diaper disposal while travelling.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "98",
+      "name": "Baby Diaper Rash Cream",
+      "categoryId": 4,
+      "brandId": 1,
+      "price": 349,
+      "discountPrice": 299,
+      "stock": 54,
+      "rating": 4.9,
+      "reviewCount": 296,
+      "images": [
+        "http://localhost:4000/products/diapers/rash-cream-01.jpg"
+      ],
+      "description": "Gentle rash relief cream enriched with zinc oxide to soothe and protect baby's delicate skin.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "99",
+      "name": "Baby Talcum Powder",
+      "categoryId": 4,
+      "brandId": 1,
+      "price": 249,
+      "discountPrice": 199,
+      "stock": 72,
+      "rating": 4.7,
+      "reviewCount": 318,
+      "images": [
+        "http://localhost:4000/products/diapers/baby-powder-01.jpg"
+      ],
+      "description": "Mild baby powder that keeps skin fresh, dry and comfortable throughout the day.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "100",
+      "name": "Portable Baby Diaper Caddy",
+      "categoryId": 4,
+      "brandId": 6,
+      "price": 999,
+      "discountPrice": 849,
+      "stock": 28,
+      "rating": 4.8,
+      "reviewCount": 182,
+      "images": [
+        "http://localhost:4000/products/diapers/diaper-caddy-01.jpg"
+      ],
+      "description": "Portable organizer for storing diapers, wipes, creams, bottles and other baby essentials.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "101",
+      "name": "Gentle Baby Shampoo",
+      "categoryId": 5,
+      "brandId": 1,
+      "price": 299,
+      "discountPrice": 249,
+      "stock": 58,
+      "rating": 4.8,
+      "reviewCount": 324,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-shampoo-01.jpg"
+      ],
+      "description": "Tear-free baby shampoo enriched with natural ingredients for gentle cleansing.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "102",
+      "name": "Natural Baby Shampoo",
+      "categoryId": 5,
+      "brandId": 12,
+      "price": 349,
+      "discountPrice": 299,
+      "stock": 49,
+      "rating": 4.7,
+      "reviewCount": 211,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-shampoo-02.jpg"
+      ],
+      "description": "Natural baby shampoo made with plant-based ingredients and free from harsh chemicals.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "103",
+      "name": "Moisturizing Baby Soap",
+      "categoryId": 5,
+      "brandId": 2,
+      "price": 149,
+      "discountPrice": 129,
+      "stock": 72,
+      "rating": 4.8,
+      "reviewCount": 296,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-soap-01.jpg"
+      ],
+      "description": "Mild moisturizing soap specially formulated for baby's delicate skin.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "104",
+      "name": "Herbal Baby Soap",
+      "categoryId": 5,
+      "brandId": 2,
+      "price": 179,
+      "discountPrice": 149,
+      "stock": 64,
+      "rating": 4.7,
+      "reviewCount": 182,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-soap-02.jpg"
+      ],
+      "description": "Herbal baby soap enriched with aloe vera and olive oil.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "105",
+      "name": "Baby Nourishing Lotion",
+      "categoryId": 5,
+      "brandId": 1,
+      "price": 349,
+      "discountPrice": 299,
+      "stock": 56,
+      "rating": 4.9,
+      "reviewCount": 351,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-lotion-01.jpg"
+      ],
+      "description": "Deep moisturizing baby lotion for soft and healthy skin.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "106",
+      "name": "Daily Baby Body Lotion",
+      "categoryId": 5,
+      "brandId": 12,
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 47,
+      "rating": 4.8,
+      "reviewCount": 198,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-lotion-02.jpg"
+      ],
+      "description": "Daily moisturizing body lotion suitable for all skin types.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "107",
+      "name": "Baby Massage Oil",
+      "categoryId": 5,
+      "brandId": 1,
+      "price": 299,
+      "discountPrice": 259,
+      "stock": 53,
+      "rating": 4.9,
+      "reviewCount": 318,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-oil-01.jpg"
+      ],
+      "description": "Lightweight massage oil that nourishes and protects baby's skin.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "108",
+      "name": "Natural Baby Body Oil",
+      "categoryId": 5,
+      "brandId": 12,
+      "price": 349,
+      "discountPrice": 299,
+      "stock": 45,
+      "rating": 4.8,
+      "reviewCount": 174,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-oil-02.jpg"
+      ],
+      "description": "Natural body oil with coconut and almond extracts.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "109",
+      "name": "Baby Skin Moisturizer",
+      "categoryId": 5,
+      "brandId": 13,
+      "price": 499,
+      "discountPrice": 449,
+      "stock": 36,
+      "rating": 4.8,
+      "reviewCount": 226,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-moisturizer-01.jpg"
+      ],
+      "description": "Dermatologist-tested moisturizer for dry and sensitive skin.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "110",
+      "name": "Baby Soft Cream",
+      "categoryId": 5,
+      "brandId": 11,
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 41,
+      "rating": 4.7,
+      "reviewCount": 189,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-cream-01.jpg"
+      ],
+      "description": "Rich moisturizing cream that keeps baby's skin soft throughout the day.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "111",
+      "name": "Baby Face Cream",
+      "categoryId": 5,
+      "brandId": 13,
+      "price": 349,
+      "discountPrice": 299,
+      "stock": 48,
+      "rating": 4.8,
+      "reviewCount": 176,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-face-cream-01.jpg"
+      ],
+      "description": "Gentle face cream that keeps baby's facial skin soft, hydrated and protected.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "112",
+      "name": "Baby Mineral Sunscreen SPF 30",
+      "categoryId": 5,
+      "brandId": 12,
+      "price": 549,
+      "discountPrice": 479,
+      "stock": 34,
+      "rating": 4.7,
+      "reviewCount": 143,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-sunscreen-01.jpg"
+      ],
+      "description": "Mineral-based sunscreen specially formulated for baby's delicate skin.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "113",
+      "name": "Premium Baby Massage Oil",
+      "categoryId": 5,
+      "brandId": 2,
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 39,
+      "rating": 4.9,
+      "reviewCount": 284,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-massage-oil-01.jpg"
+      ],
+      "description": "Premium massage oil enriched with almond and olive oils for healthy skin.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "114",
+      "name": "Baby Hair Oil",
+      "categoryId": 5,
+      "brandId": 2,
+      "price": 299,
+      "discountPrice": 249,
+      "stock": 55,
+      "rating": 4.8,
+      "reviewCount": 238,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-hair-oil-01.jpg"
+      ],
+      "description": "Nourishing baby hair oil that supports healthy hair growth and scalp care.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "115",
+      "name": "Soft Baby Hair Brush",
+      "categoryId": 5,
+      "brandId": 4,
+      "price": 249,
+      "discountPrice": 199,
+      "stock": 61,
+      "rating": 4.7,
+      "reviewCount": 128,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-hair-brush-01.jpg"
+      ],
+      "description": "Extra-soft bristle brush designed for newborns and infants.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "116",
+      "name": "Baby Comb",
+      "categoryId": 5,
+      "brandId": 4,
+      "price": 149,
+      "discountPrice": 119,
+      "stock": 73,
+      "rating": 4.6,
+      "reviewCount": 101,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-comb-01.jpg"
+      ],
+      "description": "Rounded-edge baby comb that gently detangles delicate hair.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "117",
+      "name": "Baby Nail Cutter",
+      "categoryId": 5,
+      "brandId": 6,
+      "price": 299,
+      "discountPrice": 249,
+      "stock": 47,
+      "rating": 4.8,
+      "reviewCount": 182,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-nail-cutter-01.jpg"
+      ],
+      "description": "Safe nail cutter with rounded edges specially designed for babies.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "118",
+      "name": "Baby Grooming Kit",
+      "categoryId": 5,
+      "brandId": 6,
+      "price": 899,
+      "discountPrice": 799,
+      "stock": 26,
+      "rating": 4.9,
+      "reviewCount": 224,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-grooming-kit-01.jpg"
+      ],
+      "description": "Complete grooming kit including comb, brush, nail cutter, scissors and file.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "119",
+      "name": "Baby Toothbrush",
+      "categoryId": 5,
+      "brandId": 5,
+      "price": 199,
+      "discountPrice": 169,
+      "stock": 69,
+      "rating": 4.7,
+      "reviewCount": 147,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-toothbrush-01.jpg"
+      ],
+      "description": "Soft silicone toothbrush for babies learning their oral hygiene routine.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "120",
+      "name": "Baby Toothpaste",
+      "categoryId": 5,
+      "brandId": 5,
+      "price": 249,
+      "discountPrice": 199,
+      "stock": 63,
+      "rating": 4.8,
+      "reviewCount": 171,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-toothpaste-01.jpg"
+      ],
+      "description": "Fluoride-free baby toothpaste with a mild fruit flavor, safe if swallowed.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "121",
+      "name": "Baby Cotton Buds",
+      "categoryId": 5,
+      "brandId": 1,
+      "price": 149,
+      "discountPrice": 119,
+      "stock": 78,
+      "rating": 4.7,
+      "reviewCount": 163,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-cotton-buds-01.jpg"
+      ],
+      "description": "Soft safety cotton buds specially designed for cleaning baby's delicate ears and skin.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "122",
+      "name": "Baby Cotton Pads",
+      "categoryId": 5,
+      "brandId": 13,
+      "price": 199,
+      "discountPrice": 169,
+      "stock": 69,
+      "rating": 4.8,
+      "reviewCount": 147,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-cotton-pads-01.jpg"
+      ],
+      "description": "Ultra-soft cotton pads suitable for daily baby skin care and cleaning.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "123",
+      "name": "Digital Baby Thermometer",
+      "categoryId": 5,
+      "brandId": 5,
+      "price": 899,
+      "discountPrice": 799,
+      "stock": 34,
+      "rating": 4.9,
+      "reviewCount": 231,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-thermometer-01.jpg"
+      ],
+      "description": "Fast and accurate digital thermometer with LCD display for measuring baby's temperature.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "124",
+      "name": "Baby Nasal Aspirator",
+      "categoryId": 5,
+      "brandId": 9,
+      "price": 699,
+      "discountPrice": 599,
+      "stock": 41,
+      "rating": 4.8,
+      "reviewCount": 176,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-nasal-aspirator-01.jpg"
+      ],
+      "description": "Soft silicone nasal aspirator designed to gently clear baby's blocked nose.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "125",
+      "name": "Complete Baby Health Care Kit",
+      "categoryId": 5,
+      "brandId": 6,
+      "price": 1499,
+      "discountPrice": 1299,
+      "stock": 22,
+      "rating": 4.9,
+      "reviewCount": 286,
+      "images": [
+        "http://localhost:4000/products/baby-care/baby-health-kit-01.jpg"
+      ],
+      "description": "Complete baby health care kit including thermometer, nail cutter, brush, comb, medicine dropper and grooming essentials.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "126",
+      "name": "Foldable Baby Bathtub",
+      "categoryId": 6,
+      "brandId": 6,
+      "price": 2499,
+      "discountPrice": 2199,
+      "stock": 18,
+      "rating": 4.9,
+      "reviewCount": 186,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bathtub-01.jpg"
+      ],
+      "description": "Foldable anti-slip baby bathtub with drain plug for easy bathing.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "127",
+      "name": "Premium Baby Bathtub",
+      "categoryId": 6,
+      "brandId": 14,
+      "price": 2999,
+      "discountPrice": 2699,
+      "stock": 14,
+      "rating": 4.9,
+      "reviewCount": 174,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bathtub-02.jpg"
+      ],
+      "description": "Premium bathtub with ergonomic design and anti-slip base.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "128",
+      "name": "Baby Bath Seat",
+      "categoryId": 6,
+      "brandId": 7,
+      "price": 1499,
+      "discountPrice": 1299,
+      "stock": 24,
+      "rating": 4.8,
+      "reviewCount": 142,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bath-seat-01.jpg"
+      ],
+      "description": "Comfortable bath seat that supports babies while bathing.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "129",
+      "name": "Baby Bath Support",
+      "categoryId": 6,
+      "brandId": 7,
+      "price": 999,
+      "discountPrice": 879,
+      "stock": 29,
+      "rating": 4.7,
+      "reviewCount": 131,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bath-support-01.jpg"
+      ],
+      "description": "Soft mesh bath support suitable for newborn babies.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "130",
+      "name": "Floating Bath Toy Set",
+      "categoryId": 6,
+      "brandId": 10,
+      "price": 599,
+      "discountPrice": 529,
+      "stock": 48,
+      "rating": 4.8,
+      "reviewCount": 201,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bath-toy-set-01.jpg"
+      ],
+      "description": "Colorful floating bath toy set that makes bath time fun.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "131",
+      "name": "Natural Bath Sponge",
+      "categoryId": 6,
+      "brandId": 2,
+      "price": 299,
+      "discountPrice": 249,
+      "stock": 56,
+      "rating": 4.6,
+      "reviewCount": 118,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bath-sponge-01.jpg"
+      ],
+      "description": "Ultra-soft bath sponge designed for baby's sensitive skin.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "132",
+      "name": "Cotton Baby Bath Towel",
+      "categoryId": 6,
+      "brandId": 6,
+      "price": 699,
+      "discountPrice": 599,
+      "stock": 44,
+      "rating": 4.8,
+      "reviewCount": 192,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bath-towel-01.jpg"
+      ],
+      "description": "Highly absorbent cotton towel for drying babies after bath.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "133",
+      "name": "Hooded Baby Towel",
+      "categoryId": 6,
+      "brandId": 6,
+      "price": 899,
+      "discountPrice": 799,
+      "stock": 37,
+      "rating": 4.9,
+      "reviewCount": 207,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-hooded-towel-01.jpg"
+      ],
+      "description": "Soft hooded towel to keep babies warm after bath.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "134",
+      "name": "Baby Wash Cloth Set",
+      "categoryId": 6,
+      "brandId": 14,
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 63,
+      "rating": 4.7,
+      "reviewCount": 123,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-wash-cloth-01.jpg"
+      ],
+      "description": "Pack of soft wash cloths suitable for everyday bathing.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "135",
+      "name": "Baby Bath Robe",
+      "categoryId": 6,
+      "brandId": 14,
+      "price": 1099,
+      "discountPrice": 949,
+      "stock": 27,
+      "rating": 4.8,
+      "reviewCount": 167,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bathrobe-01.jpg"
+      ],
+      "description": "Comfortable hooded bath robe made with premium cotton fabric.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "136",
+      "name": "Baby Rinse Cup",
+      "categoryId": 6,
+      "brandId": 4,
+      "price": 349,
+      "discountPrice": 299,
+      "stock": 52,
+      "rating": 4.7,
+      "reviewCount": 138,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-rinse-cup-01.jpg"
+      ],
+      "description": "Easy-grip rinse cup designed to gently wash baby's hair without causing discomfort.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "137",
+      "name": "Baby Shower Cap",
+      "categoryId": 6,
+      "brandId": 6,
+      "price": 299,
+      "discountPrice": 249,
+      "stock": 58,
+      "rating": 4.6,
+      "reviewCount": 121,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-shower-cap-01.jpg"
+      ],
+      "description": "Adjustable shower cap that prevents shampoo from entering baby's eyes.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "138",
+      "name": "Anti-Slip Baby Bath Mat",
+      "categoryId": 6,
+      "brandId": 7,
+      "price": 699,
+      "discountPrice": 599,
+      "stock": 39,
+      "rating": 4.8,
+      "reviewCount": 174,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bath-mat-01.jpg"
+      ],
+      "description": "Soft anti-slip bath mat that provides extra safety during bath time.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "139",
+      "name": "Soft Baby Bath Brush",
+      "categoryId": 6,
+      "brandId": 2,
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 45,
+      "rating": 4.7,
+      "reviewCount": 152,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bath-brush-01.jpg"
+      ],
+      "description": "Soft silicone bath brush that gently cleans baby's delicate skin.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "140",
+      "name": "Digital Baby Bath Thermometer",
+      "categoryId": 6,
+      "brandId": 5,
+      "price": 899,
+      "discountPrice": 799,
+      "stock": 26,
+      "rating": 4.9,
+      "reviewCount": 214,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bath-thermometer-01.jpg"
+      ],
+      "description": "Digital bath thermometer for checking safe water temperature before bathing.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "141",
+      "name": "Gentle Baby Bubble Bath",
+      "categoryId": 6,
+      "brandId": 1,
+      "price": 449,
+      "discountPrice": 389,
+      "stock": 47,
+      "rating": 4.8,
+      "reviewCount": 198,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bubble-bath-01.jpg"
+      ],
+      "description": "Tear-free bubble bath that gently cleanses and moisturizes baby's skin.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "142",
+      "name": "Baby Moisturizing Body Wash",
+      "categoryId": 6,
+      "brandId": 2,
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 53,
+      "rating": 4.8,
+      "reviewCount": 236,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-body-wash-01.jpg"
+      ],
+      "description": "Soap-free moisturizing body wash suitable for newborns and infants.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "143",
+      "name": "Baby Shampoo Rinse Cup",
+      "categoryId": 6,
+      "brandId": 6,
+      "price": 299,
+      "discountPrice": 249,
+      "stock": 49,
+      "rating": 4.6,
+      "reviewCount": 113,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-shampoo-rinse-cup-01.jpg"
+      ],
+      "description": "Special rinse cup with curved edge for easy hair washing.",
+      "featured": false,
+      "newArrival": true
+    },
+    {
+      "id": "144",
+      "name": "Premium Baby Towel Set",
+      "categoryId": 6,
+      "brandId": 14,
+      "price": 1199,
+      "discountPrice": 1049,
+      "stock": 29,
+      "rating": 4.9,
+      "reviewCount": 187,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-towel-set-01.jpg"
+      ],
+      "description": "Premium towel set including bath towel, hand towel and wash cloth.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "145",
+      "name": "Baby Bath Organizer",
+      "categoryId": 6,
+      "brandId": 6,
+      "price": 799,
+      "discountPrice": 699,
+      "stock": 33,
+      "rating": 4.8,
+      "reviewCount": 146,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bath-organizer-01.jpg"
+      ],
+      "description": "Water-resistant organizer for storing bath toys, shampoo and bath accessories.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "146",
+      "name": "Complete Baby Bath Kit",
+      "categoryId": 6,
+      "brandId": 6,
+      "price": 1799,
+      "discountPrice": 1599,
+      "stock": 24,
+      "rating": 4.9,
+      "reviewCount": 218,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bath-kit-01.jpg"
+      ],
+      "description": "Complete bath kit including shampoo, body wash, towel, sponge, brush and rinse cup.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "147",
+      "name": "Bath Toy Storage Net",
+      "categoryId": 6,
+      "brandId": 6,
+      "price": 499,
+      "discountPrice": 429,
+      "stock": 46,
+      "rating": 4.7,
+      "reviewCount": 139,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-toy-storage-net-01.jpg"
+      ],
+      "description": "Quick-drying mesh storage net for organizing baby bath toys and accessories.",
+      "featured": false,
+      "newArrival": false
+    },
+    {
+      "id": "148",
+      "name": "Premium Baby Bath Gift Set",
+      "categoryId": 6,
+      "brandId": 14,
+      "price": 2299,
+      "discountPrice": 1999,
+      "stock": 18,
+      "rating": 4.9,
+      "reviewCount": 184,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bath-gift-set-01.jpg"
+      ],
+      "description": "Premium gift set containing baby bath essentials, towel, shampoo, lotion and accessories.",
+      "featured": true,
+      "newArrival": false
+    },
+    {
+      "id": "149",
+      "name": "Baby Skincare Bath Kit",
+      "categoryId": 6,
+      "brandId": 2,
+      "price": 1999,
+      "discountPrice": 1799,
+      "stock": 21,
+      "rating": 4.8,
+      "reviewCount": 171,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-skincare-bath-kit-01.jpg"
+      ],
+      "description": "Complete skincare bath kit including baby soap, lotion, oil, shampoo and moisturizer.",
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "150",
+      "name": "Complete Baby Bath Combo Pack",
+      "categoryId": 6,
+      "brandId": 1,
+      "price": 2499,
+      "discountPrice": 2199,
+      "stock": 16,
+      "rating": 5,
+      "reviewCount": 302,
+      "images": [
+        "http://localhost:4000/products/bath-essentials/baby-bath-combo-01.jpg"
+      ],
+      "description": "All-in-one premium baby bath combo including bathtub, towel, shampoo, body wash, toys and complete bathing essentials.",
+      "featured": true,
+      "newArrival": true
+    }
+  ],
+  "banners": [
+    {
+      "id": "1",
+      "title": "Everything Your Baby Needs",
+      "subtitle": "Up to 50% OFF",
+      "image": "http://localhost:4000/banners/banner-1.jpg",
+      "buttonText": "Shop Now"
+    },
+    {
+      "id": "2",
+      "title": "Safe Baby Care Products",
+      "subtitle": "Trusted Brands",
+      "image": "http://localhost:4000/banners/banner-2.jpg",
+      "buttonText": "Explore"
+    },
+    {
+      "id": "3",
+      "title": "Premium Baby Collection",
+      "subtitle": "Best Deals Everyday",
+      "image": "http://localhost:4000/banners/banner-3.jpg",
+      "buttonText": "Buy Now"
+    }
+  ],
+  "brands": [
+    {
+      "id": "1",
+      "name": "Johnson's Baby",
+      "logo": "http://localhost:4000/brands/johnsons.png"
+    },
+    {
+      "id": "2",
+      "name": "Pampers",
+      "logo": "http://localhost:4000/brands/pampers.png"
+    },
+    {
+      "id": "3",
+      "name": "Himalaya Baby",
+      "logo": "http://localhost:4000/brands/himalaya.png"
+    },
+    {
+      "id": "4",
+      "name": "Mee Mee",
+      "logo": "http://localhost:4000/brands/meemee.png"
+    },
+    {
+      "id": "5",
+      "name": "Chicco",
+      "logo": "http://localhost:4000/brands/chicco.png"
+    },
+    {
+      "id": "6",
+      "name": "Pigeon",
+      "logo": "http://localhost:4000/brands/pigeon.png"
+    },
+    {
+      "id": "7",
+      "name": "Sebamed",
+      "logo": "http://localhost:4000/brands/sebamed.png"
+    },
+    {
+      "id": "8",
+      "name": "Mamaearth",
+      "logo": "http://localhost:4000/brands/mamaearth.png"
+    },
+    {
+      "id": "9",
+      "name": "LuvLap",
+      "logo": "http://localhost:4000/brands/luvlap.png"
+    },
+    {
+      "id": "10",
+      "name": "Babyhug",
+      "logo": "http://localhost:4000/brands/babyhug.png"
+    },
+    {
+      "id": "11",
+      "name": "Aveeno Baby",
+      "logo": "http://localhost:4000/brands/aveeno.png"
+    },
+    {
+      "id": "12",
+      "name": "Cetaphil Baby",
+      "logo": "http://localhost:4000/brands/cetaphil.png"
+    },
+    {
+      "id": "13",
+      "name": "Philips Avent",
+      "logo": "http://localhost:4000/brands/avent.png"
+    },
+    {
+      "id": "14",
+      "name": "Huggies",
+      "logo": "http://localhost:4000/brands/huggies.png"
+    },
+    {
+      "id": "15",
+      "name": "Farlin",
+      "logo": "http://localhost:4000/brands/farlin.png"
+    }
+  ],
+  "cart": [
+    {
+      "productId": "2",
+      "name": "Soft Teddy Bear",
+      "image": "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
+      "price": 699,
+      "discountPrice": 599,
+      "stock": 32,
+      "quantity": 1,
+      "id": "W0oEloqpDwM"
+    },
+    {
+      "userId": "1",
+      "productId": "2",
+      "name": "Soft Teddy Bear",
+      "category": "Baby Toys",
+      "brand": "Babyhug",
+      "image": "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
+      "price": 599,
+      "originalPrice": 699,
+      "quantity": 1,
+      "stock": 32,
+      "id": "rAJP9265QG4"
+    },
+    {
+      "userId": "1",
+      "productId": "24",
+      "name": "Kids Learning Laptop",
+      "category": "Baby Toys",
+      "brand": "LuvLap",
+      "image": "http://localhost:4000/products/baby-toys/toy-24-1.jpg",
+      "price": 1399,
+      "originalPrice": 1599,
+      "quantity": 1,
+      "stock": 19,
+      "id": "75C2tOldBMw"
+    },
+    {
+      "userId": "fnQRm7ZnSHI",
+      "productId": "2",
+      "name": "Soft Teddy Bear",
+      "category": "Baby Toys",
+      "brand": "Babyhug",
+      "image": "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
+      "price": 599,
+      "originalPrice": 699,
+      "quantity": 1,
+      "stock": 32,
+      "id": "OsTB6AOVL4k"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "ICvLW-mJT-A",
+      "name": "Soft Teddy Bear",
+      "categoryId": 1,
+      "brandId": 10,
+      "price": 599,
+      "discountPrice": 599,
+      "stock": 32,
+      "rating": 4.8,
+      "reviewCount": 156,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-02-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-02-3.jpg"
+      ],
+      "description": "Soft and cuddly teddy bear made with baby-safe plush fabric.",
+      "featured": true,
+      "newArrival": false,
+      "category": "Baby Toys",
+      "brand": "Babyhug",
+      "originalPrice": 699,
+      "discount": 14,
+      "inStock": true,
+      "image": "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "j9yzMoOeg1U",
+      "name": "Baby Rattle Toy",
+      "categoryId": 1,
+      "brandId": 5,
+      "price": 349,
+      "discountPrice": 349,
+      "stock": 45,
+      "rating": 4.7,
+      "reviewCount": 214,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-01-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-01-3.jpg"
+      ],
+      "description": "Colorful baby rattle designed to improve sensory development and hand-eye coordination.",
+      "featured": true,
+      "newArrival": false,
+      "category": "Baby Toys",
+      "brand": "Chicco",
+      "originalPrice": 399,
+      "discount": 13,
+      "saving": 50,
+      "inStock": true,
+      "image": "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "kFB7jyi4ZGM",
+      "name": "Baby Rattle Toy",
+      "categoryId": 1,
+      "brandId": 5,
+      "price": 349,
+      "discountPrice": 349,
+      "stock": 45,
+      "rating": 4.7,
+      "reviewCount": 214,
+      "images": [
+        "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+        "http://localhost:4000/products/baby-toys/toy-01-2.jpg",
+        "http://localhost:4000/products/baby-toys/toy-01-3.jpg"
+      ],
+      "description": "Colorful baby rattle designed to improve sensory development and hand-eye coordination.",
+      "featured": true,
+      "newArrival": false,
+      "category": "Baby Toys",
+      "brand": "Chicco",
+      "originalPrice": 399,
+      "discount": 13,
+      "saving": 50,
+      "inStock": true,
+      "image": "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+      "quantity": 1
+    },
+    {
+      "userId": "fnQRm7ZnSHI",
+      "productId": "1",
+      "name": "Baby Rattle Toy",
+      "category": "Baby Toys",
+      "brand": "Chicco",
+      "image": "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+      "price": 349,
+      "originalPrice": 399,
+      "stock": 45,
+      "rating": 4.7,
+      "reviewCount": 214,
+      "quantity": 1,
+      "id": "9Wq_eqLleWw"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD1001",
+      "userId": "2",
+      "customerName": "Rahul Sharma",
+      "phone": "9876543210",
+      "email": "rahul@gmail.com",
+      "address": "Flat 203, Kukatpally, Hyderabad",
+      "products": [
+        {
+          "id": "1",
+          "name": "Johnson's Baby Lotion",
+          "price": 299,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/johnsons-baby-lotion.png"
+        },
+        {
+          "id": "15",
+          "name": "Baby Wipes",
+          "price": 199,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-wipes.png"
+        }
+      ],
+      "total": 797,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-01"
+    },
+    {
+      "id": "ORD1002",
+      "userId": "3",
+      "customerName": "Priya Reddy",
+      "phone": "9876543211",
+      "email": "priya@gmail.com",
+      "address": "Madhapur, Hyderabad",
+      "products": [
+        {
+          "id": "5",
+          "name": "Pampers Diapers",
+          "price": 999,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/pampers-diapers.png"
+        }
+      ],
+      "total": 999,
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Processing",
+      "orderDate": "2026-08-02"
+    },
+    {
+      "id": "ORD1003",
+      "userId": "4",
+      "customerName": "Arjun Kumar",
+      "phone": "9876543212",
+      "email": "arjun@gmail.com",
+      "address": "Whitefield, Bangalore",
+      "products": [
+        {
+          "id": "8",
+          "name": "Baby Feeding Bottle",
+          "price": 450,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/feeding-bottle.png"
+        }
+      ],
+      "total": 900,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending",
+      "orderStatus": "Shipped",
+      "orderDate": "2026-08-03"
+    },
+    {
+      "id": "ORD1004",
+      "userId": "5",
+      "customerName": "Sneha Patel",
+      "phone": "9876543213",
+      "email": "sneha@gmail.com",
+      "address": "Ameerpet, Hyderabad",
+      "products": [
+        {
+          "id": "20",
+          "name": "Baby Powder",
+          "price": 180,
+          "quantity": 3,
+          "image": "http://localhost:4000/products/baby-powder.png"
+        }
+      ],
+      "total": 540,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-03"
+    },
+    {
+      "id": "ORD1005",
+      "userId": "6",
+      "customerName": "Vikram Singh",
+      "phone": "9876543214",
+      "email": "vikram@gmail.com",
+      "address": "Gachibowli, Hyderabad",
+      "products": [
+        {
+          "id": "11",
+          "name": "Baby Shampoo",
+          "price": 320,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-shampoo.png"
+        },
+        {
+          "id": "12",
+          "name": "Baby Soap",
+          "price": 140,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/baby-soap.png"
+        }
+      ],
+      "total": 600,
+      "paymentMethod": "Debit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Pending",
+      "orderDate": "2026-08-04"
+    },
+    {
+      "id": "ORD1006",
+      "userId": "7",
+      "customerName": "Neha Gupta",
+      "phone": "9876543215",
+      "email": "neha@gmail.com",
+      "address": "Anna Nagar, Chennai",
+      "products": [
+        {
+          "id": "25",
+          "name": "Baby Blanket",
+          "price": 650,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-blanket.png"
+        }
+      ],
+      "total": 650,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "orderStatus": "Cancelled",
+      "orderDate": "2026-08-04"
+    },
+    {
+      "id": "ORD1007",
+      "userId": "8",
+      "customerName": "Rohan Mehta",
+      "phone": "9876543216",
+      "email": "rohan@gmail.com",
+      "address": "Andheri, Mumbai",
+      "products": [
+        {
+          "id": "30",
+          "name": "Baby Stroller",
+          "price": 4999,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-stroller.png"
+        }
+      ],
+      "total": 4999,
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-05"
+    },
+    {
+      "id": "ORD1008",
+      "userId": "9",
+      "customerName": "Pooja Verma",
+      "phone": "9876543217",
+      "email": "pooja@gmail.com",
+      "address": "Pune, Maharashtra",
+      "products": [
+        {
+          "id": "18",
+          "name": "Baby Toy Set",
+          "price": 899,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/baby-toy-set.png"
+        }
+      ],
+      "total": 1798,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "orderStatus": "Processing",
+      "orderDate": "2026-08-05"
+    },
+    {
+      "id": "ORD1009",
+      "userId": "10",
+      "customerName": "Kiran Rao",
+      "phone": "9876543218",
+      "email": "kiran@gmail.com",
+      "address": "Vizag, Andhra Pradesh",
+      "products": [
+        {
+          "id": "7",
+          "name": "Baby Oil",
+          "price": 250,
+          "quantity": 4,
+          "image": "http://localhost:4000/products/baby-oil.png"
+        }
+      ],
+      "total": 1000,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending",
+      "orderStatus": "Shipped",
+      "orderDate": "2026-08-05"
+    },
+    {
+      "id": "ORD1010",
+      "userId": "11",
+      "customerName": "Anjali Sharma",
+      "phone": "9876543219",
+      "email": "anjali@gmail.com",
+      "address": "Noida, Uttar Pradesh",
+      "products": [
+        {
+          "id": "40",
+          "name": "Baby Walker",
+          "price": 2999,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-walker.png"
+        }
+      ],
+      "total": 2999,
+      "paymentMethod": "Debit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-05"
+    },
+    {
+      "id": "ORD1011",
+      "userId": "12",
+      "customerName": "Meera Nair",
+      "phone": "9876543220",
+      "email": "meera@gmail.com",
+      "address": "Kochi, Kerala",
+      "products": [
+        {
+          "id": "21",
+          "name": "Baby Bath Tub",
+          "price": 1299,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-bath-tub.png"
+        },
+        {
+          "id": "13",
+          "name": "Baby Towel",
+          "price": 399,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/baby-towel.png"
+        }
+      ],
+      "total": 2097,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-06"
+    },
+    {
+      "id": "ORD1012",
+      "userId": "13",
+      "customerName": "Amit Verma",
+      "phone": "9876543221",
+      "email": "amit@gmail.com",
+      "address": "Lucknow, Uttar Pradesh",
+      "products": [
+        {
+          "id": "32",
+          "name": "Baby Cradle",
+          "price": 7499,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-cradle.png"
+        }
+      ],
+      "total": 7499,
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Processing",
+      "orderDate": "2026-08-06"
+    },
+    {
+      "id": "ORD1013",
+      "userId": "14",
+      "customerName": "Swathi Rao",
+      "phone": "9876543222",
+      "email": "swathi@gmail.com",
+      "address": "Mysore, Karnataka",
+      "products": [
+        {
+          "id": "17",
+          "name": "Baby Bib Set",
+          "price": 299,
+          "quantity": 3,
+          "image": "http://localhost:4000/products/baby-bib.png"
+        }
+      ],
+      "total": 897,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending",
+      "orderStatus": "Pending",
+      "orderDate": "2026-08-06"
+    },
+    {
+      "id": "ORD1014",
+      "userId": "15",
+      "customerName": "Deepak Kumar",
+      "phone": "9876543223",
+      "email": "deepak@gmail.com",
+      "address": "Patna, Bihar",
+      "products": [
+        {
+          "id": "9",
+          "name": "Baby Feeding Spoon",
+          "price": 199,
+          "quantity": 4,
+          "image": "http://localhost:4000/products/feeding-spoon.png"
+        },
+        {
+          "id": "10",
+          "name": "Baby Bowl",
+          "price": 249,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/baby-bowl.png"
+        }
+      ],
+      "total": 1294,
+      "paymentMethod": "Debit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Shipped",
+      "orderDate": "2026-08-07"
+    },
+    {
+      "id": "ORD1015",
+      "userId": "16",
+      "customerName": "Kavya Reddy",
+      "phone": "9876543224",
+      "email": "kavya@gmail.com",
+      "address": "Warangal, Telangana",
+      "products": [
+        {
+          "id": "28",
+          "name": "Baby Carrier",
+          "price": 2399,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-carrier.png"
+        }
+      ],
+      "total": 2399,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-07"
+    },
+    {
+      "id": "ORD1016",
+      "userId": "17",
+      "customerName": "Harish Patel",
+      "phone": "9876543225",
+      "email": "harish@gmail.com",
+      "address": "Ahmedabad, Gujarat",
+      "products": [
+        {
+          "id": "23",
+          "name": "Baby Pillow",
+          "price": 499,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/baby-pillow.png"
+        },
+        {
+          "id": "24",
+          "name": "Baby Mattress",
+          "price": 1899,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-mattress.png"
+        }
+      ],
+      "total": 2897,
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Processing",
+      "orderDate": "2026-08-07"
+    },
+    {
+      "id": "ORD1017",
+      "userId": "18",
+      "customerName": "Nisha Singh",
+      "phone": "9876543226",
+      "email": "nisha@gmail.com",
+      "address": "Jaipur, Rajasthan",
+      "products": [
+        {
+          "id": "6",
+          "name": "Baby Moisturizer",
+          "price": 350,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/baby-moisturizer.png"
+        }
+      ],
+      "total": 700,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending",
+      "orderStatus": "Cancelled",
+      "orderDate": "2026-08-08"
+    },
+    {
+      "id": "ORD1018",
+      "userId": "19",
+      "customerName": "Suresh Babu",
+      "phone": "9876543227",
+      "email": "suresh@gmail.com",
+      "address": "Vijayawada, Andhra Pradesh",
+      "products": [
+        {
+          "id": "35",
+          "name": "Baby Play Gym",
+          "price": 3299,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/play-gym.png"
+        }
+      ],
+      "total": 3299,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-08"
+    },
+    {
+      "id": "ORD1019",
+      "userId": "20",
+      "customerName": "Lavanya Devi",
+      "phone": "9876543228",
+      "email": "lavanya@gmail.com",
+      "address": "Coimbatore, Tamil Nadu",
+      "products": [
+        {
+          "id": "36",
+          "name": "Baby High Chair",
+          "price": 5499,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/high-chair.png"
+        }
+      ],
+      "total": 5499,
+      "paymentMethod": "Debit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Shipped",
+      "orderDate": "2026-08-08"
+    },
+    {
+      "id": "ORD1020",
+      "userId": "21",
+      "customerName": "Ritika Kapoor",
+      "phone": "9876543229",
+      "email": "ritika@gmail.com",
+      "address": "Delhi",
+      "products": [
+        {
+          "id": "41",
+          "name": "Baby Safety Gate",
+          "price": 2499,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/safety-gate.png"
+        },
+        {
+          "id": "18",
+          "name": "Baby Toy Set",
+          "price": 899,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-toy-set.png"
+        }
+      ],
+      "total": 3398,
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-09"
+    },
+    {
+      "id": "ORD1021",
+      "userId": "22",
+      "customerName": "Manoj Kumar",
+      "phone": "9876543230",
+      "email": "manoj@gmail.com",
+      "address": "Banjara Hills, Hyderabad",
+      "products": [
+        {
+          "id": "3",
+          "name": "Johnson's Baby Shampoo",
+          "price": 325,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/johnsons-baby-shampoo.png"
+        },
+        {
+          "id": "7",
+          "name": "Baby Oil",
+          "price": 250,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-oil.png"
+        }
+      ],
+      "total": 900,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-09"
+    },
+    {
+      "id": "ORD1022",
+      "userId": "23",
+      "customerName": "Divya Sharma",
+      "phone": "9876543231",
+      "email": "divya@gmail.com",
+      "address": "Indiranagar, Bangalore",
+      "products": [
+        {
+          "id": "42",
+          "name": "Baby Car Seat",
+          "price": 6999,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-car-seat.png"
+        }
+      ],
+      "total": 6999,
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Processing",
+      "orderDate": "2026-08-10"
+    },
+    {
+      "id": "ORD1023",
+      "userId": "24",
+      "customerName": "Sai Kiran",
+      "phone": "9876543232",
+      "email": "saikiran@gmail.com",
+      "address": "Nellore, Andhra Pradesh",
+      "products": [
+        {
+          "id": "5",
+          "name": "Pampers Diapers",
+          "price": 999,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/pampers-diapers.png"
+        }
+      ],
+      "total": 1998,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending",
+      "orderStatus": "Pending",
+      "orderDate": "2026-08-10"
+    },
+    {
+      "id": "ORD1024",
+      "userId": "25",
+      "customerName": "Anusha Reddy",
+      "phone": "9876543233",
+      "email": "anusha@gmail.com",
+      "address": "Miyapur, Hyderabad",
+      "products": [
+        {
+          "id": "11",
+          "name": "Baby Shampoo",
+          "price": 320,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/baby-shampoo.png"
+        },
+        {
+          "id": "20",
+          "name": "Baby Powder",
+          "price": 180,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/baby-powder.png"
+        }
+      ],
+      "total": 1000,
+      "paymentMethod": "Debit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Shipped",
+      "orderDate": "2026-08-10"
+    },
+    {
+      "id": "ORD1025",
+      "userId": "26",
+      "customerName": "Rajesh Gupta",
+      "phone": "9876543234",
+      "email": "rajesh@gmail.com",
+      "address": "Nagpur, Maharashtra",
+      "products": [
+        {
+          "id": "30",
+          "name": "Baby Stroller",
+          "price": 4999,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-stroller.png"
+        }
+      ],
+      "total": 4999,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-11"
+    },
+    {
+      "id": "ORD1026",
+      "userId": "27",
+      "customerName": "Bhavana Rao",
+      "phone": "9876543235",
+      "email": "bhavana@gmail.com",
+      "address": "Visakhapatnam, Andhra Pradesh",
+      "products": [
+        {
+          "id": "18",
+          "name": "Baby Toy Set",
+          "price": 899,
+          "quantity": 3,
+          "image": "http://localhost:4000/products/baby-toy-set.png"
+        }
+      ],
+      "total": 2697,
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-11"
+    },
+    {
+      "id": "ORD1027",
+      "userId": "28",
+      "customerName": "Karthik Reddy",
+      "phone": "9876543236",
+      "email": "karthik@gmail.com",
+      "address": "Secunderabad, Telangana",
+      "products": [
+        {
+          "id": "25",
+          "name": "Baby Blanket",
+          "price": 650,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/baby-blanket.png"
+        }
+      ],
+      "total": 1300,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending",
+      "orderStatus": "Processing",
+      "orderDate": "2026-08-11"
+    },
+    {
+      "id": "ORD1028",
+      "userId": "29",
+      "customerName": "Lakshmi Devi",
+      "phone": "9876543237",
+      "email": "lakshmi@gmail.com",
+      "address": "Tirupati, Andhra Pradesh",
+      "products": [
+        {
+          "id": "36",
+          "name": "Baby High Chair",
+          "price": 5499,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/high-chair.png"
+        }
+      ],
+      "total": 5499,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "orderStatus": "Shipped",
+      "orderDate": "2026-08-12"
+    },
+    {
+      "id": "ORD1029",
+      "userId": "30",
+      "customerName": "Sanjay Patel",
+      "phone": "9876543238",
+      "email": "sanjay@gmail.com",
+      "address": "Surat, Gujarat",
+      "products": [
+        {
+          "id": "40",
+          "name": "Baby Walker",
+          "price": 2999,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-walker.png"
+        },
+        {
+          "id": "15",
+          "name": "Baby Wipes",
+          "price": 199,
+          "quantity": 3,
+          "image": "http://localhost:4000/products/baby-wipes.png"
+        }
+      ],
+      "total": 3596,
+      "paymentMethod": "Debit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-12"
+    },
+    {
+      "id": "ORD1030",
+      "userId": "31",
+      "customerName": "Pallavi Singh",
+      "phone": "9876543239",
+      "email": "pallavi@gmail.com",
+      "address": "Ghaziabad, Uttar Pradesh",
+      "products": [
+        {
+          "id": "32",
+          "name": "Baby Cradle",
+          "price": 7499,
+          "quantity": 1,
+          "image": "http://localhost:4000/products/baby-cradle.png"
+        },
+        {
+          "id": "23",
+          "name": "Baby Pillow",
+          "price": 499,
+          "quantity": 2,
+          "image": "http://localhost:4000/products/baby-pillow.png"
+        }
+      ],
+      "total": 8497,
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "orderDate": "2026-08-12"
+    },
+    {
+      "orderId": "ORD1786277384056",
+      "orderDate": "8/9/2026, 5:39:44 PM",
+      "userId": "zOAHGBnJ0PY",
+      "customer": {
+        "fullName": "Demo",
+        "phone": "0123456789",
+        "email": "Demo@gmail.com"
+      },
+      "address": {
+        "userId": "zOAHGBnJ0PY",
+        "fullName": "Sandeep Kumar Polavarapu",
+        "mobile": "08247640136",
+        "house": "4-29-247",
+        "area": "maisammaguda",
+        "landmark": "government school road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500043",
+        "addressType": "Home",
+        "isDefault": true,
+        "id": "VU18s7F6-yU"
+      },
+      "paymentMethod": "Cash On Delivery",
+      "items": [
+        {
+          "userId": "zOAHGBnJ0PY",
+          "productId": "2",
+          "name": "Soft Teddy Bear",
+          "category": "Baby Toys",
+          "brand": "Babyhug",
+          "image": "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
+          "price": 599,
+          "originalPrice": 699,
+          "quantity": 1,
+          "stock": 32,
+          "id": "GsYs4F2OagM"
+        }
+      ],
+      "subtotal": 599,
+      "shipping": 99,
+      "discount": 0,
+      "gst": 125.64,
+      "codCharge": 50,
+      "total": 873.64,
+      "coupon": null,
+      "transactionId": "TXN1786278439667",
+      "status": "Cancelled",
+      "id": "F1BD06I1a1w",
+      "cancellationReason": "Changed my mind",
+      "cancellationDate": "8/9/2026, 7:12:09 PM"
+    },
+    {
+      "orderId": "ORD1786283701003",
+      "orderDate": "8/9/2026, 7:25:01 PM",
+      "userId": "zOAHGBnJ0PY",
+      "customer": {
+        "fullName": "Demo",
+        "phone": "0123456789",
+        "email": "Demo@gmail.com"
+      },
+      "address": {
+        "userId": "zOAHGBnJ0PY",
+        "fullName": "Sandeep Kumar Polavarapu",
+        "mobile": "08247640136",
+        "house": "4-29-247",
+        "area": "maisammaguda",
+        "landmark": "government school road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500043",
+        "addressType": "Home",
+        "isDefault": true,
+        "id": "VU18s7F6-yU"
+      },
+      "paymentMethod": "Cash On Delivery",
+      "items": [
+        {
+          "userId": "zOAHGBnJ0PY",
+          "productId": "7",
+          "name": "Stacking Rings",
+          "category": "Baby Toys",
+          "brand": "Pigeon",
+          "image": "http://localhost:4000/products/baby-toys/toy-07-1.jpg",
+          "price": 499,
+          "originalPrice": 599,
+          "quantity": 1,
+          "stock": 52,
+          "id": "BYcQNglEau0"
+        }
+      ],
+      "subtotal": 499,
+      "shipping": 99,
+      "discount": 0,
+      "gst": 107.64,
+      "codCharge": 50,
+      "total": 755.64,
+      "coupon": null,
+      "transactionId": "TXN1786283738560",
+      "status": "Delivered",
+      "id": "vl7uec-JXCQ",
+      "returnRequest": {
+        "type": "Return",
+        "reason": "Damaged Product",
+        "description": "product has been damaged while delivery",
+        "requestedAt": "8/9/2026, 7:27:32 PM",
+        "status": "Requested"
+      }
+    },
+    {
+      "orderId": "ORD1786298817367",
+      "orderDate": "8/9/2026, 11:36:57 PM",
+      "userId": "zOAHGBnJ0PY",
+      "customer": {
+        "fullName": "Demo",
+        "phone": "0123456789",
+        "email": "Demo@gmail.com"
+      },
+      "address": {
+        "userId": "zOAHGBnJ0PY",
+        "fullName": "Sandeep Kumar Polavarapu",
+        "mobile": "08247640136",
+        "house": "4-29-247",
+        "area": "maisammaguda",
+        "landmark": "government school road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500043",
+        "addressType": "Home",
+        "isDefault": true,
+        "id": "VU18s7F6-yU"
+      },
+      "paymentMethod": "Cash On Delivery",
+      "items": [
+        {
+          "userId": "zOAHGBnJ0PY",
+          "productId": "1",
+          "name": "Baby Rattle Toy",
+          "image": "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+          "price": 399,
+          "originalPrice": 399,
+          "quantity": 1,
+          "stock": 45,
+          "id": "d3FgPS5GnpI"
+        }
+      ],
+      "subtotal": 399,
+      "shipping": 99,
+      "discount": 0,
+      "gst": 89.64,
+      "codCharge": 50,
+      "total": 637.64,
+      "coupon": null,
+      "transactionId": "TXN1786298824765",
+      "status": "Order Placed",
+      "id": "kQ_Nv_I8clE"
+    },
+    {
+      "orderId": "ORD1786346575116",
+      "orderDate": "8/10/2026, 12:52:55 PM",
+      "userId": "zOAHGBnJ0PY",
+      "customer": {
+        "fullName": "Demo",
+        "phone": "0123456789",
+        "email": "Demo@gmail.com"
+      },
+      "address": {
+        "userId": "zOAHGBnJ0PY",
+        "fullName": "Sandeep Kumar Polavarapu",
+        "mobile": "08247640136",
+        "house": "4-29-247",
+        "area": "maisammaguda",
+        "landmark": "government school road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500043",
+        "addressType": "Home",
+        "isDefault": true,
+        "id": "VU18s7F6-yU"
+      },
+      "paymentMethod": "Cash On Delivery",
+      "items": [
+        {
+          "userId": "zOAHGBnJ0PY",
+          "productId": "10",
+          "name": "Baby Pacifier Toy",
+          "category": "Baby Toys",
+          "brand": "Pigeon",
+          "image": "http://localhost:4000/products/baby-toys/toy-10-1.jpg",
+          "price": 249,
+          "originalPrice": 299,
+          "quantity": 1,
+          "stock": 60,
+          "id": "p2FkViEpeWU"
+        }
+      ],
+      "subtotal": 249,
+      "shipping": 99,
+      "discount": 0,
+      "gst": 62.64,
+      "codCharge": 50,
+      "total": 460.64,
+      "coupon": null,
+      "transactionId": "TXN1786346588900",
+      "status": "Order Placed",
+      "id": "1hIbcHMBAko"
+    },
+    {
+      "orderId": "ORD1787295052960",
+      "orderDate": "8/21/2026, 12:20:52 PM",
+      "userId": "fnQRm7ZnSHI",
+      "customer": {
+        "fullName": "Sandeep",
+        "phone": "9871234560",
+        "email": "sandeep@gmail.com"
+      },
+      "address": {
+        "userId": "fnQRm7ZnSHI",
+        "fullName": "Sandeep Kumar Polavarapu",
+        "mobile": "08247640136",
+        "house": "4-29-247",
+        "area": "maisammaguda",
+        "landmark": "",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500043",
+        "addressType": "Home",
+        "isDefault": true,
+        "id": "a-qQeIEhRSc"
+      },
+      "paymentMethod": "Cash On Delivery",
+      "items": [
+        {
+          "userId": "fnQRm7ZnSHI",
+          "productId": "1",
+          "name": "Baby Rattle Toy",
+          "category": "Baby Toys",
+          "brand": "Chicco",
+          "image": "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+          "price": 349,
+          "originalPrice": 399,
+          "quantity": 1,
+          "stock": 45,
+          "id": "K85KtfRdICA"
+        }
+      ],
+      "subtotal": 349,
+      "shipping": 99,
+      "discount": 0,
+      "gst": 80.64,
+      "codCharge": 50,
+      "total": 578.64,
+      "coupon": null,
+      "transactionId": "TXN1787295130484",
+      "status": "Order Placed",
+      "id": "CMizKLFgTzM"
+    }
+  ],
+  "reviews": [],
+  "notifications": [
+    {
+      "userId": "zOAHGBnJ0PY",
+      "title": "Order Placed",
+      "message": "Your order ORD1786298817367 has been placed successfully.",
+      "read": false,
+      "createdAt": "8/9/2026, 11:37:05 PM",
+      "id": "ymsWbHOvQjM"
+    },
+    {
+      "userId": "zOAHGBnJ0PY",
+      "title": "Order Placed",
+      "message": "Your order ORD1786346575116 has been placed successfully.",
+      "read": false,
+      "createdAt": "8/10/2026, 12:53:09 PM",
+      "id": "2Y9wO742BoI"
+    },
+    {
+      "userId": "fnQRm7ZnSHI",
+      "title": "Order Placed",
+      "message": "Your order ORD1787246042861 has been placed successfully.",
+      "read": false,
+      "createdAt": "8/20/2026, 10:44:14 PM",
+      "id": "eOk5HUvUGwg"
+    },
+    {
+      "userId": "fnQRm7ZnSHI",
+      "title": "Order Placed",
+      "message": "Your order ORD1787295052960 has been placed successfully.",
+      "read": false,
+      "createdAt": "8/21/2026, 12:22:10 PM",
+      "id": "vtRv36B4EgY"
+    },
+    {
+      "userId": "fnQRm7ZnSHI",
+      "title": "Order Placed",
+      "message": "Your order ORD1787309721294 has been placed successfully.",
+      "read": false,
+      "createdAt": "8/21/2026, 6:05:06 PM",
+      "id": "w4kfbCElXbc"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "1",
+      "code": "WELCOME10",
+      "type": "percentage",
+      "value": 10,
+      "minAmount": 1000,
+      "active": true
+    },
+    {
+      "id": "2",
+      "code": "FLAT500",
+      "type": "flat",
+      "value": 500,
+      "minAmount": 3000,
+      "active": true
+    },
+    {
+      "id": "3",
+      "code": "FREESHIP",
+      "type": "shipping",
+      "value": 0,
+      "minAmount": 1000,
+      "active": true
+    },
+    {
+      "id": "4",
+      "code": "SAVE1000",
+      "type": "flat",
+      "value": 1000,
+      "minAmount": 7000,
+      "active": true
+    }
+  ],
+  "addresses": [
+    {
+      "userId": "1",
+      "fullName": "Sandeep Kumar Polavarapu",
+      "mobile": "08247640136",
+      "house": "4-29-247",
+      "area": "borabanda",
+      "landmark": "government school road",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pincode": "500043",
+      "addressType": "Home",
+      "isDefault": true,
+      "id": "C08U265Oj3A"
+    },
+    {
+      "userId": "zOAHGBnJ0PY",
+      "fullName": "Sandeep Kumar Polavarapu",
+      "mobile": "08247640136",
+      "house": "4-29-247",
+      "area": "maisammaguda",
+      "landmark": "government school road",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pincode": "500043",
+      "addressType": "Home",
+      "isDefault": true,
+      "id": "VU18s7F6-yU"
+    },
+    {
+      "userId": "fnQRm7ZnSHI",
+      "fullName": "Sandeep Kumar Polavarapu",
+      "mobile": "08247640136",
+      "house": "4-29-247",
+      "area": "maisammaguda",
+      "landmark": "",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pincode": "500043",
+      "addressType": "Home",
+      "isDefault": true,
+      "id": "a-qQeIEhRSc"
+    }
+  ],
+  "payments": [
+    {
+      "userId": "zOAHGBnJ0PY",
+      "orderId": "ORD1786277384056",
+      "transactionId": "TXN1786278439667",
+      "method": "Cash On Delivery",
+      "amount": 873.64,
+      "status": "Success",
+      "paymentDate": "8/9/2026, 5:57:19 PM",
+      "id": "fKXdSmlHSc8"
+    },
+    {
+      "userId": "zOAHGBnJ0PY",
+      "orderId": "ORD1786280563434",
+      "transactionId": "TXN1786280593124",
+      "method": "Cash On Delivery",
+      "amount": 1168.64,
+      "status": "Success",
+      "paymentDate": "8/9/2026, 6:33:13 PM",
+      "id": "eK_bQ-5h8RE"
+    },
+    {
+      "userId": "zOAHGBnJ0PY",
+      "orderId": "ORD1786283701003",
+      "transactionId": "TXN1786283738560",
+      "method": "Cash On Delivery",
+      "amount": 755.64,
+      "status": "Success",
+      "paymentDate": "8/9/2026, 7:25:38 PM",
+      "id": "DzaTdVvGqDQ"
+    },
+    {
+      "userId": "zOAHGBnJ0PY",
+      "orderId": "ORD1786298817367",
+      "transactionId": "TXN1786298824765",
+      "method": "Cash On Delivery",
+      "amount": 637.64,
+      "status": "Success",
+      "paymentDate": "8/9/2026, 11:37:04 PM",
+      "id": "iD3zTjSbRuM"
+    },
+    {
+      "userId": "zOAHGBnJ0PY",
+      "orderId": "ORD1786346575116",
+      "transactionId": "TXN1786346588900",
+      "method": "Cash On Delivery",
+      "amount": 460.64,
+      "status": "Success",
+      "paymentDate": "8/10/2026, 12:53:08 PM",
+      "id": "V0mTFEY_h0Q"
+    },
+    {
+      "userId": "fnQRm7ZnSHI",
+      "orderId": "ORD1787246042861",
+      "transactionId": "TXN1787246054095",
+      "method": "Cash On Delivery",
+      "amount": 873.64,
+      "status": "Success",
+      "paymentDate": "8/20/2026, 10:44:14 PM",
+      "id": "23BoNEbtLNs"
+    },
+    {
+      "userId": "fnQRm7ZnSHI",
+      "orderId": "ORD1787295052960",
+      "transactionId": "TXN1787295130484",
+      "method": "Cash On Delivery",
+      "amount": 578.64,
+      "status": "Success",
+      "paymentDate": "8/21/2026, 12:22:10 PM",
+      "id": "5KBLMqsdmOs"
+    },
+    {
+      "userId": "fnQRm7ZnSHI",
+      "orderId": "ORD1787309721294",
+      "transactionId": "TXN1787315706332",
+      "method": "Cash On Delivery",
+      "amount": 1168.64,
+      "status": "Success",
+      "paymentDate": "8/21/2026, 6:05:06 PM",
+      "id": "fcVn99Dx6Jc"
+    }
+  ],
+  "returns": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
