@@ -11,24 +11,24 @@ import App from "./App";
 import store from "./redux/store";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-    <React.StrictMode>
-        <Provider store={store}>
-            <BrowserRouter>
+  <React.StrictMode>
+    <Provider store={store}>
+      <BrowserRouter>
 
-                <App />
+        <App />
 
-                <ToastContainer
-                    position="top-right"
-                    autoClose={2000}
-                    hideProgressBar={false}
-                    newestOnTop
-                    closeOnClick
-                    pauseOnHover
-                    draggable
-                    theme="colored"
-                />
+        <ToastContainer
+          position="top-right"
+          autoClose={2000}
+          hideProgressBar={false}
+          newestOnTop
+          closeOnClick
+          pauseOnHover
+          draggable
+          theme="colored"
+        />
 
-            </BrowserRouter>
-        </Provider>
-    </React.StrictMode>
+      </BrowserRouter>
+    </Provider>
+  </React.StrictMode>
 );

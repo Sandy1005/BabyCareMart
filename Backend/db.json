@@ -30,32 +30,32 @@
     {
       "id": "1",
       "name": "Baby Toys",
-      "image": "http://localhost:4000/categories/baby-toys.jpg"
+      "image": "https://babycaremart-backend.onrender.com/categories/baby-toys.jpg"
     },
     {
       "id": "2",
       "name": "Baby Clothing",
-      "image": "http://localhost:4000/categories/baby-clothing.jpg"
+      "image": "https://babycaremart-backend.onrender.com/categories/baby-clothing.jpg"
     },
     {
       "id": "3",
       "name": "Feeding",
-      "image": "http://localhost:4000/categories/feeding.jpg"
+      "image": "https://babycaremart-backend.onrender.com/categories/feeding.jpg"
     },
     {
       "id": "4",
       "name": "Diapers",
-      "image": "http://localhost:4000/categories/diapers.jpg"
+      "image": "https://babycaremart-backend.onrender.com/categories/diapers.jpg"
     },
     {
       "id": "5",
       "name": "Baby Care",
-      "image": "http://localhost:4000/categories/baby-care.jpg"
+      "image": "https://babycaremart-backend.onrender.com/categories/baby-care.jpg"
     },
     {
       "id": "6",
       "name": "Bath Essentials",
-      "image": "http://localhost:4000/categories/bath-essentials.jpg"
+      "image": "https://babycaremart-backend.onrender.com/categories/bath-essentials.jpg"
     }
   ],
   "products": [
@@ -70,9 +70,9 @@
       "rating": 4.7,
       "reviewCount": 214,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-01-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-01-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-3.jpg"
       ],
       "description": "Colorful baby rattle designed to improve sensory development and hand-eye coordination.",
       "featured": true,
@@ -89,9 +89,9 @@
       "rating": 4.8,
       "reviewCount": 156,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-02-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-02-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-02-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-02-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-02-3.jpg"
       ],
       "description": "Soft and cuddly teddy bear made with baby-safe plush fabric.",
       "featured": true,
@@ -108,9 +108,9 @@
       "rating": 4.6,
       "reviewCount": 188,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-03-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-03-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-03-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-03-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-03-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-03-3.jpg"
       ],
       "description": "Interactive musical keyboard toy with lights and cheerful melodies.",
       "featured": true,
@@ -127,9 +127,9 @@
       "rating": 4.5,
       "reviewCount": 143,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-04-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-04-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-04-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-04-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-04-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-04-3.jpg"
       ],
       "description": "Colorful building blocks that encourage creativity and problem-solving.",
       "featured": false,
@@ -146,9 +146,9 @@
       "rating": 4.8,
       "reviewCount": 201,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-05-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-05-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-05-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-05-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-05-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-05-3.jpg"
       ],
       "description": "Multi-activity cube featuring gears, shapes, and learning games.",
       "featured": true,
@@ -165,9 +165,9 @@
       "rating": 4.4,
       "reviewCount": 96,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-06-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-06-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-06-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-06-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-06-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-06-3.jpg"
       ],
       "description": "Wooden pull-along bead toy that develops motor skills.",
       "featured": false,
@@ -184,9 +184,9 @@
       "rating": 4.6,
       "reviewCount": 173,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-07-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-07-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-07-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-07-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-07-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-07-3.jpg"
       ],
       "description": "Classic stacking rings for learning colors and sizes.",
       "featured": false,
@@ -203,9 +203,9 @@
       "rating": 4.7,
       "reviewCount": 132,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-08-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-08-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-08-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-08-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-08-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-08-3.jpg"
       ],
       "description": "Interactive activity walker with educational play panel.",
       "featured": true,
@@ -222,9 +222,9 @@
       "rating": 4.8,
       "reviewCount": 119,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-09-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-09-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-09-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-09-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-09-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-09-3.jpg"
       ],
       "description": "Soft elephant plush toy made from premium baby-safe materials.",
       "featured": false,
@@ -241,9 +241,9 @@
       "rating": 4.5,
       "reviewCount": 144,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-10-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-10-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-10-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-10-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-10-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-10-3.jpg"
       ],
       "description": "Baby-safe pacifier toy designed for sensory play and comfort.",
       "featured": false,
@@ -260,9 +260,9 @@
       "rating": 4.6,
       "reviewCount": 112,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-11-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-11-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-11-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-11-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-11-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-11-3.jpg"
       ],
       "description": "Soft colorful ball set for safe indoor play and sensory development.",
       "featured": false,
@@ -279,9 +279,9 @@
       "rating": 4.5,
       "reviewCount": 126,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-12-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-12-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-12-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-12-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-12-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-12-3.jpg"
       ],
       "description": "Bright educational flash cards that help babies recognize shapes and objects.",
       "featured": false,
@@ -298,9 +298,9 @@
       "rating": 4.7,
       "reviewCount": 138,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-13-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-13-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-13-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-13-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-13-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-13-3.jpg"
       ],
       "description": "Interactive musical drum toy with colorful lights and sounds.",
       "featured": true,
@@ -317,9 +317,9 @@
       "rating": 4.5,
       "reviewCount": 105,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-14-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-14-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-14-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-14-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-14-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-14-3.jpg"
       ],
       "description": "Wooden animal puzzle board that develops problem-solving skills.",
       "featured": false,
@@ -336,9 +336,9 @@
       "rating": 4.6,
       "reviewCount": 117,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-15-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-15-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-15-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-15-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-15-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-15-3.jpg"
       ],
       "description": "Pretend mobile phone toy with lights, sounds and educational buttons.",
       "featured": false,
@@ -355,9 +355,9 @@
       "rating": 4.8,
       "reviewCount": 194,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-16-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-16-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-16-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-16-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-16-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-16-3.jpg"
       ],
       "description": "Baby walker toy designed to encourage first steps with interactive activities.",
       "featured": true,
@@ -374,9 +374,9 @@
       "rating": 4.6,
       "reviewCount": 142,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-17-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-17-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-17-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-17-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-17-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-17-3.jpg"
       ],
       "description": "Colorful mini toy car set made from durable child-safe plastic.",
       "featured": false,
@@ -393,9 +393,9 @@
       "rating": 4.7,
       "reviewCount": 165,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-18-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-18-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-18-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-18-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-18-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-18-3.jpg"
       ],
       "description": "Reusable magnetic drawing board for creative learning and fun.",
       "featured": true,
@@ -412,9 +412,9 @@
       "rating": 4.8,
       "reviewCount": 187,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-19-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-19-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-19-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-19-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-19-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-19-3.jpg"
       ],
       "description": "Premium soft giraffe plush toy that is gentle and safe for babies.",
       "featured": false,
@@ -431,9 +431,9 @@
       "rating": 4.7,
       "reviewCount": 174,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-20-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-20-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-20-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-20-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-20-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-20-3.jpg"
       ],
       "description": "Wooden alphabet blocks that introduce letters, colors and basic learning.",
       "featured": true,
@@ -450,9 +450,9 @@
       "rating": 4.6,
       "reviewCount": 131,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-21-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-21-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-21-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-21-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-21-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-21-3.jpg"
       ],
       "description": "Cute floating duck bath toys that make bath time enjoyable for babies.",
       "featured": false,
@@ -469,9 +469,9 @@
       "rating": 4.7,
       "reviewCount": 168,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-22-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-22-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-22-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-22-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-22-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-22-3.jpg"
       ],
       "description": "Educational activity cube featuring animals, colors and interactive games.",
       "featured": true,
@@ -488,9 +488,9 @@
       "rating": 4.8,
       "reviewCount": 202,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-23-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-23-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-23-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-23-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-23-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-23-3.jpg"
       ],
       "description": "Rainbow stacking tower toy that improves fine motor skills and color recognition.",
       "featured": true,
@@ -507,9 +507,9 @@
       "rating": 4.7,
       "reviewCount": 149,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-24-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-24-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-24-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-24-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-24-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-24-3.jpg"
       ],
       "description": "Interactive learning laptop with alphabet, numbers and fun educational games.",
       "featured": true,
@@ -526,9 +526,9 @@
       "rating": 4.9,
       "reviewCount": 243,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-25-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-25-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-25-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-25-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-25-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-25-3.jpg"
       ],
       "description": "Interactive musical penguin toy with dancing movement, lights and cheerful melodies.",
       "featured": true,
@@ -545,7 +545,7 @@
       "rating": 4.8,
       "reviewCount": 186,
       "images": [
-        "http://localhost:4000/products/baby-clothing/romper-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/romper-01.jpg"
       ],
       "description": "Soft cotton romper designed for all-day comfort and easy wear.",
       "featured": true,
@@ -562,7 +562,7 @@
       "rating": 4.7,
       "reviewCount": 142,
       "images": [
-        "http://localhost:4000/products/baby-clothing/onesie-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/onesie-01.jpg"
       ],
       "description": "Premium full sleeve onesie made with breathable cotton fabric.",
       "featured": false,
@@ -579,7 +579,7 @@
       "rating": 4.6,
       "reviewCount": 127,
       "images": [
-        "http://localhost:4000/products/baby-clothing/tshirt-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/tshirt-01.jpg"
       ],
       "description": "Cute printed t-shirt made from soft cotton for daily wear.",
       "featured": false,
@@ -596,7 +596,7 @@
       "rating": 4.8,
       "reviewCount": 204,
       "images": [
-        "http://localhost:4000/products/baby-clothing/hoodie-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/hoodie-01.jpg"
       ],
       "description": "Warm hooded sweatshirt suitable for winter outings.",
       "featured": true,
@@ -613,7 +613,7 @@
       "rating": 4.9,
       "reviewCount": 251,
       "images": [
-        "http://localhost:4000/products/baby-clothing/frock-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/frock-01.jpg"
       ],
       "description": "Beautiful party wear frock with soft lining and elegant design.",
       "featured": true,
@@ -630,7 +630,7 @@
       "rating": 4.7,
       "reviewCount": 178,
       "images": [
-        "http://localhost:4000/products/baby-clothing/sleepsuit-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/sleepsuit-01.jpg"
       ],
       "description": "Comfortable cartoon print sleepsuit for peaceful sleep.",
       "featured": false,
@@ -647,7 +647,7 @@
       "rating": 4.8,
       "reviewCount": 165,
       "images": [
-        "http://localhost:4000/products/baby-clothing/jacket-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/jacket-01.jpg"
       ],
       "description": "Insulated winter jacket offering warmth and comfort.",
       "featured": true,
@@ -664,7 +664,7 @@
       "rating": 4.5,
       "reviewCount": 114,
       "images": [
-        "http://localhost:4000/products/baby-clothing/shorts-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/shorts-01.jpg"
       ],
       "description": "Lightweight cotton shorts perfect for summer wear.",
       "featured": false,
@@ -681,7 +681,7 @@
       "rating": 4.8,
       "reviewCount": 191,
       "images": [
-        "http://localhost:4000/products/baby-clothing/dungaree-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/dungaree-01.jpg"
       ],
       "description": "Stylish denim dungaree crafted for comfort and durability.",
       "featured": true,
@@ -698,7 +698,7 @@
       "rating": 4.6,
       "reviewCount": 108,
       "images": [
-        "http://localhost:4000/products/baby-clothing/cap-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/cap-01.jpg"
       ],
       "description": "Soft cotton cap to keep babies comfortable in every season.",
       "featured": false,
@@ -715,7 +715,7 @@
       "rating": 4.5,
       "reviewCount": 96,
       "images": [
-        "http://localhost:4000/products/baby-clothing/mittens-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/mittens-01.jpg"
       ],
       "description": "Soft cotton mittens to protect baby's delicate hands.",
       "featured": false,
@@ -732,7 +732,7 @@
       "rating": 4.6,
       "reviewCount": 134,
       "images": [
-        "http://localhost:4000/products/baby-clothing/socks-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/socks-01.jpg"
       ],
       "description": "Comfortable cotton socks pack suitable for everyday wear.",
       "featured": false,
@@ -749,7 +749,7 @@
       "rating": 4.7,
       "reviewCount": 145,
       "images": [
-        "http://localhost:4000/products/baby-clothing/bib-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/bib-01.jpg"
       ],
       "description": "Waterproof feeding bib that keeps clothes clean during meals.",
       "featured": false,
@@ -766,7 +766,7 @@
       "rating": 4.8,
       "reviewCount": 179,
       "images": [
-        "http://localhost:4000/products/baby-clothing/pajama-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/pajama-01.jpg"
       ],
       "description": "Comfortable cotton pajama set designed for peaceful sleep.",
       "featured": true,
@@ -783,7 +783,7 @@
       "rating": 4.8,
       "reviewCount": 193,
       "images": [
-        "http://localhost:4000/products/baby-clothing/jumpsuit-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/jumpsuit-01.jpg"
       ],
       "description": "Soft cotton jumpsuit providing maximum comfort and flexibility.",
       "featured": true,
@@ -800,7 +800,7 @@
       "rating": 4.9,
       "reviewCount": 216,
       "images": [
-        "http://localhost:4000/products/baby-clothing/partydress-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/partydress-01.jpg"
       ],
       "description": "Elegant party wear dress perfect for birthdays and special occasions.",
       "featured": true,
@@ -817,7 +817,7 @@
       "rating": 4.8,
       "reviewCount": 166,
       "images": [
-        "http://localhost:4000/products/baby-clothing/sweater-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/sweater-01.jpg"
       ],
       "description": "Warm wool sweater suitable for cold weather.",
       "featured": true,
@@ -834,7 +834,7 @@
       "rating": 4.7,
       "reviewCount": 138,
       "images": [
-        "http://localhost:4000/products/baby-clothing/leggings-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/leggings-01.jpg"
       ],
       "description": "Soft stretch leggings that provide all-day comfort.",
       "featured": false,
@@ -851,7 +851,7 @@
       "rating": 4.7,
       "reviewCount": 124,
       "images": [
-        "http://localhost:4000/products/baby-clothing/raincoat-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/raincoat-01.jpg"
       ],
       "description": "Waterproof hooded raincoat to keep babies dry during rainy days.",
       "featured": false,
@@ -868,7 +868,7 @@
       "rating": 4.8,
       "reviewCount": 201,
       "images": [
-        "http://localhost:4000/products/baby-clothing/shoes-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/shoes-01.jpg"
       ],
       "description": "Comfortable lightweight shoes designed for little feet.",
       "featured": true,
@@ -885,7 +885,7 @@
       "rating": 4.7,
       "reviewCount": 158,
       "images": [
-        "http://localhost:4000/products/baby-clothing/sandals-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/sandals-01.jpg"
       ],
       "description": "Lightweight and comfortable summer sandals designed for growing feet.",
       "featured": false,
@@ -902,7 +902,7 @@
       "rating": 4.9,
       "reviewCount": 247,
       "images": [
-        "http://localhost:4000/products/baby-clothing/blanket-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/blanket-01.jpg"
       ],
       "description": "Ultra-soft premium baby blanket made with breathable fleece fabric.",
       "featured": true,
@@ -919,7 +919,7 @@
       "rating": 4.8,
       "reviewCount": 183,
       "images": [
-        "http://localhost:4000/products/baby-clothing/swaddle-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/swaddle-01.jpg"
       ],
       "description": "Soft cotton swaddle wrap that keeps babies cozy and comfortable.",
       "featured": true,
@@ -936,7 +936,7 @@
       "rating": 4.7,
       "reviewCount": 176,
       "images": [
-        "http://localhost:4000/products/baby-clothing/towel-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/towel-01.jpg"
       ],
       "description": "Highly absorbent hooded bath towel made from premium cotton.",
       "featured": false,
@@ -953,7 +953,7 @@
       "rating": 4.9,
       "reviewCount": 268,
       "images": [
-        "http://localhost:4000/products/baby-clothing/giftset-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-clothing/giftset-01.jpg"
       ],
       "description": "Complete newborn gift clothing set including romper, cap, mittens and booties.",
       "featured": true,
@@ -970,7 +970,7 @@
       "rating": 4.8,
       "reviewCount": 214,
       "images": [
-        "http://localhost:4000/products/feeding/feeding-bottle-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/feeding-bottle-01.jpg"
       ],
       "description": "BPA-free anti-colic feeding bottle with soft silicone nipple.",
       "featured": true,
@@ -987,7 +987,7 @@
       "rating": 4.7,
       "reviewCount": 185,
       "images": [
-        "http://localhost:4000/products/feeding/feeding-bottle-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/feeding-bottle-02.jpg"
       ],
       "description": "Wide neck feeding bottle designed for easy cleaning and feeding.",
       "featured": true,
@@ -1004,7 +1004,7 @@
       "rating": 4.9,
       "reviewCount": 173,
       "images": [
-        "http://localhost:4000/products/feeding/feeding-bottle-03.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/feeding-bottle-03.jpg"
       ],
       "description": "Premium heat-resistant glass feeding bottle for newborns.",
       "featured": true,
@@ -1021,7 +1021,7 @@
       "rating": 4.6,
       "reviewCount": 122,
       "images": [
-        "http://localhost:4000/products/feeding/feeding-bowl-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/feeding-bowl-01.jpg"
       ],
       "description": "Food-grade silicone bowl with suction base.",
       "featured": false,
@@ -1038,7 +1038,7 @@
       "rating": 4.7,
       "reviewCount": 109,
       "images": [
-        "http://localhost:4000/products/feeding/feeding-bowl-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/feeding-bowl-02.jpg"
       ],
       "description": "Sectioned bowl for serving multiple foods.",
       "featured": false,
@@ -1055,7 +1055,7 @@
       "rating": 4.8,
       "reviewCount": 145,
       "images": [
-        "http://localhost:4000/products/feeding/feeding-spoon-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/feeding-spoon-01.jpg"
       ],
       "description": "Soft silicone spoon gentle on baby's gums.",
       "featured": false,
@@ -1072,7 +1072,7 @@
       "rating": 4.6,
       "reviewCount": 118,
       "images": [
-        "http://localhost:4000/products/feeding/feeding-spoon-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/feeding-spoon-02.jpg"
       ],
       "description": "Changes color when food is too hot.",
       "featured": false,
@@ -1089,7 +1089,7 @@
       "rating": 4.5,
       "reviewCount": 94,
       "images": [
-        "http://localhost:4000/products/feeding/feeding-fork-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/feeding-fork-01.jpg"
       ],
       "description": "Rounded-edge fork designed for toddlers.",
       "featured": false,
@@ -1106,7 +1106,7 @@
       "rating": 4.7,
       "reviewCount": 131,
       "images": [
-        "http://localhost:4000/products/feeding/feeding-plate-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/feeding-plate-01.jpg"
       ],
       "description": "Lightweight BPA-free feeding plate.",
       "featured": false,
@@ -1123,7 +1123,7 @@
       "rating": 4.8,
       "reviewCount": 164,
       "images": [
-        "http://localhost:4000/products/feeding/feeding-plate-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/feeding-plate-02.jpg"
       ],
       "description": "Strong suction base prevents spills during feeding.",
       "featured": true,
@@ -1140,7 +1140,7 @@
       "rating": 4.7,
       "reviewCount": 152,
       "images": [
-        "http://localhost:4000/products/feeding/sipper-cup-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/sipper-cup-01.jpg"
       ],
       "description": "Leak-proof sipper cup with easy-grip handles for toddlers.",
       "featured": true,
@@ -1157,7 +1157,7 @@
       "rating": 4.8,
       "reviewCount": 181,
       "images": [
-        "http://localhost:4000/products/feeding/sipper-cup-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/sipper-cup-02.jpg"
       ],
       "description": "Double-wall insulated sipper cup that keeps drinks cool longer.",
       "featured": true,
@@ -1174,7 +1174,7 @@
       "rating": 4.8,
       "reviewCount": 165,
       "images": [
-        "http://localhost:4000/products/feeding/training-cup-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/training-cup-01.jpg"
       ],
       "description": "360-degree drinking cup designed to help babies transition from bottles.",
       "featured": true,
@@ -1191,7 +1191,7 @@
       "rating": 4.7,
       "reviewCount": 126,
       "images": [
-        "http://localhost:4000/products/feeding/silicone-bib-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/silicone-bib-01.jpg"
       ],
       "description": "Food-grade silicone bib with food-catching pocket.",
       "featured": false,
@@ -1208,7 +1208,7 @@
       "rating": 4.8,
       "reviewCount": 208,
       "images": [
-        "http://localhost:4000/products/feeding/fruit-feeder-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/fruit-feeder-01.jpg"
       ],
       "description": "Safe silicone fruit feeder for introducing fresh fruits to babies.",
       "featured": true,
@@ -1225,7 +1225,7 @@
       "rating": 4.6,
       "reviewCount": 113,
       "images": [
-        "http://localhost:4000/products/feeding/milk-dispenser-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/milk-dispenser-01.jpg"
       ],
       "description": "Portable milk powder dispenser with multiple storage compartments.",
       "featured": false,
@@ -1242,7 +1242,7 @@
       "rating": 4.7,
       "reviewCount": 141,
       "images": [
-        "http://localhost:4000/products/feeding/formula-container-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/formula-container-01.jpg"
       ],
       "description": "Compact formula storage container ideal for travel.",
       "featured": false,
@@ -1259,7 +1259,7 @@
       "rating": 4.8,
       "reviewCount": 193,
       "images": [
-        "http://localhost:4000/products/feeding/baby-straw-cup-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/baby-straw-cup-01.jpg"
       ],
       "description": "Soft silicone straw cup designed for independent drinking.",
       "featured": true,
@@ -1276,7 +1276,7 @@
       "rating": 4.7,
       "reviewCount": 154,
       "images": [
-        "http://localhost:4000/products/feeding/baby-lunch-box-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/baby-lunch-box-01.jpg"
       ],
       "description": "Leak-proof lunch box with divided compartments for balanced meals.",
       "featured": false,
@@ -1293,7 +1293,7 @@
       "rating": 4.6,
       "reviewCount": 117,
       "images": [
-        "http://localhost:4000/products/feeding/baby-snack-container-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/baby-snack-container-01.jpg"
       ],
       "description": "Portable snack container with easy-open lid for toddlers.",
       "featured": false,
@@ -1310,7 +1310,7 @@
       "rating": 4.6,
       "reviewCount": 108,
       "images": [
-        "http://localhost:4000/products/feeding/baby-food-masher-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/baby-food-masher-01.jpg"
       ],
       "description": "Food-grade baby food masher for preparing fresh fruits and vegetables.",
       "featured": false,
@@ -1327,7 +1327,7 @@
       "rating": 4.9,
       "reviewCount": 236,
       "images": [
-        "http://localhost:4000/products/feeding/baby-feeding-set-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/baby-feeding-set-01.jpg"
       ],
       "description": "Complete feeding set including plate, bowl, spoon, fork, cup and bib.",
       "featured": true,
@@ -1344,7 +1344,7 @@
       "rating": 4.7,
       "reviewCount": 184,
       "images": [
-        "http://localhost:4000/products/feeding/baby-bottle-cleaner-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/baby-bottle-cleaner-01.jpg"
       ],
       "description": "Plant-based bottle cleaning liquid that removes milk residue safely.",
       "featured": false,
@@ -1361,7 +1361,7 @@
       "rating": 4.6,
       "reviewCount": 142,
       "images": [
-        "http://localhost:4000/products/feeding/baby-bottle-brush-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/baby-bottle-brush-01.jpg"
       ],
       "description": "360-degree bottle cleaning brush with soft nylon bristles.",
       "featured": false,
@@ -1378,7 +1378,7 @@
       "rating": 4.9,
       "reviewCount": 291,
       "images": [
-        "http://localhost:4000/products/feeding/baby-sterilizer-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/feeding/baby-sterilizer-01.jpg"
       ],
       "description": "Electric steam sterilizer that sterilizes baby bottles, nipples and accessories in minutes.",
       "featured": true,
@@ -1395,7 +1395,7 @@
       "rating": 4.8,
       "reviewCount": 286,
       "images": [
-        "http://localhost:4000/products/diapers/newborn-diapers-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/newborn-diapers-01.jpg"
       ],
       "description": "Ultra-soft newborn diapers with leak-lock protection for delicate skin.",
       "featured": true,
@@ -1412,7 +1412,7 @@
       "rating": 4.7,
       "reviewCount": 241,
       "images": [
-        "http://localhost:4000/products/diapers/small-diapers-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/small-diapers-01.jpg"
       ],
       "description": "Comfortable small-size diapers with breathable material.",
       "featured": false,
@@ -1429,7 +1429,7 @@
       "rating": 4.8,
       "reviewCount": 312,
       "images": [
-        "http://localhost:4000/products/diapers/medium-diapers-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/medium-diapers-01.jpg"
       ],
       "description": "Highly absorbent medium-size diapers for day and night protection.",
       "featured": true,
@@ -1446,7 +1446,7 @@
       "rating": 4.8,
       "reviewCount": 267,
       "images": [
-        "http://localhost:4000/products/diapers/large-diapers-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/large-diapers-01.jpg"
       ],
       "description": "Large-size diapers with soft elastic waistband for extra comfort.",
       "featured": true,
@@ -1463,7 +1463,7 @@
       "rating": 4.9,
       "reviewCount": 229,
       "images": [
-        "http://localhost:4000/products/diapers/xl-diapers-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/xl-diapers-01.jpg"
       ],
       "description": "Extra-large diapers with advanced leak protection technology.",
       "featured": true,
@@ -1480,7 +1480,7 @@
       "rating": 4.8,
       "reviewCount": 183,
       "images": [
-        "http://localhost:4000/products/diapers/pant-style-diapers-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/pant-style-diapers-01.jpg"
       ],
       "description": "Easy pull-up diaper pants designed for active babies.",
       "featured": false,
@@ -1497,7 +1497,7 @@
       "rating": 4.9,
       "reviewCount": 304,
       "images": [
-        "http://localhost:4000/products/diapers/overnight-diapers-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/overnight-diapers-01.jpg"
       ],
       "description": "Overnight diapers with 12-hour leak protection.",
       "featured": true,
@@ -1514,7 +1514,7 @@
       "rating": 4.9,
       "reviewCount": 198,
       "images": [
-        "http://localhost:4000/products/diapers/premium-diapers-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/premium-diapers-01.jpg"
       ],
       "description": "Premium ultra-soft diapers with cotton-like comfort.",
       "featured": true,
@@ -1531,7 +1531,7 @@
       "rating": 4.8,
       "reviewCount": 156,
       "images": [
-        "http://localhost:4000/products/diapers/organic-diapers-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/organic-diapers-01.jpg"
       ],
       "description": "Organic cotton diapers free from harmful chemicals and fragrances.",
       "featured": false,
@@ -1548,7 +1548,7 @@
       "rating": 4.7,
       "reviewCount": 117,
       "images": [
-        "http://localhost:4000/products/diapers/swim-diapers-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/swim-diapers-01.jpg"
       ],
       "description": "Specially designed swim diapers for pool and beach use.",
       "featured": false,
@@ -1565,7 +1565,7 @@
       "rating": 4.8,
       "reviewCount": 216,
       "images": [
-        "http://localhost:4000/products/diapers/diaper-pants-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/diaper-pants-01.jpg"
       ],
       "description": "Premium diaper pants with 360° stretchable waistband for maximum comfort.",
       "featured": true,
@@ -1582,7 +1582,7 @@
       "rating": 4.7,
       "reviewCount": 188,
       "images": [
-        "http://localhost:4000/products/diapers/diaper-pants-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/diaper-pants-02.jpg"
       ],
       "description": "Comfort-fit diaper pants with superior absorbency for active babies.",
       "featured": false,
@@ -1599,7 +1599,7 @@
       "rating": 4.9,
       "reviewCount": 276,
       "images": [
-        "http://localhost:4000/products/diapers/diaper-combo-pack-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/diaper-combo-pack-01.jpg"
       ],
       "description": "Value combo pack containing multiple diaper sizes for growing babies.",
       "featured": true,
@@ -1616,7 +1616,7 @@
       "rating": 4.8,
       "reviewCount": 254,
       "images": [
-        "http://localhost:4000/products/diapers/diaper-value-pack-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/diaper-value-pack-01.jpg"
       ],
       "description": "Large value pack designed for long-lasting daily use.",
       "featured": true,
@@ -1633,7 +1633,7 @@
       "rating": 4.7,
       "reviewCount": 319,
       "images": [
-        "http://localhost:4000/products/diapers/diaper-wipes-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/diaper-wipes-01.jpg"
       ],
       "description": "Soft baby wipes enriched with aloe vera and vitamin E.",
       "featured": false,
@@ -1650,7 +1650,7 @@
       "rating": 4.8,
       "reviewCount": 284,
       "images": [
-        "http://localhost:4000/products/diapers/diaper-wipes-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/diaper-wipes-02.jpg"
       ],
       "description": "Alcohol-free wipes specially designed for sensitive baby skin.",
       "featured": false,
@@ -1667,7 +1667,7 @@
       "rating": 4.6,
       "reviewCount": 212,
       "images": [
-        "http://localhost:4000/products/diapers/wet-wipes-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/wet-wipes-01.jpg"
       ],
       "description": "Moisturizing wet wipes for gentle daily cleaning.",
       "featured": false,
@@ -1684,7 +1684,7 @@
       "rating": 4.7,
       "reviewCount": 198,
       "images": [
-        "http://localhost:4000/products/diapers/wet-wipes-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/wet-wipes-02.jpg"
       ],
       "description": "Fragrance-free baby wipes suitable for newborn babies.",
       "featured": false,
@@ -1701,7 +1701,7 @@
       "rating": 4.8,
       "reviewCount": 143,
       "images": [
-        "http://localhost:4000/products/diapers/changing-mat-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/changing-mat-01.jpg"
       ],
       "description": "Foldable waterproof changing mat for travel and home use.",
       "featured": true,
@@ -1718,7 +1718,7 @@
       "rating": 4.8,
       "reviewCount": 161,
       "images": [
-        "http://localhost:4000/products/diapers/changing-pad-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/changing-pad-01.jpg"
       ],
       "description": "Soft cushioned changing pad with waterproof surface.",
       "featured": false,
@@ -1735,7 +1735,7 @@
       "rating": 4.8,
       "reviewCount": 214,
       "images": [
-        "http://localhost:4000/products/diapers/diaper-bag-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/diaper-bag-01.jpg"
       ],
       "description": "Spacious diaper bag with insulated bottle pockets, waterproof compartments and comfortable shoulder straps.",
       "featured": true,
@@ -1752,7 +1752,7 @@
       "rating": 4.6,
       "reviewCount": 127,
       "images": [
-        "http://localhost:4000/products/diapers/diaper-disposal-bag-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/diaper-disposal-bag-01.jpg"
       ],
       "description": "Scented disposable bags for hygienic diaper disposal while travelling.",
       "featured": false,
@@ -1769,7 +1769,7 @@
       "rating": 4.9,
       "reviewCount": 296,
       "images": [
-        "http://localhost:4000/products/diapers/rash-cream-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/rash-cream-01.jpg"
       ],
       "description": "Gentle rash relief cream enriched with zinc oxide to soothe and protect baby's delicate skin.",
       "featured": true,
@@ -1786,7 +1786,7 @@
       "rating": 4.7,
       "reviewCount": 318,
       "images": [
-        "http://localhost:4000/products/diapers/baby-powder-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/baby-powder-01.jpg"
       ],
       "description": "Mild baby powder that keeps skin fresh, dry and comfortable throughout the day.",
       "featured": false,
@@ -1803,7 +1803,7 @@
       "rating": 4.8,
       "reviewCount": 182,
       "images": [
-        "http://localhost:4000/products/diapers/diaper-caddy-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/diapers/diaper-caddy-01.jpg"
       ],
       "description": "Portable organizer for storing diapers, wipes, creams, bottles and other baby essentials.",
       "featured": true,
@@ -1820,7 +1820,7 @@
       "rating": 4.8,
       "reviewCount": 324,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-shampoo-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-shampoo-01.jpg"
       ],
       "description": "Tear-free baby shampoo enriched with natural ingredients for gentle cleansing.",
       "featured": true,
@@ -1837,7 +1837,7 @@
       "rating": 4.7,
       "reviewCount": 211,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-shampoo-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-shampoo-02.jpg"
       ],
       "description": "Natural baby shampoo made with plant-based ingredients and free from harsh chemicals.",
       "featured": false,
@@ -1854,7 +1854,7 @@
       "rating": 4.8,
       "reviewCount": 296,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-soap-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-soap-01.jpg"
       ],
       "description": "Mild moisturizing soap specially formulated for baby's delicate skin.",
       "featured": false,
@@ -1871,7 +1871,7 @@
       "rating": 4.7,
       "reviewCount": 182,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-soap-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-soap-02.jpg"
       ],
       "description": "Herbal baby soap enriched with aloe vera and olive oil.",
       "featured": false,
@@ -1888,7 +1888,7 @@
       "rating": 4.9,
       "reviewCount": 351,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-lotion-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-lotion-01.jpg"
       ],
       "description": "Deep moisturizing baby lotion for soft and healthy skin.",
       "featured": true,
@@ -1905,7 +1905,7 @@
       "rating": 4.8,
       "reviewCount": 198,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-lotion-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-lotion-02.jpg"
       ],
       "description": "Daily moisturizing body lotion suitable for all skin types.",
       "featured": false,
@@ -1922,7 +1922,7 @@
       "rating": 4.9,
       "reviewCount": 318,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-oil-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-oil-01.jpg"
       ],
       "description": "Lightweight massage oil that nourishes and protects baby's skin.",
       "featured": true,
@@ -1939,7 +1939,7 @@
       "rating": 4.8,
       "reviewCount": 174,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-oil-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-oil-02.jpg"
       ],
       "description": "Natural body oil with coconut and almond extracts.",
       "featured": false,
@@ -1956,7 +1956,7 @@
       "rating": 4.8,
       "reviewCount": 226,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-moisturizer-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-moisturizer-01.jpg"
       ],
       "description": "Dermatologist-tested moisturizer for dry and sensitive skin.",
       "featured": true,
@@ -1973,7 +1973,7 @@
       "rating": 4.7,
       "reviewCount": 189,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-cream-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-cream-01.jpg"
       ],
       "description": "Rich moisturizing cream that keeps baby's skin soft throughout the day.",
       "featured": false,
@@ -1990,7 +1990,7 @@
       "rating": 4.8,
       "reviewCount": 176,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-face-cream-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-face-cream-01.jpg"
       ],
       "description": "Gentle face cream that keeps baby's facial skin soft, hydrated and protected.",
       "featured": false,
@@ -2007,7 +2007,7 @@
       "rating": 4.7,
       "reviewCount": 143,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-sunscreen-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-sunscreen-01.jpg"
       ],
       "description": "Mineral-based sunscreen specially formulated for baby's delicate skin.",
       "featured": true,
@@ -2024,7 +2024,7 @@
       "rating": 4.9,
       "reviewCount": 284,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-massage-oil-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-massage-oil-01.jpg"
       ],
       "description": "Premium massage oil enriched with almond and olive oils for healthy skin.",
       "featured": true,
@@ -2041,7 +2041,7 @@
       "rating": 4.8,
       "reviewCount": 238,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-hair-oil-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-hair-oil-01.jpg"
       ],
       "description": "Nourishing baby hair oil that supports healthy hair growth and scalp care.",
       "featured": false,
@@ -2058,7 +2058,7 @@
       "rating": 4.7,
       "reviewCount": 128,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-hair-brush-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-hair-brush-01.jpg"
       ],
       "description": "Extra-soft bristle brush designed for newborns and infants.",
       "featured": false,
@@ -2075,7 +2075,7 @@
       "rating": 4.6,
       "reviewCount": 101,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-comb-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-comb-01.jpg"
       ],
       "description": "Rounded-edge baby comb that gently detangles delicate hair.",
       "featured": false,
@@ -2092,7 +2092,7 @@
       "rating": 4.8,
       "reviewCount": 182,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-nail-cutter-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-nail-cutter-01.jpg"
       ],
       "description": "Safe nail cutter with rounded edges specially designed for babies.",
       "featured": false,
@@ -2109,7 +2109,7 @@
       "rating": 4.9,
       "reviewCount": 224,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-grooming-kit-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-grooming-kit-01.jpg"
       ],
       "description": "Complete grooming kit including comb, brush, nail cutter, scissors and file.",
       "featured": true,
@@ -2126,7 +2126,7 @@
       "rating": 4.7,
       "reviewCount": 147,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-toothbrush-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-toothbrush-01.jpg"
       ],
       "description": "Soft silicone toothbrush for babies learning their oral hygiene routine.",
       "featured": false,
@@ -2143,7 +2143,7 @@
       "rating": 4.8,
       "reviewCount": 171,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-toothpaste-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-toothpaste-01.jpg"
       ],
       "description": "Fluoride-free baby toothpaste with a mild fruit flavor, safe if swallowed.",
       "featured": false,
@@ -2160,7 +2160,7 @@
       "rating": 4.7,
       "reviewCount": 163,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-cotton-buds-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-cotton-buds-01.jpg"
       ],
       "description": "Soft safety cotton buds specially designed for cleaning baby's delicate ears and skin.",
       "featured": false,
@@ -2177,7 +2177,7 @@
       "rating": 4.8,
       "reviewCount": 147,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-cotton-pads-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-cotton-pads-01.jpg"
       ],
       "description": "Ultra-soft cotton pads suitable for daily baby skin care and cleaning.",
       "featured": false,
@@ -2194,7 +2194,7 @@
       "rating": 4.9,
       "reviewCount": 231,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-thermometer-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-thermometer-01.jpg"
       ],
       "description": "Fast and accurate digital thermometer with LCD display for measuring baby's temperature.",
       "featured": true,
@@ -2211,7 +2211,7 @@
       "rating": 4.8,
       "reviewCount": 176,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-nasal-aspirator-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-nasal-aspirator-01.jpg"
       ],
       "description": "Soft silicone nasal aspirator designed to gently clear baby's blocked nose.",
       "featured": false,
@@ -2228,7 +2228,7 @@
       "rating": 4.9,
       "reviewCount": 286,
       "images": [
-        "http://localhost:4000/products/baby-care/baby-health-kit-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-care/baby-health-kit-01.jpg"
       ],
       "description": "Complete baby health care kit including thermometer, nail cutter, brush, comb, medicine dropper and grooming essentials.",
       "featured": true,
@@ -2245,7 +2245,7 @@
       "rating": 4.9,
       "reviewCount": 186,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bathtub-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bathtub-01.jpg"
       ],
       "description": "Foldable anti-slip baby bathtub with drain plug for easy bathing.",
       "featured": true,
@@ -2262,7 +2262,7 @@
       "rating": 4.9,
       "reviewCount": 174,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bathtub-02.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bathtub-02.jpg"
       ],
       "description": "Premium bathtub with ergonomic design and anti-slip base.",
       "featured": true,
@@ -2279,7 +2279,7 @@
       "rating": 4.8,
       "reviewCount": 142,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bath-seat-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bath-seat-01.jpg"
       ],
       "description": "Comfortable bath seat that supports babies while bathing.",
       "featured": false,
@@ -2296,7 +2296,7 @@
       "rating": 4.7,
       "reviewCount": 131,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bath-support-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bath-support-01.jpg"
       ],
       "description": "Soft mesh bath support suitable for newborn babies.",
       "featured": false,
@@ -2313,7 +2313,7 @@
       "rating": 4.8,
       "reviewCount": 201,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bath-toy-set-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bath-toy-set-01.jpg"
       ],
       "description": "Colorful floating bath toy set that makes bath time fun.",
       "featured": true,
@@ -2330,7 +2330,7 @@
       "rating": 4.6,
       "reviewCount": 118,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bath-sponge-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bath-sponge-01.jpg"
       ],
       "description": "Ultra-soft bath sponge designed for baby's sensitive skin.",
       "featured": false,
@@ -2347,7 +2347,7 @@
       "rating": 4.8,
       "reviewCount": 192,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bath-towel-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bath-towel-01.jpg"
       ],
       "description": "Highly absorbent cotton towel for drying babies after bath.",
       "featured": false,
@@ -2364,7 +2364,7 @@
       "rating": 4.9,
       "reviewCount": 207,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-hooded-towel-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-hooded-towel-01.jpg"
       ],
       "description": "Soft hooded towel to keep babies warm after bath.",
       "featured": true,
@@ -2381,7 +2381,7 @@
       "rating": 4.7,
       "reviewCount": 123,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-wash-cloth-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-wash-cloth-01.jpg"
       ],
       "description": "Pack of soft wash cloths suitable for everyday bathing.",
       "featured": false,
@@ -2398,7 +2398,7 @@
       "rating": 4.8,
       "reviewCount": 167,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bathrobe-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bathrobe-01.jpg"
       ],
       "description": "Comfortable hooded bath robe made with premium cotton fabric.",
       "featured": true,
@@ -2415,7 +2415,7 @@
       "rating": 4.7,
       "reviewCount": 138,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-rinse-cup-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-rinse-cup-01.jpg"
       ],
       "description": "Easy-grip rinse cup designed to gently wash baby's hair without causing discomfort.",
       "featured": false,
@@ -2432,7 +2432,7 @@
       "rating": 4.6,
       "reviewCount": 121,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-shower-cap-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-shower-cap-01.jpg"
       ],
       "description": "Adjustable shower cap that prevents shampoo from entering baby's eyes.",
       "featured": false,
@@ -2449,7 +2449,7 @@
       "rating": 4.8,
       "reviewCount": 174,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bath-mat-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bath-mat-01.jpg"
       ],
       "description": "Soft anti-slip bath mat that provides extra safety during bath time.",
       "featured": true,
@@ -2466,7 +2466,7 @@
       "rating": 4.7,
       "reviewCount": 152,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bath-brush-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bath-brush-01.jpg"
       ],
       "description": "Soft silicone bath brush that gently cleans baby's delicate skin.",
       "featured": false,
@@ -2483,7 +2483,7 @@
       "rating": 4.9,
       "reviewCount": 214,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bath-thermometer-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bath-thermometer-01.jpg"
       ],
       "description": "Digital bath thermometer for checking safe water temperature before bathing.",
       "featured": true,
@@ -2500,7 +2500,7 @@
       "rating": 4.8,
       "reviewCount": 198,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bubble-bath-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bubble-bath-01.jpg"
       ],
       "description": "Tear-free bubble bath that gently cleanses and moisturizes baby's skin.",
       "featured": true,
@@ -2517,7 +2517,7 @@
       "rating": 4.8,
       "reviewCount": 236,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-body-wash-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-body-wash-01.jpg"
       ],
       "description": "Soap-free moisturizing body wash suitable for newborns and infants.",
       "featured": true,
@@ -2534,7 +2534,7 @@
       "rating": 4.6,
       "reviewCount": 113,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-shampoo-rinse-cup-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-shampoo-rinse-cup-01.jpg"
       ],
       "description": "Special rinse cup with curved edge for easy hair washing.",
       "featured": false,
@@ -2551,7 +2551,7 @@
       "rating": 4.9,
       "reviewCount": 187,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-towel-set-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-towel-set-01.jpg"
       ],
       "description": "Premium towel set including bath towel, hand towel and wash cloth.",
       "featured": true,
@@ -2568,7 +2568,7 @@
       "rating": 4.8,
       "reviewCount": 146,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bath-organizer-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bath-organizer-01.jpg"
       ],
       "description": "Water-resistant organizer for storing bath toys, shampoo and bath accessories.",
       "featured": false,
@@ -2585,7 +2585,7 @@
       "rating": 4.9,
       "reviewCount": 218,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bath-kit-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bath-kit-01.jpg"
       ],
       "description": "Complete bath kit including shampoo, body wash, towel, sponge, brush and rinse cup.",
       "featured": true,
@@ -2602,7 +2602,7 @@
       "rating": 4.7,
       "reviewCount": 139,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-toy-storage-net-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-toy-storage-net-01.jpg"
       ],
       "description": "Quick-drying mesh storage net for organizing baby bath toys and accessories.",
       "featured": false,
@@ -2619,7 +2619,7 @@
       "rating": 4.9,
       "reviewCount": 184,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bath-gift-set-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bath-gift-set-01.jpg"
       ],
       "description": "Premium gift set containing baby bath essentials, towel, shampoo, lotion and accessories.",
       "featured": true,
@@ -2636,7 +2636,7 @@
       "rating": 4.8,
       "reviewCount": 171,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-skincare-bath-kit-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-skincare-bath-kit-01.jpg"
       ],
       "description": "Complete skincare bath kit including baby soap, lotion, oil, shampoo and moisturizer.",
       "featured": true,
@@ -2653,7 +2653,7 @@
       "rating": 5,
       "reviewCount": 302,
       "images": [
-        "http://localhost:4000/products/bath-essentials/baby-bath-combo-01.jpg"
+        "https://babycaremart-backend.onrender.com/products/bath-essentials/baby-bath-combo-01.jpg"
       ],
       "description": "All-in-one premium baby bath combo including bathtub, towel, shampoo, body wash, toys and complete bathing essentials.",
       "featured": true,
@@ -2665,21 +2665,21 @@
       "id": "1",
       "title": "Everything Your Baby Needs",
       "subtitle": "Up to 50% OFF",
-      "image": "http://localhost:4000/banners/banner-1.jpg",
+      "image": "https://babycaremart-backend.onrender.com/banners/banner-1.jpg",
       "buttonText": "Shop Now"
     },
     {
       "id": "2",
       "title": "Safe Baby Care Products",
       "subtitle": "Trusted Brands",
-      "image": "http://localhost:4000/banners/banner-2.jpg",
+      "image": "https://babycaremart-backend.onrender.com/banners/banner-2.jpg",
       "buttonText": "Explore"
     },
     {
       "id": "3",
       "title": "Premium Baby Collection",
       "subtitle": "Best Deals Everyday",
-      "image": "http://localhost:4000/banners/banner-3.jpg",
+      "image": "https://babycaremart-backend.onrender.com/banners/banner-3.jpg",
       "buttonText": "Buy Now"
     }
   ],
@@ -2687,84 +2687,84 @@
     {
       "id": "1",
       "name": "Johnson's Baby",
-      "logo": "http://localhost:4000/brands/johnsons.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/johnsons.png"
     },
     {
       "id": "2",
       "name": "Pampers",
-      "logo": "http://localhost:4000/brands/pampers.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/pampers.png"
     },
     {
       "id": "3",
       "name": "Himalaya Baby",
-      "logo": "http://localhost:4000/brands/himalaya.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/himalaya.png"
     },
     {
       "id": "4",
       "name": "Mee Mee",
-      "logo": "http://localhost:4000/brands/meemee.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/meemee.png"
     },
     {
       "id": "5",
       "name": "Chicco",
-      "logo": "http://localhost:4000/brands/chicco.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/chicco.png"
     },
     {
       "id": "6",
       "name": "Pigeon",
-      "logo": "http://localhost:4000/brands/pigeon.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/pigeon.png"
     },
     {
       "id": "7",
       "name": "Sebamed",
-      "logo": "http://localhost:4000/brands/sebamed.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/sebamed.png"
     },
     {
       "id": "8",
       "name": "Mamaearth",
-      "logo": "http://localhost:4000/brands/mamaearth.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/mamaearth.png"
     },
     {
       "id": "9",
       "name": "LuvLap",
-      "logo": "http://localhost:4000/brands/luvlap.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/luvlap.png"
     },
     {
       "id": "10",
       "name": "Babyhug",
-      "logo": "http://localhost:4000/brands/babyhug.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/babyhug.png"
     },
     {
       "id": "11",
       "name": "Aveeno Baby",
-      "logo": "http://localhost:4000/brands/aveeno.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/aveeno.png"
     },
     {
       "id": "12",
       "name": "Cetaphil Baby",
-      "logo": "http://localhost:4000/brands/cetaphil.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/cetaphil.png"
     },
     {
       "id": "13",
       "name": "Philips Avent",
-      "logo": "http://localhost:4000/brands/avent.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/avent.png"
     },
     {
       "id": "14",
       "name": "Huggies",
-      "logo": "http://localhost:4000/brands/huggies.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/huggies.png"
     },
     {
       "id": "15",
       "name": "Farlin",
-      "logo": "http://localhost:4000/brands/farlin.png"
+      "logo": "https://babycaremart-backend.onrender.com/brands/farlin.png"
     }
   ],
   "cart": [
     {
       "productId": "2",
       "name": "Soft Teddy Bear",
-      "image": "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
+      "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-02-1.jpg",
       "price": 699,
       "discountPrice": 599,
       "stock": 32,
@@ -2777,7 +2777,7 @@
       "name": "Soft Teddy Bear",
       "category": "Baby Toys",
       "brand": "Babyhug",
-      "image": "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
+      "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-02-1.jpg",
       "price": 599,
       "originalPrice": 699,
       "quantity": 1,
@@ -2790,7 +2790,7 @@
       "name": "Kids Learning Laptop",
       "category": "Baby Toys",
       "brand": "LuvLap",
-      "image": "http://localhost:4000/products/baby-toys/toy-24-1.jpg",
+      "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-24-1.jpg",
       "price": 1399,
       "originalPrice": 1599,
       "quantity": 1,
@@ -2803,7 +2803,7 @@
       "name": "Soft Teddy Bear",
       "category": "Baby Toys",
       "brand": "Babyhug",
-      "image": "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
+      "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-02-1.jpg",
       "price": 599,
       "originalPrice": 699,
       "quantity": 1,
@@ -2823,9 +2823,9 @@
       "rating": 4.8,
       "reviewCount": 156,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-02-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-02-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-02-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-02-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-02-3.jpg"
       ],
       "description": "Soft and cuddly teddy bear made with baby-safe plush fabric.",
       "featured": true,
@@ -2835,7 +2835,7 @@
       "originalPrice": 699,
       "discount": 14,
       "inStock": true,
-      "image": "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
+      "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-02-1.jpg",
       "quantity": 1
     },
     {
@@ -2849,9 +2849,9 @@
       "rating": 4.7,
       "reviewCount": 214,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-01-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-01-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-3.jpg"
       ],
       "description": "Colorful baby rattle designed to improve sensory development and hand-eye coordination.",
       "featured": true,
@@ -2862,7 +2862,7 @@
       "discount": 13,
       "saving": 50,
       "inStock": true,
-      "image": "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+      "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-1.jpg",
       "quantity": 1
     },
     {
@@ -2876,9 +2876,9 @@
       "rating": 4.7,
       "reviewCount": 214,
       "images": [
-        "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
-        "http://localhost:4000/products/baby-toys/toy-01-2.jpg",
-        "http://localhost:4000/products/baby-toys/toy-01-3.jpg"
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-1.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-2.jpg",
+        "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-3.jpg"
       ],
       "description": "Colorful baby rattle designed to improve sensory development and hand-eye coordination.",
       "featured": true,
@@ -2889,7 +2889,7 @@
       "discount": 13,
       "saving": 50,
       "inStock": true,
-      "image": "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+      "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-1.jpg",
       "quantity": 1
     },
     {
@@ -2898,7 +2898,7 @@
       "name": "Baby Rattle Toy",
       "category": "Baby Toys",
       "brand": "Chicco",
-      "image": "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+      "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-1.jpg",
       "price": 349,
       "originalPrice": 399,
       "stock": 45,
@@ -2922,14 +2922,14 @@
           "name": "Johnson's Baby Lotion",
           "price": 299,
           "quantity": 2,
-          "image": "http://localhost:4000/products/johnsons-baby-lotion.png"
+          "image": "https://babycaremart-backend.onrender.com/products/johnsons-baby-lotion.png"
         },
         {
           "id": "15",
           "name": "Baby Wipes",
           "price": 199,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-wipes.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-wipes.png"
         }
       ],
       "total": 797,
@@ -2951,7 +2951,7 @@
           "name": "Pampers Diapers",
           "price": 999,
           "quantity": 1,
-          "image": "http://localhost:4000/products/pampers-diapers.png"
+          "image": "https://babycaremart-backend.onrender.com/products/pampers-diapers.png"
         }
       ],
       "total": 999,
@@ -2973,7 +2973,7 @@
           "name": "Baby Feeding Bottle",
           "price": 450,
           "quantity": 2,
-          "image": "http://localhost:4000/products/feeding-bottle.png"
+          "image": "https://babycaremart-backend.onrender.com/products/feeding-bottle.png"
         }
       ],
       "total": 900,
@@ -2995,7 +2995,7 @@
           "name": "Baby Powder",
           "price": 180,
           "quantity": 3,
-          "image": "http://localhost:4000/products/baby-powder.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-powder.png"
         }
       ],
       "total": 540,
@@ -3017,14 +3017,14 @@
           "name": "Baby Shampoo",
           "price": 320,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-shampoo.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-shampoo.png"
         },
         {
           "id": "12",
           "name": "Baby Soap",
           "price": 140,
           "quantity": 2,
-          "image": "http://localhost:4000/products/baby-soap.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-soap.png"
         }
       ],
       "total": 600,
@@ -3046,7 +3046,7 @@
           "name": "Baby Blanket",
           "price": 650,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-blanket.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-blanket.png"
         }
       ],
       "total": 650,
@@ -3068,7 +3068,7 @@
           "name": "Baby Stroller",
           "price": 4999,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-stroller.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-stroller.png"
         }
       ],
       "total": 4999,
@@ -3090,7 +3090,7 @@
           "name": "Baby Toy Set",
           "price": 899,
           "quantity": 2,
-          "image": "http://localhost:4000/products/baby-toy-set.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-toy-set.png"
         }
       ],
       "total": 1798,
@@ -3112,7 +3112,7 @@
           "name": "Baby Oil",
           "price": 250,
           "quantity": 4,
-          "image": "http://localhost:4000/products/baby-oil.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-oil.png"
         }
       ],
       "total": 1000,
@@ -3134,7 +3134,7 @@
           "name": "Baby Walker",
           "price": 2999,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-walker.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-walker.png"
         }
       ],
       "total": 2999,
@@ -3156,14 +3156,14 @@
           "name": "Baby Bath Tub",
           "price": 1299,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-bath-tub.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-bath-tub.png"
         },
         {
           "id": "13",
           "name": "Baby Towel",
           "price": 399,
           "quantity": 2,
-          "image": "http://localhost:4000/products/baby-towel.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-towel.png"
         }
       ],
       "total": 2097,
@@ -3185,7 +3185,7 @@
           "name": "Baby Cradle",
           "price": 7499,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-cradle.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-cradle.png"
         }
       ],
       "total": 7499,
@@ -3207,7 +3207,7 @@
           "name": "Baby Bib Set",
           "price": 299,
           "quantity": 3,
-          "image": "http://localhost:4000/products/baby-bib.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-bib.png"
         }
       ],
       "total": 897,
@@ -3229,14 +3229,14 @@
           "name": "Baby Feeding Spoon",
           "price": 199,
           "quantity": 4,
-          "image": "http://localhost:4000/products/feeding-spoon.png"
+          "image": "https://babycaremart-backend.onrender.com/products/feeding-spoon.png"
         },
         {
           "id": "10",
           "name": "Baby Bowl",
           "price": 249,
           "quantity": 2,
-          "image": "http://localhost:4000/products/baby-bowl.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-bowl.png"
         }
       ],
       "total": 1294,
@@ -3258,7 +3258,7 @@
           "name": "Baby Carrier",
           "price": 2399,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-carrier.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-carrier.png"
         }
       ],
       "total": 2399,
@@ -3280,14 +3280,14 @@
           "name": "Baby Pillow",
           "price": 499,
           "quantity": 2,
-          "image": "http://localhost:4000/products/baby-pillow.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-pillow.png"
         },
         {
           "id": "24",
           "name": "Baby Mattress",
           "price": 1899,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-mattress.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-mattress.png"
         }
       ],
       "total": 2897,
@@ -3309,7 +3309,7 @@
           "name": "Baby Moisturizer",
           "price": 350,
           "quantity": 2,
-          "image": "http://localhost:4000/products/baby-moisturizer.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-moisturizer.png"
         }
       ],
       "total": 700,
@@ -3331,7 +3331,7 @@
           "name": "Baby Play Gym",
           "price": 3299,
           "quantity": 1,
-          "image": "http://localhost:4000/products/play-gym.png"
+          "image": "https://babycaremart-backend.onrender.com/products/play-gym.png"
         }
       ],
       "total": 3299,
@@ -3353,7 +3353,7 @@
           "name": "Baby High Chair",
           "price": 5499,
           "quantity": 1,
-          "image": "http://localhost:4000/products/high-chair.png"
+          "image": "https://babycaremart-backend.onrender.com/products/high-chair.png"
         }
       ],
       "total": 5499,
@@ -3375,14 +3375,14 @@
           "name": "Baby Safety Gate",
           "price": 2499,
           "quantity": 1,
-          "image": "http://localhost:4000/products/safety-gate.png"
+          "image": "https://babycaremart-backend.onrender.com/products/safety-gate.png"
         },
         {
           "id": "18",
           "name": "Baby Toy Set",
           "price": 899,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-toy-set.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-toy-set.png"
         }
       ],
       "total": 3398,
@@ -3404,14 +3404,14 @@
           "name": "Johnson's Baby Shampoo",
           "price": 325,
           "quantity": 2,
-          "image": "http://localhost:4000/products/johnsons-baby-shampoo.png"
+          "image": "https://babycaremart-backend.onrender.com/products/johnsons-baby-shampoo.png"
         },
         {
           "id": "7",
           "name": "Baby Oil",
           "price": 250,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-oil.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-oil.png"
         }
       ],
       "total": 900,
@@ -3433,7 +3433,7 @@
           "name": "Baby Car Seat",
           "price": 6999,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-car-seat.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-car-seat.png"
         }
       ],
       "total": 6999,
@@ -3455,7 +3455,7 @@
           "name": "Pampers Diapers",
           "price": 999,
           "quantity": 2,
-          "image": "http://localhost:4000/products/pampers-diapers.png"
+          "image": "https://babycaremart-backend.onrender.com/products/pampers-diapers.png"
         }
       ],
       "total": 1998,
@@ -3477,14 +3477,14 @@
           "name": "Baby Shampoo",
           "price": 320,
           "quantity": 2,
-          "image": "http://localhost:4000/products/baby-shampoo.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-shampoo.png"
         },
         {
           "id": "20",
           "name": "Baby Powder",
           "price": 180,
           "quantity": 2,
-          "image": "http://localhost:4000/products/baby-powder.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-powder.png"
         }
       ],
       "total": 1000,
@@ -3506,7 +3506,7 @@
           "name": "Baby Stroller",
           "price": 4999,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-stroller.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-stroller.png"
         }
       ],
       "total": 4999,
@@ -3528,7 +3528,7 @@
           "name": "Baby Toy Set",
           "price": 899,
           "quantity": 3,
-          "image": "http://localhost:4000/products/baby-toy-set.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-toy-set.png"
         }
       ],
       "total": 2697,
@@ -3550,7 +3550,7 @@
           "name": "Baby Blanket",
           "price": 650,
           "quantity": 2,
-          "image": "http://localhost:4000/products/baby-blanket.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-blanket.png"
         }
       ],
       "total": 1300,
@@ -3572,7 +3572,7 @@
           "name": "Baby High Chair",
           "price": 5499,
           "quantity": 1,
-          "image": "http://localhost:4000/products/high-chair.png"
+          "image": "https://babycaremart-backend.onrender.com/products/high-chair.png"
         }
       ],
       "total": 5499,
@@ -3594,14 +3594,14 @@
           "name": "Baby Walker",
           "price": 2999,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-walker.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-walker.png"
         },
         {
           "id": "15",
           "name": "Baby Wipes",
           "price": 199,
           "quantity": 3,
-          "image": "http://localhost:4000/products/baby-wipes.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-wipes.png"
         }
       ],
       "total": 3596,
@@ -3623,14 +3623,14 @@
           "name": "Baby Cradle",
           "price": 7499,
           "quantity": 1,
-          "image": "http://localhost:4000/products/baby-cradle.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-cradle.png"
         },
         {
           "id": "23",
           "name": "Baby Pillow",
           "price": 499,
           "quantity": 2,
-          "image": "http://localhost:4000/products/baby-pillow.png"
+          "image": "https://babycaremart-backend.onrender.com/products/baby-pillow.png"
         }
       ],
       "total": 8497,
@@ -3670,7 +3670,7 @@
           "name": "Soft Teddy Bear",
           "category": "Baby Toys",
           "brand": "Babyhug",
-          "image": "http://localhost:4000/products/baby-toys/toy-02-1.jpg",
+          "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-02-1.jpg",
           "price": 599,
           "originalPrice": 699,
           "quantity": 1,
@@ -3722,7 +3722,7 @@
           "name": "Stacking Rings",
           "category": "Baby Toys",
           "brand": "Pigeon",
-          "image": "http://localhost:4000/products/baby-toys/toy-07-1.jpg",
+          "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-07-1.jpg",
           "price": 499,
           "originalPrice": 599,
           "quantity": 1,
@@ -3777,7 +3777,7 @@
           "userId": "zOAHGBnJ0PY",
           "productId": "1",
           "name": "Baby Rattle Toy",
-          "image": "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+          "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-1.jpg",
           "price": 399,
           "originalPrice": 399,
           "quantity": 1,
@@ -3827,7 +3827,7 @@
           "name": "Baby Pacifier Toy",
           "category": "Baby Toys",
           "brand": "Pigeon",
-          "image": "http://localhost:4000/products/baby-toys/toy-10-1.jpg",
+          "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-10-1.jpg",
           "price": 249,
           "originalPrice": 299,
           "quantity": 1,
@@ -3877,7 +3877,7 @@
           "name": "Baby Rattle Toy",
           "category": "Baby Toys",
           "brand": "Chicco",
-          "image": "http://localhost:4000/products/baby-toys/toy-01-1.jpg",
+          "image": "https://babycaremart-backend.onrender.com/products/baby-toys/toy-01-1.jpg",
           "price": 349,
           "originalPrice": 399,
           "quantity": 1,

@@ -11,7 +11,8 @@ import {
     FaPlus,
     FaTruck,
     FaShieldAlt,
-    FaUndo
+    FaUndo,
+    FaBoxOpen
 } from "react-icons/fa";
 
 import { toast } from "react-toastify";
@@ -20,11 +21,12 @@ import api from "../../services/api";
 
 import "./ProductInfo.css";
 
+
 function ProductInfo({ product }) {
 
-    /*==========================================
-                    STATES
-    ==========================================*/
+    /* =========================================================
+       STATES
+    ========================================================= */
 
     const [quantity, setQuantity] = useState(1);
 
@@ -37,19 +39,45 @@ function ProductInfo({ product }) {
         useState(false);
 
 
-    /*==========================================
-                    QUANTITY
-    ==========================================*/
+    /* =========================================================
+       PRODUCT VALUES
+    ========================================================= */
+
+    const stock = Number(product?.stock || 0);
+
+    const sellingPrice =
+        Number(product?.price || 0);
+
+    const originalPrice =
+        Number(
+            product?.originalPrice ??
+            product?.price ??
+            0
+        );
+
+    const discount =
+        originalPrice > sellingPrice
+            ? Math.round(
+                (
+                    (originalPrice - sellingPrice)
+                    / originalPrice
+                ) * 100
+            )
+            : 0;
+
+
+    /* =========================================================
+       QUANTITY
+    ========================================================= */
 
     const increaseQuantity = () => {
 
-        if (
-            quantity <
-            Number(product.stock)
-        ) {
+        if (quantity < stock) {
+
             setQuantity(
                 previous => previous + 1
             );
+
         }
     };
 
@@ -61,13 +89,14 @@ function ProductInfo({ product }) {
             setQuantity(
                 previous => previous - 1
             );
+
         }
     };
 
 
-    /*==========================================
-                    ADD TO CART
-    ==========================================*/
+    /* =========================================================
+       ADD TO CART
+    ========================================================= */
 
     const handleAddToCart = async () => {
 
@@ -76,8 +105,9 @@ function ProductInfo({ product }) {
             setLoading(true);
 
             const user = JSON.parse(
-                localStorage.getItem("user")
+                localStorage.getItem("user") || "null"
             );
+
 
             if (!user) {
 
@@ -85,17 +115,16 @@ function ProductInfo({ product }) {
                     "Please login first."
                 );
 
-                return;
+                return false;
             }
 
 
-            /*======================================
-                    GET EXISTING CART ITEMS
-            ======================================*/
+            /* -------------------------------------------------
+               GET EXISTING CART ITEMS
+            ------------------------------------------------- */
 
-            const response = await api.get(
-                "/cart"
-            );
+            const response =
+                await api.get("/cart");
 
 
             const existingCartItem =
@@ -109,31 +138,38 @@ function ProductInfo({ product }) {
                 );
 
 
-            /*======================================
-                    UPDATE EXISTING ITEM
-            ======================================*/
+            /* -------------------------------------------------
+               UPDATE EXISTING CART ITEM
+            ------------------------------------------------- */
 
             if (existingCartItem) {
 
-                const newQuantity =
+                const currentQuantity =
                     Number(
                         existingCartItem.quantity || 0
-                    ) + quantity;
+                    );
+
+                const newQuantity =
+                    currentQuantity + quantity;
+
+
+                const availableStock =
+                    Number(
+                        existingCartItem.stock ||
+                        stock
+                    );
 
 
                 if (
-                    existingCartItem.stock &&
-                    newQuantity >
-                        Number(
-                            existingCartItem.stock
-                        )
+                    availableStock > 0 &&
+                    newQuantity > availableStock
                 ) {
 
                     toast.warning(
                         "Maximum available stock reached."
                     );
 
-                    return;
+                    return false;
                 }
 
 
@@ -146,24 +182,24 @@ function ProductInfo({ product }) {
 
             }
 
-            /*======================================
-                    ADD NEW ITEM
-            ======================================*/
+
+            /* -------------------------------------------------
+               ADD NEW CART ITEM
+            ------------------------------------------------- */
 
             else {
 
                 await api.post(
                     "/cart",
                     {
-                        userId: String(
-                            user.id
-                        ),
+                        userId:
+                            String(user.id),
 
-                        productId: String(
-                            product.id
-                        ),
+                        productId:
+                            String(product.id),
 
-                        name: product.name,
+                        name:
+                            product.name,
 
                         category:
                             product.category,
@@ -176,26 +212,25 @@ function ProductInfo({ product }) {
                             "/images/no-image.png",
 
                         price:
-                            Number(product.price),
+                            sellingPrice,
 
                         originalPrice:
-                            Number(
-                                product.originalPrice ??
-                                product.price
-                            ),
+                            originalPrice,
 
-                        quantity: quantity,
+                        quantity:
+                            quantity,
 
                         stock:
-                            Number(product.stock)
+                            stock
                     }
                 );
+
             }
 
 
-            /*======================================
-                    UPDATE NAVBAR CART COUNT
-            ======================================*/
+            /* -------------------------------------------------
+               UPDATE NAVBAR CART COUNT
+            ------------------------------------------------- */
 
             window.dispatchEvent(
                 new Event("cartUpdated")
@@ -206,11 +241,13 @@ function ProductInfo({ product }) {
                 "Added to Cart"
             );
 
-        }
 
+            return true;
+
+        }
         catch (error) {
 
-            console.log(
+            console.error(
                 "Add To Cart Error:",
                 error
             );
@@ -219,31 +256,41 @@ function ProductInfo({ product }) {
                 "Unable to add product."
             );
 
-        }
+            return false;
 
+        }
         finally {
 
             setLoading(false);
+
         }
+
     };
 
 
-    /*==========================================
-                    BUY NOW
-    ==========================================*/
+    /* =========================================================
+       BUY NOW
+    ========================================================= */
 
     const handleBuyNow = async () => {
 
-        await handleAddToCart();
+        const success =
+            await handleAddToCart();
 
-        window.location.href =
-            "/checkout";
+
+        if (success) {
+
+            window.location.href =
+                "/checkout";
+
+        }
+
     };
 
 
-    /*==========================================
-                    WISHLIST
-    ==========================================*/
+    /* =========================================================
+       WISHLIST
+    ========================================================= */
 
     const handleWishlist = async () => {
 
@@ -251,8 +298,9 @@ function ProductInfo({ product }) {
 
             setWishlistLoading(true);
 
+
             const user = JSON.parse(
-                localStorage.getItem("user")
+                localStorage.getItem("user") || "null"
             );
 
 
@@ -266,14 +314,12 @@ function ProductInfo({ product }) {
             }
 
 
-            /*======================================
-                    FETCH EXISTING WISHLIST
-            ======================================*/
+            /* -------------------------------------------------
+               CHECK EXISTING WISHLIST
+            ------------------------------------------------- */
 
             const response =
-                await api.get(
-                    "/wishlist"
-                );
+                await api.get("/wishlist");
 
 
             const existingItem =
@@ -287,10 +333,6 @@ function ProductInfo({ product }) {
                 );
 
 
-            /*======================================
-                    ALREADY EXISTS
-            ======================================*/
-
             if (existingItem) {
 
                 setIsFavourite(true);
@@ -300,23 +342,22 @@ function ProductInfo({ product }) {
                 );
 
                 return;
+
             }
 
 
-            /*======================================
-                    ADD TO WISHLIST
-            ======================================*/
+            /* -------------------------------------------------
+               ADD TO WISHLIST
+            ------------------------------------------------- */
 
             await api.post(
                 "/wishlist",
                 {
-                    userId: String(
-                        user.id
-                    ),
+                    userId:
+                        String(user.id),
 
-                    productId: String(
-                        product.id
-                    ),
+                    productId:
+                        String(product.id),
 
                     name:
                         product.name,
@@ -332,16 +373,13 @@ function ProductInfo({ product }) {
                         "/images/no-image.png",
 
                     price:
-                        Number(product.price),
+                        sellingPrice,
 
                     originalPrice:
-                        Number(
-                            product.originalPrice ??
-                            product.price
-                        ),
+                        originalPrice,
 
                     stock:
-                        Number(product.stock),
+                        stock,
 
                     rating:
                         product.rating,
@@ -357,14 +395,8 @@ function ProductInfo({ product }) {
             setIsFavourite(true);
 
 
-            /*======================================
-                UPDATE NAVBAR WISHLIST COUNT
-            ======================================*/
-
             window.dispatchEvent(
-                new Event(
-                    "wishlistUpdated"
-                )
+                new Event("wishlistUpdated")
             );
 
 
@@ -373,10 +405,9 @@ function ProductInfo({ product }) {
             );
 
         }
-
         catch (error) {
 
-            console.log(
+            console.error(
                 "Wishlist Error:",
                 error
             );
@@ -386,17 +417,18 @@ function ProductInfo({ product }) {
             );
 
         }
-
         finally {
 
             setWishlistLoading(false);
+
         }
+
     };
 
 
-    /*==========================================
-                    SHARE PRODUCT
-    ==========================================*/
+    /* =========================================================
+       SHARE PRODUCT
+    ========================================================= */
 
     const handleShare = async () => {
 
@@ -406,108 +438,90 @@ function ProductInfo({ product }) {
                 product.name,
 
             text:
-                product.description,
+                product.description ||
+                "Check out this product.",
 
             url:
                 window.location.href
+
         };
 
 
         try {
 
-            if (
-                navigator.share
-            ) {
+            if (navigator.share) {
 
                 await navigator.share(
                     shareData
                 );
 
             }
-
             else {
 
-                await navigator.clipboard
-                    .writeText(
-                        window.location.href
-                    );
+                await navigator.clipboard.writeText(
+                    window.location.href
+                );
 
                 toast.success(
                     "Product link copied."
                 );
+
             }
 
         }
-
         catch (error) {
 
             console.log(
-                "Share Error:",
+                "Share cancelled:",
                 error
             );
+
         }
+
     };
 
 
-    /*==========================================
-                    PRICE
-    ==========================================*/
+    /* =========================================================
+       RATING STARS
+    ========================================================= */
 
-    const originalPrice =
-        Number(
-            product.originalPrice ??
-            product.price
-        );
+    const rating =
+        Number(product?.rating || 0);
 
 
-    const sellingPrice =
-        Number(product.price);
-
-
-    const discount =
-        originalPrice > sellingPrice
-            ?
-            Math.round(
-                (
-                    (
-                        originalPrice -
-                        sellingPrice
-                    )
-                    /
-                    originalPrice
-                ) * 100
-            )
-            :
-            0;
-
-
-    /*==========================================
-                    JSX
-    ==========================================*/
+    /* =========================================================
+       JSX
+    ========================================================= */
 
     return (
 
         <div className="product-info">
 
-            {/* CATEGORY */}
+            {/* =================================================
+                CATEGORY
+            ================================================= */}
 
             <span className="product-category">
                 {product.category}
             </span>
 
 
-            {/* TITLE */}
+            {/* =================================================
+                TITLE
+            ================================================= */}
 
             <h1>
                 {product.name}
             </h1>
 
 
-            {/* BRAND */}
+            {/* =================================================
+                BRAND
+            ================================================= */}
 
             <p className="product-brand">
 
-                Brand :
+                Brand:
 
                 <strong>
                     {product.brand}
@@ -516,49 +530,55 @@ function ProductInfo({ product }) {
             </p>
 
 
-            {/* RATING */}
+            {/* =================================================
+                RATING
+            ================================================= */}
 
             <div className="product-rating">
 
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStarHalfAlt />
+                <span className="rating-stars">
 
-                <span>
-                    {product.rating}
-                    {" "}
-                    (
-                    {product.reviewCount}
-                    {" "}
-                    Reviews
-                    )
+                    <FaStar />
+
+                    <FaStar />
+
+                    <FaStar />
+
+                    <FaStar />
+
+                    {rating >= 4.5
+                        ? <FaStar />
+                        : <FaStarHalfAlt />
+                    }
+
+                </span>
+
+                <strong>
+                    {rating.toFixed(1)}
+                </strong>
+
+                <span className="rating-reviews">
+                    ({product.reviewCount || 0} Reviews)
                 </span>
 
             </div>
 
 
-            {/* PRICE */}
+            {/* =================================================
+                PRICE
+            ================================================= */}
 
             <div className="product-price">
 
                 <span className="selling-price">
-
-                    ₹
-                    {sellingPrice}
-
+                    ₹{sellingPrice}
                 </span>
 
 
-                {originalPrice >
-                    sellingPrice && (
+                {originalPrice > sellingPrice && (
 
                     <span className="original-price">
-
-                        ₹
-                        {originalPrice}
-
+                        ₹{originalPrice}
                     </span>
 
                 )}
@@ -567,9 +587,7 @@ function ProductInfo({ product }) {
                 {discount > 0 && (
 
                     <span className="discount">
-
                         {discount}% OFF
-
                     </span>
 
                 )}
@@ -577,112 +595,199 @@ function ProductInfo({ product }) {
             </div>
 
 
-            {/* DESCRIPTION */}
+            {/* =================================================
+                SAVINGS
+            ================================================= */}
+
+            {originalPrice > sellingPrice && (
+
+                <div className="saving">
+                    You Save ₹
+                    {originalPrice - sellingPrice}
+                </div>
+
+            )}
+
+
+            {/* =================================================
+                DESCRIPTION
+            ================================================= */}
 
             <p className="product-description">
-
                 {product.description}
-
             </p>
 
 
-            {/* STOCK */}
+            {/* =================================================
+                STOCK
+            ================================================= */}
 
-            <div className="product-stock">
+            <div
+                className={
+                    stock > 0
+                        ? "product-stock in-stock"
+                        : "product-stock out-of-stock"
+                }
+            >
 
-                {Number(product.stock) > 0
-                    ?
-                    "✓ In Stock"
-                    :
-                    "✕ Out of Stock"
+                <span className="stock-dot"></span>
+
+                {stock > 0
+                    ? `In Stock · ${stock} available`
+                    : "Currently Out of Stock"
                 }
 
             </div>
 
 
-            {/* QUANTITY */}
+            {/* =================================================
+                QUANTITY
+            ================================================= */}
 
             <div className="quantity-section">
 
-                <span>
-                    Quantity
-                </span>
+                <div className="quantity-header">
 
+                    <div>
 
-                <div className="quantity-control">
+                        <div className="quantity-title">
+                            Choose Quantity
+                        </div>
 
-                    <button
-                        onClick={
-                            decreaseQuantity
+                        <div className="quantity-subtitle">
+                            Select how many you want to buy
+                        </div>
+
+                    </div>
+
+                    <div className="quantity-stock">
+
+                        <FaBoxOpen />
+
+                        {stock > 0
+                            ? `${stock} available`
+                            : "Out of stock"
                         }
-                        disabled={
-                            quantity <= 1
-                        }
-                    >
-                        <FaMinus />
-                    </button>
 
-
-                    <span>
-                        {quantity}
-                    </span>
-
-
-                    <button
-                        onClick={
-                            increaseQuantity
-                        }
-                        disabled={
-                            quantity >=
-                            Number(
-                                product.stock
-                            )
-                        }
-                    >
-                        <FaPlus />
-                    </button>
+                    </div>
 
                 </div>
+
+
+                <div className="quantity-control-row">
+
+                    <div className="quantity-control">
+
+                        <button
+                            type="button"
+                            className="quantity-btn quantity-minus"
+                            onClick={
+                                decreaseQuantity
+                            }
+                            disabled={
+                                quantity <= 1 ||
+                                stock <= 0
+                            }
+                            aria-label="Decrease quantity"
+                        >
+                            <FaMinus />
+                        </button>
+
+
+                        <div className="quantity-value">
+
+                            <span>
+                                {quantity}
+                            </span>
+
+                            <small>
+                                item{quantity > 1 ? "s" : ""}
+                            </small>
+
+                        </div>
+
+
+                        <button
+                            type="button"
+                            className="quantity-btn quantity-plus"
+                            onClick={
+                                increaseQuantity
+                            }
+                            disabled={
+                                quantity >= stock ||
+                                stock <= 0
+                            }
+                            aria-label="Increase quantity"
+                        >
+                            <FaPlus />
+                        </button>
+
+                    </div>
+
+
+                    <div className="quantity-summary">
+
+                        <span>
+                            Total
+                        </span>
+
+                        <strong>
+                            ₹{sellingPrice * quantity}
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                {stock > 0 && quantity >= stock && (
+
+                    <div className="quantity-limit-message">
+                        Maximum available quantity selected.
+                    </div>
+
+                )}
 
             </div>
 
 
-            {/* ACTION BUTTONS */}
+            {/* =================================================
+                ACTION BUTTONS
+            ================================================= */}
 
             <div className="product-actions">
 
                 <button
+                    type="button"
                     className="add-cart-btn"
                     onClick={
                         handleAddToCart
                     }
                     disabled={
                         loading ||
-                        Number(product.stock) <= 0
+                        stock <= 0
                     }
                 >
 
                     <FaShoppingCart />
 
-                    {
-                        loading
-                            ?
-                            "Adding..."
-                            :
-                            "Add to Cart"
+                    {loading
+                        ? "Adding..."
+                        : "Add to Cart"
                     }
 
                 </button>
 
 
                 <button
+                    type="button"
                     className="buy-now-btn"
                     onClick={
                         handleBuyNow
                     }
                     disabled={
                         loading ||
-                        Number(product.stock) <= 0
+                        stock <= 0
                     }
                 >
 
@@ -695,17 +800,18 @@ function ProductInfo({ product }) {
             </div>
 
 
-            {/* SECONDARY ACTIONS */}
+            {/* =================================================
+                SECONDARY ACTIONS
+            ================================================= */}
 
             <div className="secondary-actions">
 
                 <button
+                    type="button"
                     className={
                         isFavourite
-                            ?
-                            "wishlist-active"
-                            :
-                            "wishlist-action"
+                            ? "wishlist-action wishlist-active"
+                            : "wishlist-action"
                     }
                     onClick={
                         handleWishlist
@@ -717,22 +823,18 @@ function ProductInfo({ product }) {
 
                     <FaHeart />
 
-                    {
-                        wishlistLoading
-                            ?
-                            "Saving..."
-                            :
-                            isFavourite
-                                ?
-                                "In Wishlist"
-                                :
-                                "Add to Wishlist"
+                    {wishlistLoading
+                        ? "Saving..."
+                        : isFavourite
+                            ? "In Wishlist"
+                            : "Add to Wishlist"
                     }
 
                 </button>
 
 
                 <button
+                    type="button"
                     className="share-action"
                     onClick={
                         handleShare
@@ -741,53 +843,88 @@ function ProductInfo({ product }) {
 
                     <FaShareAlt />
 
-                    Share
+                    Share Product
 
                 </button>
 
             </div>
 
 
-            {/* BENEFITS */}
+            {/* =================================================
+                BENEFITS
+            ================================================= */}
 
             <div className="product-benefits">
 
-                <div>
+                <div className="benefit-item">
 
-                    <FaTruck />
-
-                    <span>
-                        Fast Delivery
+                    <span className="benefit-icon">
+                        <FaTruck />
                     </span>
+
+                    <div>
+
+                        <strong>
+                            Fast Delivery
+                        </strong>
+
+                        <span>
+                            Quick delivery across India
+                        </span>
+
+                    </div>
 
                 </div>
 
 
-                <div>
+                <div className="benefit-item">
 
-                    <FaShieldAlt />
-
-                    <span>
-                        Secure Payment
+                    <span className="benefit-icon">
+                        <FaShieldAlt />
                     </span>
+
+                    <div>
+
+                        <strong>
+                            Secure Payment
+                        </strong>
+
+                        <span>
+                            Safe & secure checkout
+                        </span>
+
+                    </div>
 
                 </div>
 
 
-                <div>
+                <div className="benefit-item">
 
-                    <FaUndo />
-
-                    <span>
-                        Easy Returns
+                    <span className="benefit-icon">
+                        <FaUndo />
                     </span>
+
+                    <div>
+
+                        <strong>
+                            Easy Returns
+                        </strong>
+
+                        <span>
+                            Simple return policy
+                        </span>
+
+                    </div>
 
                 </div>
 
             </div>
 
         </div>
+
     );
+
 }
+
 
 export default ProductInfo;
